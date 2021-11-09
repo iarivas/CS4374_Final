@@ -1,0 +1,3688 @@
+tile.nuclearcraft.ore.copper.name=铜矿石
+tile.nuclearcraft.ore.tin.name=锡矿石
+tile.nuclearcraft.ore.lead.name=铅矿石
+tile.nuclearcraft.ore.thorium.name=钍矿石
+tile.nuclearcraft.ore.uranium.name=铀矿石
+tile.nuclearcraft.ore.boron.name=硼矿石
+tile.nuclearcraft.ore.lithium.name=锂矿石
+tile.nuclearcraft.ore.magnesium.name=镁矿石
+
+tile.nuclearcraft.ingot_block.copper.name=铜块
+tile.nuclearcraft.ingot_block.tin.name=锡块
+tile.nuclearcraft.ingot_block.lead.name=铅块
+tile.nuclearcraft.ingot_block.thorium.name=钍块
+tile.nuclearcraft.ingot_block.uranium.name=铀块
+tile.nuclearcraft.ingot_block.boron.name=硼块
+tile.nuclearcraft.ingot_block.lithium.name=锂块
+tile.nuclearcraft.ingot_block.magnesium.name=镁块
+tile.nuclearcraft.ingot_block.graphite.name=石墨块
+tile.nuclearcraft.ingot_block.beryllium.name=铍块
+tile.nuclearcraft.ingot_block.zirconium.name=锆块
+tile.nuclearcraft.ingot_block.manganese.name=锰块
+tile.nuclearcraft.ingot_block.aluminum.name=铝块
+tile.nuclearcraft.ingot_block.silver.name=银块
+tile.nuclearcraft.ingot_block.manganese_oxide.name=氧化锰块
+tile.nuclearcraft.ingot_block.manganese_dioxide.name=二氧化锰块
+
+tile.nuclearcraft.heavy_water_moderator.name=重水减速剂
+
+info.nuclearcraft.moderator.fixd=裂变反应堆减速剂
+info.nuclearcraft.moderator.flux_factor.fixd=中子通量增加量：%s
+info.nuclearcraft.moderator.efficiency.fixd=效能倍率：%s
+
+# info.nuclearcraft.moderator.desc=减速剂是裂变反应堆单元或容器输送中子通量至另一个单元或容器甚至它本身时的介质。一条减速剂线路包含 最多 %s 个共线的减速剂和分别位于两个末端的两个单元或容器 或者 最多 %s 个共线的减速剂和位于一个末端的一个单元或容器以及位于另一个末端的一个中子反射器。减速剂只有在它是一条线路中的一部分 并且 与至少一个有效的末端单元或容器相邻才会被判定为有效的。一个已准备好的或有效的单元或容器将中子通量输送至另一个单元或容器 或 将中子通量输送至一个反射器并收到其反射回的中子通量。中子通量输送量的总和等于该线路上所有减速剂的中子通量增加量的和。
+
+tile.nuclearcraft.fission_reflector.beryllium_carbon.name=铍-石墨中子反射器
+tile.nuclearcraft.fission_reflector.lead_steel.name=铅-钢中子反射器
+
+info.nuclearcraft.reflector.fixd=裂变反应堆反射器
+info.nuclearcraft.reflector.efficiency.fixd=效能倍率：%s
+info.nuclearcraft.reflector.reflectivity.fixd=反射系数：%s
+
+tile.nuclearcraft.fertile_isotope.uranium.name=铀-238 块
+tile.nuclearcraft.fertile_isotope.neptunium.name=镎-237 块
+tile.nuclearcraft.fertile_isotope.plutonium.name=钚-242 块
+tile.nuclearcraft.fertile_isotope.americium.name=镅-243 块
+tile.nuclearcraft.fertile_isotope.curium.name=锔-246 块
+tile.nuclearcraft.fertile_isotope.berkelium.name=锫-247 块
+tile.nuclearcraft.fertile_isotope.californium.name=锎-252 块
+
+tile.nuclearcraft.supercold_ice.name=超冷冰
+
+tile.nuclearcraft.nuclear_furnace.name=核熔炉
+tile.nuclearcraft.nuclear_furnace.desc=使用放射性元素的能量快速烧制物品的熔炉。
+
+tile.nuclearcraft.manufactory.name=小制造机
+tile.nuclearcraft.manufactory.desc=一个有用的小机器。
+
+tile.nuclearcraft.separator.name=分离器
+tile.nuclearcraft.separator.desc=将材料分离为它们的成分。
+
+tile.nuclearcraft.decay_hastener.name=衰变加速器
+tile.nuclearcraft.decay_hastener.desc=强制加速放射性物质进行衰变。
+
+tile.nuclearcraft.fuel_reprocessor.name=燃料再处理机
+tile.nuclearcraft.fuel_reprocessor.desc=从衰竭核燃料中获取材料。
+
+tile.nuclearcraft.alloy_furnace.name=合金炉
+tile.nuclearcraft.alloy_furnace.desc=将金属熔为合金。
+
+tile.nuclearcraft.infuser.name=流体注入器
+tile.nuclearcraft.infuser.desc=将流体注入材料。
+
+tile.nuclearcraft.melter.name=熔化机
+tile.nuclearcraft.melter.desc=熔化材料。
+
+tile.nuclearcraft.supercooler.name=超冷却机
+tile.nuclearcraft.supercooler.desc=降低流体温度。
+
+tile.nuclearcraft.electrolyzer.name=电解机
+tile.nuclearcraft.electrolyzer.desc=将化合物分解为构成它们的单质。
+
+tile.nuclearcraft.assembler.name=组合机
+tile.nuclearcraft.assembler.desc=将一些组件组合为一个复杂的成品。
+
+tile.nuclearcraft.ingot_former.name=冷却器
+tile.nuclearcraft.ingot_former.desc=将熔融物冷却为锭或其他材料。
+
+tile.nuclearcraft.pressurizer.name=压缩机
+tile.nuclearcraft.pressurizer.desc=以巨大的压力压缩材料。
+
+tile.nuclearcraft.chemical_reactor.name=化学反应器
+tile.nuclearcraft.chemical_reactor.desc=为流体间的反应提供场所。
+
+tile.nuclearcraft.salt_mixer.name=流体混合器
+tile.nuclearcraft.salt_mixer.desc=混合流体。
+
+tile.nuclearcraft.crystallizer.name=结晶器
+tile.nuclearcraft.crystallizer.desc=沉淀溶液以获取固体。
+
+tile.nuclearcraft.enricher.name=溶解器
+tile.nuclearcraft.enricher.desc=将溶质溶于溶剂。
+
+tile.nuclearcraft.extractor.name=流体提取机
+tile.nuclearcraft.extractor.desc=从材料中提取流体。
+
+tile.nuclearcraft.centrifuge.name=离心机
+tile.nuclearcraft.centrifuge.desc=分离流体中的同位素。
+
+tile.nuclearcraft.rock_crusher.name=岩石粉碎机
+tile.nuclearcraft.rock_crusher.desc=粉碎岩石并产出一些矿物粉。
+
+tile.nuclearcraft.machine_interface.name=机器控制界面
+tile.nuclearcraft.machine_interface.desc=凡是与这个方块直接接触（面对面）的机器都可以通过这个方块实现自动化控制，但是这个方块只能接触一个机器。
+
+tile.nuclearcraft.bin.name=通用垃圾桶
+tile.nuclearcraft.bin.desc=销毁物品、流体与能量。
+
+tile.nuclearcraft.rtg_uranium.name=铀放射性热电发电机
+tile.nuclearcraft.rtg_plutonium.name=钚放射性热电发电机
+tile.nuclearcraft.rtg_americium.name=镅放射性热电发电机
+tile.nuclearcraft.rtg_californium.name=锎放射性热电发电机
+tile.nuclearcraft.rtg.desc=持续产出 %s。
+
+tile.nuclearcraft.solar_panel_basic.name=基础太阳能电池板
+tile.nuclearcraft.solar_panel_advanced.name=高级太阳能电池板
+tile.nuclearcraft.solar_panel_du.name=贫铀太阳能电池板
+tile.nuclearcraft.solar_panel_elite.name=精英太阳能电池板
+tile.nuclearcraft.solar_panel.desc=白天持续产出 %s。
+
+tile.nuclearcraft.decay_generator.name=衰变产能器
+tile.nuclearcraft.decay_generator.desc=以与这个方块直接接触的放射性方块衰变产生的热量发电，一定时间后方块将会衰变为放射性更低的方块，此时产能量会下降。
+
+tile.nuclearcraft.voltaic_pile_basic.name=基础伏打电堆
+tile.nuclearcraft.voltaic_pile_advanced.name=高级伏打电堆
+tile.nuclearcraft.voltaic_pile_du.name=贫铀伏打电堆
+tile.nuclearcraft.voltaic_pile_elite.name=精英伏打电堆
+
+tile.nuclearcraft.lithium_ion_battery_basic.name=基础锂离子电池块
+tile.nuclearcraft.lithium_ion_battery_advanced.name=高级锂离子电池块
+tile.nuclearcraft.lithium_ion_battery_du.name=贫铀锂离子电池块
+tile.nuclearcraft.lithium_ion_battery_elite.name=精英锂离子电池块
+tile.nuclearcraft.energy_storage.desc=右击以查看当前存储的能量，手持多功能工具右击以调整该面的能量输入输出设定。潜行以已存在的锂离子电池块为基础放置另一个锂离子电池块以复制其侧面配置。
+
+tile.nuclearcraft.fission_casing.name=裂变反应堆外壳
+tile.nuclearcraft.fission_glass.name=透明裂变反应堆外壳
+tile.nuclearcraft.fission_conductor.name=裂变反应堆导体
+tile.nuclearcraft.fission_monitor.name=裂变反应堆显示器（半成品）
+tile.nuclearcraft.fission_power_port.name=裂变反应堆能量端口
+tile.nuclearcraft.fission_vent.name=裂变反应堆出入口
+tile.nuclearcraft.fission_irradiator.name=裂变中子辐照器
+
+tile.nuclearcraft.fission_source.radium_beryllium.name=镭-铍裂变中子源
+tile.nuclearcraft.fission_source.polonium_beryllium.name=钋-铍裂变中子源
+tile.nuclearcraft.fission_source.californium.name=锎-252 裂变中子源
+
+info.nuclearcraft.fission_source.efficiency.fixd=效能倍率：%s
+
+tile.nuclearcraft.fission_shield.boron_silver.name=硼-银辐射中子防护屏
+
+info.nuclearcraft.fission_shield.heat_per_flux.fixd=单位中子通量产热：%s
+info.nuclearcraft.fission_shield.efficiency.fixd=效能倍率：%s
+
+tile.nuclearcraft.fission_redstone_port.name=裂变红石端口（半成品）
+tile.nuclearcraft.fission_computer_port.name=裂变电脑端口（半成品）
+tile.nuclearcraft.fission_computer_port.desc=用于通过[OC]开放式电脑来操控反应堆。
+
+tile.nuclearcraft.fission_irradiator_port.name=裂变中子辐照器端口
+
+tile.nuclearcraft.fission_cell_port.name=裂变燃料单元端口
+
+tile.nuclearcraft.fission_vessel_port.name=裂变燃料容器端口
+tile.nuclearcraft.fission_heater_port.name=裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.standard.name=标准裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.iron.name=铁裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.redstone.name=红石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.quartz.name=石英裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.obsidian.name=黑曜石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.nether_brick.name=地狱砖裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.glowstone.name=荧石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.lapis.name=青金石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.gold.name=金裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.prismarine.name=海晶石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.slime.name=史莱姆裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.end_stone.name=末地石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.purpur.name=紫珀裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.diamond.name=钻石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.emerald.name=绿宝石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port.copper.name=铜裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.name=裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.tin.name=锡裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.lead.name=铅裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.boron.name=硼裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.lithium.name=锂裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.magnesium.name=镁裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.manganese.name=锰裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.aluminum.name=铝裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.silver.name=银裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.fluorite.name=氟石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.villiaumite.name=氟盐裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.carobbiite.name=方氟钾石裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.arsenic.name=砷裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.liquid_nitrogen.name=液氮裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.liquid_helium.name=液氦裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.enderium.name=末影裂变冷却液加热器端口
+tile.nuclearcraft.fission_heater_port2.cryotheum.name=凛冰裂变冷却液加热器端口
+
+tile.nuclearcraft.fission_shield_manager.name=裂变中子防护屏管理器（半成品）
+
+tile.nuclearcraft.solid_fission_controller.name=固态燃料裂变控制器
+tile.nuclearcraft.solid_fission_cell.name=固态裂变燃料单元
+tile.nuclearcraft.solid_fission_sink.water.name=水裂变散热器
+tile.nuclearcraft.solid_fission_sink.iron.name=铁裂变散热器
+tile.nuclearcraft.solid_fission_sink.redstone.name=红石裂变散热器
+tile.nuclearcraft.solid_fission_sink.quartz.name=石英裂变散热器
+tile.nuclearcraft.solid_fission_sink.obsidian.name=黑曜石裂变散热器
+tile.nuclearcraft.solid_fission_sink.nether_brick.name=地狱砖裂变散热器
+tile.nuclearcraft.solid_fission_sink.glowstone.name=荧石裂变散热器
+tile.nuclearcraft.solid_fission_sink.lapis.name=青金石裂变散热器
+tile.nuclearcraft.solid_fission_sink.gold.name=金裂变散热器
+tile.nuclearcraft.solid_fission_sink.prismarine.name=海晶石裂变散热器
+tile.nuclearcraft.solid_fission_sink.slime.name=史莱姆裂变散热器
+tile.nuclearcraft.solid_fission_sink.end_stone.name=末地石裂变散热器
+tile.nuclearcraft.solid_fission_sink.purpur.name=紫珀裂变散热器
+tile.nuclearcraft.solid_fission_sink.diamond.name=钻石裂变散热器
+tile.nuclearcraft.solid_fission_sink.emerald.name=绿宝石裂变散热器
+tile.nuclearcraft.solid_fission_sink.copper.name=铜裂变散热器
+tile.nuclearcraft.solid_fission_sink2.tin.name=锡裂变散热器
+tile.nuclearcraft.solid_fission_sink2.lead.name=铅裂变散热器
+tile.nuclearcraft.solid_fission_sink2.boron.name=硼裂变散热器
+tile.nuclearcraft.solid_fission_sink2.lithium.name=锂裂变散热器
+tile.nuclearcraft.solid_fission_sink2.magnesium.name=镁裂变散热器
+tile.nuclearcraft.solid_fission_sink2.manganese.name=锰裂变散热器
+tile.nuclearcraft.solid_fission_sink2.aluminum.name=铝裂变散热器
+tile.nuclearcraft.solid_fission_sink2.silver.name=银裂变散热器
+tile.nuclearcraft.solid_fission_sink2.fluorite.name=氟石裂变散热器
+tile.nuclearcraft.solid_fission_sink2.villiaumite.name=氟盐裂变散热器
+tile.nuclearcraft.solid_fission_sink2.carobbiite.name=方氟钾石裂变散热器
+tile.nuclearcraft.solid_fission_sink2.arsenic.name=砷裂变散热器
+tile.nuclearcraft.solid_fission_sink2.liquid_nitrogen.name=液氮裂变散热器
+tile.nuclearcraft.solid_fission_sink2.liquid_helium.name=液氦裂变散热器
+tile.nuclearcraft.solid_fission_sink2.enderium.name=末影裂变散热器
+tile.nuclearcraft.solid_fission_sink2.cryotheum.name=凛冰裂变散热器
+
+tile.nuclearcraft.solid_fission_sink.cooling_rate=散热速率：
+
+tile.nuclearcraft.salt_fission_controller.name=熔盐裂变控制器
+tile.nuclearcraft.salt_fission_vessel.name=熔盐裂变燃料容器
+# tile.nuclearcraft.salt_fission_vessel.desc=熔盐核燃料发生裂变并衰竭的地方。潜行以已存在的容器为基础放置另一个容器以复制其侧面配置。
+tile.nuclearcraft.salt_fission_heater.standard.name=标准裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.iron.name=铁裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.redstone.name=红石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.quartz.name=石英裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.obsidian.name=黑曜石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.nether_brick.name=地狱砖裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.glowstone.name=荧石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.lapis.name=青金石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.gold.name=金裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.prismarine.name=海晶石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.slime.name=史莱姆裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.end_stone.name=末地石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.purpur.name=紫珀裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.diamond.name=钻石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.emerald.name=绿宝石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater.copper.name=铜裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.tin.name=锡裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.lead.name=铅裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.boron.name=硼裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.lithium.name=锂裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.magnesium.name=镁裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.manganese.name=锰裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.aluminum.name=铝裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.silver.name=银裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.fluorite.name=氟石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.villiaumite.name=氟盐裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.carobbiite.name=方氟钾石裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.arsenic.name=砷裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.liquid_nitrogen.name=液氮裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.liquid_helium.name=液氦裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.enderium.name=末影裂变冷却液加热器
+tile.nuclearcraft.salt_fission_heater2.cryotheum.name=凛冰裂变冷却液加热器
+
+tile.nuclearcraft.salt_fission_heater.cooling_rate=冷却速率：
+
+tile.nuclearcraft.heat_exchanger_controller.name=热交换机控制器（多方块结构未完成！）
+tile.nuclearcraft.heat_exchanger_casing.name=热交换机外壳
+tile.nuclearcraft.heat_exchanger_glass.name=透明热交换机外壳
+tile.nuclearcraft.heat_exchanger_vent.name=热交换机出入口
+tile.nuclearcraft.heat_exchanger_vent.desc=用于热交换流体的输入输出。由 [接收] 管道接收 [推动] 管道的内容物。
+tile.nuclearcraft.heat_exchanger_tube_copper.name=铜热交换管道
+tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=硬碳合金热交换管道
+tile.nuclearcraft.heat_exchanger_tube_thermoconducting.name=热引合金热交换管道
+tile.nuclearcraft.heat_exchanger_tube.fixd=导热倍率：%s
+tile.nuclearcraft.heat_exchanger_tube.desc=暂存和移动热交换流体。如果正在加热/冷却并且与另一个正在冷却/加热的热交换管道相邻，那么其将会以与另一个管道的配方温差成正比的速率接收更多的热量/被以该速率提取热量。如果被冷却的流体的输出温度低于被加热的流体的输出温度，则相邻的管道流向不得平行。潜行以已存在的热交换管道为基础放置另一个热交换管道以复制其侧面配置。
+tile.nuclearcraft.heat_exchanger_computer_port.name=热交换机电脑端口
+tile.nuclearcraft.heat_exchanger_computer_port.desc=用于通过[OC]开放式电脑来操控热交换机。
+
+tile.nuclearcraft.condenser_controller.name=冷凝机控制器（多方块结构未完成！）
+tile.nuclearcraft.condenser_tube_copper.name=铜冷凝管道
+tile.nuclearcraft.condenser_tube_hard_carbon.name=硬碳合金冷凝管道
+tile.nuclearcraft.condenser_tube_thermoconducting.name=热引合金冷凝管道
+tile.nuclearcraft.condenser_tube.fixd=导热倍率：%s
+tile.nuclearcraft.condenser_tube.desc=暂存和移动冷凝流体。冷凝速率与相邻的温度低于所输入的冷凝流体的流体数量呈正比。相邻的流体温度越低，冷凝速率越高——速度提升值是流体温度比的自然对数。潜行以已存在的冷凝管道为基础放置另一个冷凝管道以复制其侧面配置。
+
+tile.nuclearcraft.turbine_controller.name=涡轮机控制器
+tile.nuclearcraft.turbine_controller.desc=涡轮机的心脏——某面墙壁上必须有一个。
+tile.nuclearcraft.turbine_casing.name=涡轮机外壳
+tile.nuclearcraft.turbine_glass.name=透明涡轮机外壳
+tile.nuclearcraft.turbine_rotor_shaft.name=涡轮机转子轴
+tile.nuclearcraft.turbine_rotor_shaft.desc=将叶片连接到发电机以将产生的动能转换为电能。必须被以涡轮机的中心为轴放置。
+tile.nuclearcraft.turbine_rotor_blade_steel.name=钢涡轮机转子叶片
+tile.nuclearcraft.turbine_rotor_blade_extreme.name=极限合金涡轮机转子叶片
+tile.nuclearcraft.turbine_rotor_blade_sic_sic_cmc.name=碳化硅复合材料涡轮机转子叶片
+tile.nuclearcraft.turbine_rotor_blade_efficiency.fixd=效能倍率：%s
+tile.nuclearcraft.turbine_rotor_blade_expansion.fixd=膨胀系数：%s
+tile.nuclearcraft.turbine_rotor_blade.desc=用于将流体的能量转换为转子轴的旋转动能。膨胀系数一定大于1，因此每当液体通过一个叶片组时体积都会出现增大。必须放置在从转子轴到所对墙壁间的全部位置，并且每个组的叶片都须相同。每个叶片最多能处理%s的液体。
+tile.nuclearcraft.turbine_rotor_stator.name=标准涡轮机转子定子
+tile.nuclearcraft.turbine_rotor_stator_expansion.fixd=膨胀系数：%s
+tile.nuclearcraft.turbine_rotor_stator.desc=用于增加经过的流体的密度，也即通过压低叶片产生的过高膨胀系数来提升涡轮机的效率。必须放置在从转子轴到所对墙壁间的全部位置。
+tile.nuclearcraft.turbine_rotor_bearing.name=涡轮机转子轴承
+tile.nuclearcraft.turbine_rotor_bearing.desc=将转子轴连接到墙壁和发电机。必须覆盖轴两端的全部区域。发电机线圈皆须与轴承位于同一面墙壁，并且在每个末端轴承都应当连接着至少与轴承数量相同的线圈以避免对效能产生不利影响。
+tile.nuclearcraft.turbine_dynamo_coil.magnesium.name=镁涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.beryllium.name=铍涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.aluminum.name=铝涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.gold.name=金涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.copper.name=铜涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.silver.name=银涡轮机发电机线圈
+tile.nuclearcraft.turbine_dynamo_coil.conductivity=导电倍率：
+tile.nuclearcraft.turbine_coil_connector.name=涡轮机发电机线圈连接器
+tile.nuclearcraft.turbine_inlet.name=涡轮机流体输入口
+tile.nuclearcraft.turbine_outlet.name=涡轮机流体输出口
+tile.nuclearcraft.turbine_computer_port.name=涡轮机电脑端口（半成品）
+tile.nuclearcraft.turbine_computer_port.desc=用于通过[OC]开放式电脑来操控涡轮机。
+
+tile.nuclearcraft.cobblestone_generator.name=造石机
+tile.nuclearcraft.cobblestone_generator_compact.name=压缩造石机
+tile.nuclearcraft.cobblestone_generator_dense.name=致密造石机
+tile.nuclearcraft.cobblestone_generator_req_power=如果提供了 %2$s 则持续产出 %1$s 的圆石。
+tile.nuclearcraft.cobblestone_generator_no_req_power=持续产出 %s 的圆石。
+nuclearcraft.cobblestone=个
+
+tile.nuclearcraft.water_source.name=无限水源
+tile.nuclearcraft.water_source_compact.name=压缩无限水源
+tile.nuclearcraft.water_source_dense.name=致密无限水源
+tile.nuclearcraft.water_source.desc=持续产出 %s 的水。
+
+tile.nuclearcraft.nitrogen_collector.name=氮收集器
+tile.nuclearcraft.nitrogen_collector_compact.name=压缩氮收集器
+tile.nuclearcraft.nitrogen_collector_dense.name=致密氮收集器
+tile.nuclearcraft.nitrogen_collector.desc=持续产出 %s 的氮。
+
+tile.nuclearcraft.radiation_scrubber.name=辐射净化仪
+tile.nuclearcraft.radiation_scrubber.desc=减少其所在区块的辐射量。其效用取决于附近的空方块的数量。最多以%2$s的效率移除其所在区块中%1$s的辐射。该区块中所有有效的辐射净化仪产生的效用能够线性地叠加。效率与能耗取决于“辐射净化剂”的使用量。
+tile.nuclearcraft.radiation_scrubber_non_linear.desc=减少其所在区块的辐射量。其效用取决于附近的空方块的数量。单独使用时，最多以%2$s的效率移除其所在区块中%1$s的辐射，尽管区块中所有辐射净化仪的效果都会非线性地叠加起来，而一开始的效率只会线性地叠加，但是最终会呈指数级增长，具体效率取决于净化仪的数量。效率与能耗取决于“辐射净化剂”的使用量。
+nuclearcraft.one_hundred_percent=100%
+
+tile.nuclearcraft.geiger_block.name=盖革计数器方块
+tile.nuclearcraft.geiger_block.desc=检测其所在区块的辐射值。
+
+tile.nuclearcraft.glowing_mushroom.name=荧核菇
+tile.nuclearcraft.glowing_mushroom_block.name=荧核菇方块
+tile.nuclearcraft.wasteland_earth.name=荒芜土壤
+
+tile.nuclearcraft.wasteland_portal.name=辐射废土传送门
+
+tile.nuclearcraft.tritium_lamp.name=氚灯
+tile.nuclearcraft.tritium_lantern.name=氚灯笼
+
+tile.nuclearcraft.solidified_corium.name=固态堆芯熔融物
+tile.nuclearcraft.solidified_corium.desc=裂变反应堆熔毁时流出的毒性熔融物凝固后的物质。
+
+tile.nuclearcraft.quantum_computer_controller.name=量子计算机控制器
+tile.nuclearcraft.quantum_computer_qubit.name=量子位
+
+tile.nuclearcraft.quantum_computer_gate_single.x.name=量子计算机 泡利-X 门
+tile.nuclearcraft.quantum_computer_gate_single.x.desc=在布洛赫球面的X轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_single.y.name=量子计算机 泡利-Y 门
+tile.nuclearcraft.quantum_computer_gate_single.y.desc=在布洛赫球面的Y轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_single.z.name=量子计算机 泡利-Z 门
+tile.nuclearcraft.quantum_computer_gate_single.z.desc=在布洛赫球面的Z轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_single.h.name=量子计算机 阿达马门
+tile.nuclearcraft.quantum_computer_gate_single.h.desc=对目标量子位应用阿达马变换。
+tile.nuclearcraft.quantum_computer_gate_single.s.name=量子计算机 S 门
+tile.nuclearcraft.quantum_computer_gate_single.s.desc=将目标量子位的相位移动 90 度。
+tile.nuclearcraft.quantum_computer_gate_single.sdg.name=量子计算机 S 非门
+tile.nuclearcraft.quantum_computer_gate_single.sdg.desc=将目标量子位的相位移动 270 度。
+tile.nuclearcraft.quantum_computer_gate_single.t.name=量子计算机 T 门
+tile.nuclearcraft.quantum_computer_gate_single.t.desc=将目标量子位的相位移动 45 度。
+tile.nuclearcraft.quantum_computer_gate_single.tdg.name=量子计算机 T 非门
+tile.nuclearcraft.quantum_computer_gate_single.tdg.desc=将目标量子位的相位移动 315 度。
+tile.nuclearcraft.quantum_computer_gate_single.p.name=量子计算机 相位门
+tile.nuclearcraft.quantum_computer_gate_single.p.desc=将目标量子位的相位移动一个可设定的角度。
+tile.nuclearcraft.quantum_computer_gate_single.rx.name=量子计算机 X-旋转门
+tile.nuclearcraft.quantum_computer_gate_single.rx.desc=在空间的X轴上旋转目标量子位。
+tile.nuclearcraft.quantum_computer_gate_single.ry.name=量子计算机 Y-旋转门
+tile.nuclearcraft.quantum_computer_gate_single.ry.desc=在空间的Y轴上旋转目标量子位。
+tile.nuclearcraft.quantum_computer_gate_single.rz.name=量子计算机 Z-旋转门
+tile.nuclearcraft.quantum_computer_gate_single.rz.desc=在空间的Z轴上旋转目标量子位。
+
+tile.nuclearcraft.quantum_computer_gate_control.cx.name=受控 量子计算机 泡利-X 门
+tile.nuclearcraft.quantum_computer_gate_control.cx.desc=在控制下在布洛赫球面的X轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_control.cy.name=受控 量子计算机 泡利-Y 门
+tile.nuclearcraft.quantum_computer_gate_control.cy.desc=在控制下在布洛赫球面的Y轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_control.cz.name=受控 量子计算机 泡利-Z 门
+tile.nuclearcraft.quantum_computer_gate_control.cz.desc=在控制下在布洛赫球面的Z轴上旋转目标量子位 180 度。
+tile.nuclearcraft.quantum_computer_gate_control.ch.name=受控 量子计算机 阿达马门
+tile.nuclearcraft.quantum_computer_gate_control.ch.desc=在控制下对目标量子位应用阿达马变换。
+tile.nuclearcraft.quantum_computer_gate_control.cs.name=受控 量子计算机 S 门
+tile.nuclearcraft.quantum_computer_gate_control.cs.desc=在控制下将目标量子位的相位移动 90 度。
+tile.nuclearcraft.quantum_computer_gate_control.csdg.name=受控 量子计算机 S 非门
+tile.nuclearcraft.quantum_computer_gate_control.csdg.desc=在控制下将目标量子位的相位移动 270 度。
+tile.nuclearcraft.quantum_computer_gate_control.ct.name=受控 量子计算机 T 门
+tile.nuclearcraft.quantum_computer_gate_control.ct.desc=在控制下将目标量子位的相位移动 45 度。
+tile.nuclearcraft.quantum_computer_gate_control.ctdg.name=受控 量子计算机 T 非门
+tile.nuclearcraft.quantum_computer_gate_control.ctdg.desc=在控制下将目标量子位的相位移动 315 度。
+tile.nuclearcraft.quantum_computer_gate_control.cp.name=受控 量子计算机 相位门
+tile.nuclearcraft.quantum_computer_gate_control.cp.desc=在控制下将目标量子位的相位移动一个可设定的角度。
+tile.nuclearcraft.quantum_computer_gate_control.crx.name=受控 量子计算机 X-旋转门
+tile.nuclearcraft.quantum_computer_gate_control.crx.desc=在控制下在空间的X轴上旋转目标量子位。
+tile.nuclearcraft.quantum_computer_gate_control.cry.name=受控 量子计算机 Y-旋转门
+tile.nuclearcraft.quantum_computer_gate_control.cry.desc=在控制下在空间的Y轴上旋转目标量子位。
+tile.nuclearcraft.quantum_computer_gate_control.crz.name=受控 量子计算机 Z-旋转门
+tile.nuclearcraft.quantum_computer_gate_control.crz.desc=在控制下在空间的Z轴上旋转目标量子位。
+
+tile.nuclearcraft.quantum_computer_gate_swap.swap.name=量子计算机 互换门
+tile.nuclearcraft.quantum_computer_gate_swap.swap.desc=交换两个列表中的量子位。
+tile.nuclearcraft.quantum_computer_gate_swap.cswap.name=受控 量子计算机 互换门
+tile.nuclearcraft.quantum_computer_gate_swap.cswap.desc=在控制下交换两个列表中的量子位。
+
+tile.nuclearcraft.quantum_computer_connector.name=量子计算机连接器
+tile.nuclearcraft.quantum_computer_port.name=量子计算机端口（半成品）
+tile.nuclearcraft.quantum_computer_port.desc=用于通过[OC]开放式电脑来操控量子计算机。
+
+tile.nuclearcraft.quantum_computer_code_generator.qasm.name=量子计算机 QASM 代码生成器
+tile.nuclearcraft.quantum_computer_code_generator.qasm.desc=用于生成兼容 IBM Q 的 QASM 代码。
+tile.nuclearcraft.quantum_computer_code_generator.qiskit.name=量子计算机 QISKit 代码生成器
+tile.nuclearcraft.quantum_computer_code_generator.qiskit.desc=用于生成兼容 IBM Q 的 QISKit 代码。
+
+tile.nuclearcraft.fluid_oxygen.name=氧
+fluid.oxygen=氧
+
+tile.nuclearcraft.fluid_hydrogen.name=氢
+fluid.hydrogen=氢
+
+tile.nuclearcraft.fluid_deuterium.name=氘
+fluid.deuterium=氘
+
+tile.nuclearcraft.fluid_tritium.name=氚
+fluid.tritium=氚
+
+tile.nuclearcraft.fluid_helium_3.name=氦-3
+fluid.helium_3=氦-3
+
+tile.nuclearcraft.fluid_helium.name=氦
+fluid.helium=氦
+
+tile.nuclearcraft.fluid_steam.name=蒸汽
+fluid.steam=蒸汽
+
+tile.nuclearcraft.fluid_high_pressure_steam.name=高压蒸汽
+fluid.high_pressure_steam=高压蒸汽
+
+tile.nuclearcraft.fluid_exhaust_steam.name=废蒸汽
+fluid.exhaust_steam=废蒸汽
+
+tile.nuclearcraft.fluid_low_pressure_steam.name=低压蒸汽
+fluid.low_pressure_steam=低压蒸汽
+
+tile.nuclearcraft.fluid_low_quality_steam.name=低质蒸汽
+fluid.low_quality_steam=低质蒸汽
+
+tile.nuclearcraft.fluid_preheated_water.name=预热水
+fluid.preheated_water=预热水
+
+tile.nuclearcraft.fluid_condensate_water.name=冷凝水
+fluid.condensate_water=冷凝水
+
+tile.nuclearcraft.fluid_liquid_helium.name=液氦
+fluid.liquid_helium=液氦
+
+tile.nuclearcraft.fluid_liquid_nitrogen.name=液氮
+fluid.liquid_nitrogen=液氮
+
+tile.nuclearcraft.fluid_heavy_water.name=重水
+fluid.heavy_water=重水
+
+tile.nuclearcraft.fluid_ender.name=谐振熔融末影珍珠
+fluid.ender=谐振熔融末影珍珠
+
+tile.nuclearcraft.fluid_lead_platinum.name=熔融铅铂合金
+fluid.lead_platinum=熔融铅铂合金
+
+tile.nuclearcraft.fluid_enderium.name=熔融末影
+fluid.enderium=熔融末影
+
+tile.nuclearcraft.fluid_cryotheum.name=熔融凛冰
+fluid.cryotheum=熔融凛冰
+
+tile.nuclearcraft.fluid_plasma.name=等离子体
+tile.nuclearcraft.fluid_plasma.desc=从聚变反应堆中产生。当与未充能的聚变电磁铁发生接触时可能导致火焰与爆炸。
+fluid.plasma=等离子体
+
+tile.nuclearcraft.fluid_lithium_6.name=熔融锂-6
+fluid.lithium_6=熔融锂-6
+
+tile.nuclearcraft.fluid_lithium_7.name=熔融锂-7
+fluid.lithium_7=熔融锂-7
+
+tile.nuclearcraft.fluid_boron_10.name=熔融硼-10
+fluid.boron_10=熔融硼-10
+
+tile.nuclearcraft.fluid_boron_11.name=熔融硼-11
+fluid.boron_11=熔融硼-11
+
+tile.nuclearcraft.fluid_steel.name=熔融钢
+fluid.steel=熔融钢
+
+tile.nuclearcraft.fluid_ferroboron.name=熔融硼铁合金
+fluid.ferroboron=熔融硼铁合金
+
+tile.nuclearcraft.fluid_tough.name=熔融高强合金
+fluid.tough=熔融高强合金
+
+tile.nuclearcraft.fluid_hard_carbon.name=熔融硬碳合金
+fluid.hard_carbon=熔融硬碳合金
+
+tile.nuclearcraft.fluid_coal.name=液态煤炭
+fluid.coal=液态煤炭
+
+tile.nuclearcraft.fluid_fluorine.name=氟
+fluid.fluorine=氟
+
+tile.nuclearcraft.fluid_nitrogen.name=氮
+fluid.nitrogen=氮
+
+tile.nuclearcraft.fluid_fluoromethane.name=氟甲烷
+fluid.fluoromethane=氟甲烷
+
+tile.nuclearcraft.fluid_ammonia.name=氨
+fluid.ammonia=氨
+
+tile.nuclearcraft.fluid_ethanol.name=乙醇
+fluid.ethanol=乙醇
+
+tile.nuclearcraft.fluid_ethene.name=乙烯
+fluid.ethene=乙烯
+
+tile.nuclearcraft.fluid_methanol.name=甲醇
+fluid.methanol=甲醇
+
+tile.nuclearcraft.fluid_boric_acid.name=硼酸
+fluid.boric_acid=硼酸
+
+tile.nuclearcraft.fluid_diborane.name=乙硼烷
+fluid.diborane=乙硼烷
+
+tile.nuclearcraft.fluid_radaway.name=抗辐宁流体
+fluid.radaway=抗辐宁流体
+
+tile.nuclearcraft.fluid_radaway_slow.name=缓效抗辐宁流体
+fluid.radaway_slow=缓效抗辐宁流体
+
+tile.nuclearcraft.fluid_redstone_ethanol.name=注红石乙醇
+fluid.redstone_ethanol=注红石乙醇
+
+tile.nuclearcraft.fluid_beryllium.name=熔融铍
+fluid.beryllium=熔融铍
+
+tile.nuclearcraft.fluid_lif.name=熔融氟化锂
+fluid.lif=熔融氟化锂
+
+tile.nuclearcraft.fluid_bef2.name=熔融氟化铍
+fluid.bef2=熔融氟化铍
+
+tile.nuclearcraft.fluid_flibe.name=熔融氟锂铍盐混合物
+fluid.flibe=熔融氟锂铍盐混合物
+
+tile.nuclearcraft.fluid_boron_nitride_solution.name=氮化硼溶液
+fluid.boron_nitride_solution=氮化硼溶液
+
+tile.nuclearcraft.fluid_sulfur.name=熔融硫
+fluid.sulfur=熔融硫
+
+tile.nuclearcraft.fluid_sulfur_dioxide.name=二氧化硫
+fluid.sulfur_dioxide=二氧化硫
+
+tile.nuclearcraft.fluid_sulfur_trioxide.name=三氧化硫
+fluid.sulfur_trioxide=三氧化硫
+
+tile.nuclearcraft.fluid_sulfuric_acid.name=硫酸
+fluid.sulfuric_acid=硫酸
+
+tile.nuclearcraft.fluid_fluorite_water.name=氟石溶液
+fluid.fluorite_water=氟石溶液
+
+tile.nuclearcraft.fluid_calcium_sulfate_solution.name=硫酸钙溶液
+fluid.calcium_sulfate_solution=硫酸钙溶液
+
+tile.nuclearcraft.fluid_hydrofluoric_acid.name=氢氟酸
+fluid.hydrofluoric_acid=氢氟酸
+
+tile.nuclearcraft.fluid_oxygen_difluoride.name=二氟化氧
+fluid.oxygen_difluoride=二氟化氧
+
+tile.nuclearcraft.fluid_corium.name=堆芯熔融物
+tile.nuclearcraft.fluid_corium.desc=裂变反应堆熔毁时流出的毒性熔融物，主要成分是燃料与反应堆的组成部分。
+fluid.corium=堆芯熔融物
+
+tile.nuclearcraft.fluid_ice.name=碎冰
+fluid.ice=碎冰
+
+tile.nuclearcraft.fluid_slurry_ice.name=泥状冰
+fluid.slurry_ice=泥状冰
+
+tile.nuclearcraft.fluid_chocolate_liquor.name=可可浆
+fluid.chocolate_liquor=可可浆
+
+tile.nuclearcraft.fluid_cocoa_butter.name=可可脂
+fluid.cocoa_butter=可可脂
+
+tile.nuclearcraft.fluid_unsweetened_chocolate.name=熔化无糖巧克力
+fluid.unsweetened_chocolate=熔化无糖巧克力
+
+tile.nuclearcraft.fluid_dark_chocolate.name=熔化黑巧克力
+fluid.dark_chocolate=熔化黑巧克力
+
+tile.nuclearcraft.fluid_milk_chocolate.name=熔化牛奶巧克力
+fluid.milk_chocolate=熔化牛奶巧克力
+
+tile.nuclearcraft.fluid_sugar.name=熔糖
+fluid.sugar=熔糖
+
+tile.nuclearcraft.fluid_gelatin.name=熔融明胶
+fluid.gelatin=熔融明胶
+
+tile.nuclearcraft.fluid_hydrated_gelatin.name=水合明胶
+fluid.hydrated_gelatin=水合明胶
+
+tile.nuclearcraft.fluid_milk.name=牛奶
+fluid.milk=牛奶
+
+tile.nuclearcraft.fluid_marshmallow.name=溶糖丝
+fluid.marshmallow=溶糖丝
+
+tile.nuclearcraft.fluid_carbon_dioxide.name=二氧化碳
+fluid.carbon_dioxide=二氧化碳
+
+tile.nuclearcraft.fluid_carbon_monoxide.name=一氧化碳
+fluid.carbon_monoxide=一氧化碳
+
+tile.nuclearcraft.fluid_sodium.name=熔融钠
+fluid.sodium=熔融钠
+
+tile.nuclearcraft.fluid_potassium.name=熔融钾
+fluid.potassium=熔融钾
+
+tile.nuclearcraft.fluid_nak.name=共晶钠钾合金
+fluid.nak=共晶钠钾合金
+
+tile.nuclearcraft.fluid_nak_hot.name=热共晶钠钾合金
+fluid.nak_hot=热共晶钠钾合金
+
+tile.nuclearcraft.fluid_emergency_coolant.name=应急冷却液
+tile.nuclearcraft.fluid_emergency_coolant.desc=用于在熔盐裂变反应堆中为过热的外壳降温。
+fluid.emergency_coolant=应急冷却液
+
+tile.nuclearcraft.fluid_emergency_coolant_heated.name=高温应急冷却液
+fluid.emergency_coolant_heated=高温应急冷却液
+
+tile.nuclearcraft.fluid_sodium_fluoride_solution.name=氟化钠溶液
+fluid.sodium_fluoride_solution=氟化钠溶液
+
+tile.nuclearcraft.fluid_potassium_fluoride_solution.name=氟化钾溶液
+fluid.potassium_fluoride_solution=氟化钾溶液
+
+tile.nuclearcraft.fluid_sodium_hydroxide_solution.name=氢氧化钠溶液
+fluid.sodium_hydroxide_solution=氢氧化钠溶液
+
+tile.nuclearcraft.fluid_potassium_hydroxide_solution.name=氢氧化钾溶液
+fluid.potassium_hydroxide_solution=氢氧化钾溶液
+
+tile.nuclearcraft.fluid_borax_solution.name=硼砂溶液
+fluid.borax_solution=硼砂溶液
+
+tile.nuclearcraft.fluid_irradiated_borax_solution.name=辐照硼砂溶液
+fluid.irradiated_borax_solution=辐照硼砂溶液
+
+tile.nuclearcraft.fluid_naoh.name=熔融氢氧化钠
+fluid.naoh=熔融氢氧化钠
+
+tile.nuclearcraft.fluid_koh.name=熔融氢氧化钾
+fluid.koh=熔融氢氧化钾
+
+tile.nuclearcraft.fluid_arsenic.name=砷蒸汽
+fluid.arsenic=砷蒸汽
+
+tile.nuclearcraft.fluid_bas.name=熔融砷化硼
+fluid.bas=熔融砷化硼
+
+tile.nuclearcraft.fluid_sic_vapor.name=碳化硅蒸汽
+fluid.sic_vapor=碳化硅蒸汽
+
+tile.nuclearcraft.fluid_zirconium.name=熔融锆
+fluid.zirconium=熔融锆
+
+tile.nuclearcraft.fluid_manganese_dioxide.name=熔融二氧化锰
+fluid.manganese_dioxide=熔融二氧化锰
+
+tile.nuclearcraft.fluid_alugentum.name=熔融银铝
+fluid.alugentum=熔融银铝
+
+tile.nuclearcraft.fluid_alumina.name=熔融铁矾土
+fluid.alumina=熔融铁矾土
+
+tile.nuclearcraft.fluid_strontium_90.name=熔融锶-90
+fluid.strontium_90=熔融锶-90
+
+tile.nuclearcraft.fluid_molybdenum.name=熔融钼
+fluid.molybdenum=熔融钼
+
+tile.nuclearcraft.fluid_ruthenium_106.name=熔融钌-106
+fluid.ruthenium_106=熔融钌-106
+
+tile.nuclearcraft.fluid_caesium_137.name=熔融铯-137
+fluid.caesium_137=熔融铯-137
+
+tile.nuclearcraft.fluid_promethium_147.name=熔融钷-147
+fluid.promethium_147=熔融钷-147
+
+tile.nuclearcraft.fluid_europium_155.name=熔融铕-155
+fluid.europium_155=熔融铕-155
+
+tile.nuclearcraft.fluid_thorium.name=熔融钍
+fluid.thorium=熔融钍
+tile.nuclearcraft.fluid_uranium.name=熔融铀
+fluid.uranium=熔融铀
+
+tile.nuclearcraft.fluid_uranium_233.name=熔融铀-233
+fluid.uranium_233=熔融铀-233
+tile.nuclearcraft.fluid_uranium_233_za.name=熔融铀-233-锆合金
+fluid.uranium_233_za=熔融铀-233-锆合金
+tile.nuclearcraft.fluid_uranium_235.name=熔融铀-235
+fluid.uranium_235=熔融铀-235
+tile.nuclearcraft.fluid_uranium_235_za.name=熔融铀-235-锆合金
+fluid.uranium_235_za=熔融铀-235-锆合金
+tile.nuclearcraft.fluid_uranium_238.name=熔融铀-238
+fluid.uranium_238=熔融铀-238
+tile.nuclearcraft.fluid_uranium_238_za.name=熔融铀-238-锆合金
+fluid.uranium_238_za=熔融铀-238-锆合金
+
+tile.nuclearcraft.fluid_neptunium_236.name=熔融镎-236
+fluid.neptunium_236=熔融镎-236
+tile.nuclearcraft.fluid_neptunium_236_za.name=熔融镎-236-锆合金
+fluid.neptunium_236_za=熔融镎-236-锆合金
+tile.nuclearcraft.fluid_neptunium_237.name=熔融镎-237
+fluid.neptunium_237=熔融镎-237
+tile.nuclearcraft.fluid_neptunium_237_za.name=熔融镎-237-锆合金
+fluid.neptunium_237_za=熔融镎-237-锆合金
+
+tile.nuclearcraft.fluid_plutonium_238.name=熔融钚-238
+fluid.plutonium_238=熔融钚-238
+tile.nuclearcraft.fluid_plutonium_238_za.name=熔融钚-238-锆合金
+fluid.plutonium_238_za=熔融钚-238-锆合金
+tile.nuclearcraft.fluid_plutonium_239.name=熔融钚-239
+fluid.plutonium_239=熔融钚-239
+tile.nuclearcraft.fluid_plutonium_239_za.name=熔融钚-239-锆合金
+fluid.plutonium_239_za=熔融钚-239-锆合金
+tile.nuclearcraft.fluid_plutonium_241.name=熔融钚-241
+fluid.plutonium_241=熔融钚-241
+tile.nuclearcraft.fluid_plutonium_241_za.name=熔融钚-241-锆合金
+fluid.plutonium_241_za=熔融钚-241-锆合金
+tile.nuclearcraft.fluid_plutonium_242.name=熔融钚-242
+fluid.plutonium_242=熔融钚-242
+tile.nuclearcraft.fluid_plutonium_242_za.name=熔融钚-242-锆合金
+fluid.plutonium_242_za=熔融钚-242-锆合金
+
+tile.nuclearcraft.fluid_americium_241.name=熔融镅-241
+fluid.americium_241=熔融镅-241
+tile.nuclearcraft.fluid_americium_241_za.name=熔融镅-241-锆合金
+fluid.americium_241_za=熔融镅-241-锆合金
+tile.nuclearcraft.fluid_americium_242.name=熔融镅-242
+fluid.americium_242=熔融镅-242
+tile.nuclearcraft.fluid_americium_242_za.name=熔融镅-242-锆合金
+fluid.americium_242_za=熔融镅-242-锆合金
+tile.nuclearcraft.fluid_americium_243.name=熔融镅-243
+fluid.americium_243=熔融镅-243
+tile.nuclearcraft.fluid_americium_243_za.name=熔融镅-243-锆合金
+fluid.americium_243_za=熔融镅-243-锆合金
+
+tile.nuclearcraft.fluid_curium_243.name=熔融锔-243
+fluid.curium_243=熔融锔-243
+tile.nuclearcraft.fluid_curium_243_za.name=熔融锔-243-锆合金
+fluid.curium_243_za=熔融锔-243-锆合金
+tile.nuclearcraft.fluid_curium_245.name=熔融锔-245
+fluid.curium_245=熔融锔-245
+tile.nuclearcraft.fluid_curium_245_za.name=熔融锔-245-锆合金
+fluid.curium_245_za=熔融锔-245-锆合金
+tile.nuclearcraft.fluid_curium_246.name=熔融锔-246
+fluid.curium_246=熔融锔-246
+tile.nuclearcraft.fluid_curium_246_za.name=熔融锔-246-锆合金
+fluid.curium_246_za=熔融锔-246-锆合金
+tile.nuclearcraft.fluid_curium_247.name=熔融锔-247
+fluid.curium_247=熔融锔-247
+tile.nuclearcraft.fluid_curium_247_za.name=熔融锔-247-锆合金
+fluid.curium_247_za=熔融锔-247-锆合金
+
+tile.nuclearcraft.fluid_berkelium_247.name=熔融锫-247
+fluid.berkelium_247=熔融锫-247
+tile.nuclearcraft.fluid_berkelium_247_za.name=熔融锫-247-锆合金
+fluid.berkelium_247_za=熔融锫-247-锆合金
+tile.nuclearcraft.fluid_berkelium_248.name=熔融锫-248
+fluid.berkelium_248=熔融锫-248
+tile.nuclearcraft.fluid_berkelium_248_za.name=熔融锫-248-锆合金
+fluid.berkelium_248_za=熔融锫-248-锆合金
+
+tile.nuclearcraft.fluid_californium_249.name=熔融锎-249
+fluid.californium_249=熔融锎-249
+tile.nuclearcraft.fluid_californium_249_za.name=熔融锎-249-锆合金
+fluid.californium_249_za=熔融锎-249-锆合金
+tile.nuclearcraft.fluid_californium_250.name=熔融锎-250
+fluid.californium_250=熔融锎-250
+tile.nuclearcraft.fluid_californium_250_za.name=熔融锎-250-锆合金
+fluid.californium_250_za=熔融锎-250-锆合金
+tile.nuclearcraft.fluid_californium_251.name=熔融锎-251
+fluid.californium_251=熔融锎-251
+tile.nuclearcraft.fluid_californium_251_za.name=熔融锎-251-锆合金
+fluid.californium_251_za=熔融锎-251-锆合金
+tile.nuclearcraft.fluid_californium_252.name=熔融锎-252
+fluid.californium_252=熔融锎-252
+tile.nuclearcraft.fluid_californium_252_za.name=熔融锎-252-锆合金
+fluid.californium_252_za=熔融锎-252-锆合金
+
+tile.nuclearcraft.fluid_tbu.name=熔融钍-增殖铀
+fluid.tbu=熔融钍-增殖铀
+tile.nuclearcraft.fluid_tbu_fluoride.name=熔融钍-增殖铀 氟化物
+fluid.tbu_fluoride=熔融钍-增殖铀 氟化物
+tile.nuclearcraft.fluid_tbu_fluoride_flibe.name=熔融钍-增殖铀 氟化物燃料氟锂铍盐溶液
+fluid.tbu_fluoride_flibe=熔融钍-增殖铀 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_tbu_za.name=熔融钍-增殖铀-锆合金
+fluid.tbu_za=熔融钍-增殖铀-锆合金
+
+tile.nuclearcraft.fluid_leu_233.name=熔融低浓缩铀-233
+fluid.leu_233=熔融低浓缩铀-233
+tile.nuclearcraft.fluid_leu_233_fluoride.name=熔融低浓缩铀-233 氟化物
+fluid.leu_233_fluoride=熔融低浓缩铀-233 氟化物
+tile.nuclearcraft.fluid_leu_233_fluoride_flibe.name=熔融低浓缩铀-233 氟化物燃料氟锂铍盐溶液
+fluid.leu_233_fluoride_flibe=熔融低浓缩铀-233 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_leu_233_za.name=熔融低浓缩铀-233-锆合金
+fluid.leu_233_za=熔融低浓缩铀-233-锆合金
+
+tile.nuclearcraft.fluid_heu_233.name=熔融高浓缩铀-233
+fluid.heu_233=熔融高浓缩铀-233
+tile.nuclearcraft.fluid_heu_233_fluoride.name=熔融高浓缩铀-233 氟化物
+fluid.heu_233_fluoride=熔融高浓缩铀-233 氟化物
+tile.nuclearcraft.fluid_heu_233_fluoride_flibe.name=熔融高浓缩铀-233 氟化物燃料氟锂铍盐溶液
+fluid.heu_233_fluoride_flibe=熔融高浓缩铀-233 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_heu_233_za.name=熔融高浓缩铀-233-锆合金
+fluid.heu_233_za=熔融高浓缩铀-233-锆合金
+
+tile.nuclearcraft.fluid_leu_235.name=熔融低浓缩铀-235
+fluid.leu_235=熔融低浓缩铀-235
+tile.nuclearcraft.fluid_leu_235_fluoride.name=熔融低浓缩铀-235 氟化物
+fluid.leu_235_fluoride=熔融低浓缩铀-235 氟化物
+tile.nuclearcraft.fluid_leu_235_fluoride_flibe.name=熔融低浓缩铀-235 氟化物燃料氟锂铍盐溶液
+fluid.leu_235_fluoride_flibe=熔融低浓缩铀-235 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_leu_235_za.name=熔融低浓缩铀-235-锆合金
+fluid.leu_235_za=熔融低浓缩铀-235-锆合金
+
+tile.nuclearcraft.fluid_heu_235.name=熔融高浓缩铀-235
+fluid.heu_235=熔融高浓缩铀-235
+tile.nuclearcraft.fluid_heu_235_fluoride.name=熔融高浓缩铀-235 氟化物
+fluid.heu_235_fluoride=熔融高浓缩铀-235 氟化物
+tile.nuclearcraft.fluid_heu_235_fluoride_flibe.name=熔融高浓缩铀-235 氟化物燃料氟锂铍盐溶液
+fluid.heu_235_fluoride_flibe=熔融高浓缩铀-235 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_heu_235_za.name=熔融高浓缩铀-235-锆合金
+fluid.heu_235_za=熔融高浓缩铀-235-锆合金
+
+tile.nuclearcraft.fluid_len_236.name=熔融低浓缩镎-236
+fluid.len_236=熔融低浓缩镎-236
+tile.nuclearcraft.fluid_len_236_fluoride.name=熔融低浓缩镎-236 氟化物
+fluid.len_236_fluoride=熔融低浓缩镎-236 氟化物
+tile.nuclearcraft.fluid_len_236_fluoride_flibe.name=熔融低浓缩镎-236 氟化物燃料氟锂铍盐溶液
+fluid.len_236_fluoride_flibe=熔融低浓缩镎-236 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_len_236_za.name=熔融低浓缩镎-236-锆合金
+fluid.len_236_za=熔融低浓缩镎-236-锆合金
+
+tile.nuclearcraft.fluid_hen_236.name=熔融高浓缩镎-236
+fluid.hen_236=熔融高浓缩镎-236
+tile.nuclearcraft.fluid_hen_236_fluoride.name=熔融高浓缩镎-236 氟化物
+fluid.hen_236_fluoride=熔融高浓缩镎-236 氟化物
+tile.nuclearcraft.fluid_hen_236_fluoride_flibe.name=熔融高浓缩镎-236 氟化物燃料氟锂铍盐溶液
+fluid.hen_236_fluoride_flibe=熔融高浓缩镎-236 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hen_236_za.name=熔融高浓缩镎-236-锆合金
+fluid.hen_236_za=熔融高浓缩镎-236-锆合金
+
+tile.nuclearcraft.fluid_lep_239.name=熔融低浓缩钚-239
+fluid.lep_239=熔融低浓缩钚-239
+tile.nuclearcraft.fluid_lep_239_fluoride.name=熔融低浓缩钚-239 氟化物
+fluid.lep_239_fluoride=熔融低浓缩钚-239 氟化物
+tile.nuclearcraft.fluid_lep_239_fluoride_flibe.name=熔融低浓缩钚-239 氟化物燃料氟锂铍盐溶液
+fluid.lep_239_fluoride_flibe=熔融低浓缩钚-239 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lep_239_za.name=熔融低浓缩钚-239-锆合金
+fluid.lep_239_za=熔融低浓缩钚-239-锆合金
+
+tile.nuclearcraft.fluid_hep_239.name=熔融高浓缩钚-239
+fluid.hep_239=熔融高浓缩钚-239
+tile.nuclearcraft.fluid_hep_239_fluoride.name=熔融高浓缩钚-239 氟化物
+fluid.hep_239_fluoride=熔融高浓缩钚-239 氟化物
+tile.nuclearcraft.fluid_hep_239_fluoride_flibe.name=熔融高浓缩钚-239 氟化物燃料氟锂铍盐溶液
+fluid.hep_239_fluoride_flibe=熔融高浓缩钚-239 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hep_239_za.name=熔融高浓缩钚-239-锆合金
+fluid.hep_239_za=熔融高浓缩钚-239-锆合金
+
+tile.nuclearcraft.fluid_lep_241.name=熔融低浓缩钚-241
+fluid.lep_241=熔融低浓缩钚-241
+tile.nuclearcraft.fluid_lep_241_fluoride.name=熔融低浓缩钚-241 氟化物
+fluid.lep_241_fluoride=熔融低浓缩钚-241 氟化物
+tile.nuclearcraft.fluid_lep_241_fluoride_flibe.name=熔融低浓缩钚-241 氟化物燃料氟锂铍盐溶液
+fluid.lep_241_fluoride_flibe=熔融低浓缩钚-241 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lep_241_za.name=熔融低浓缩钚-241-锆合金
+fluid.lep_241_za=熔融低浓缩钚-241-锆合金
+
+tile.nuclearcraft.fluid_hep_241.name=熔融高浓缩钚-241
+fluid.hep_241=熔融高浓缩钚-241
+tile.nuclearcraft.fluid_hep_241_fluoride.name=熔融高浓缩钚-241 氟化物
+fluid.hep_241_fluoride=熔融高浓缩钚-241 氟化物
+tile.nuclearcraft.fluid_hep_241_fluoride_flibe.name=熔融高浓缩钚-241 氟化物燃料氟锂铍盐溶液
+fluid.hep_241_fluoride_flibe=熔融高浓缩钚-241 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hep_241_za.name=熔融高浓缩钚-241-锆合金
+fluid.hep_241_za=熔融高浓缩钚-241-锆合金
+
+tile.nuclearcraft.fluid_mix_239.name=熔融混合燃料-239
+fluid.mix_239=熔融混合燃料-239
+tile.nuclearcraft.fluid_mix_239_fluoride.name=熔融混合燃料氟化物-239
+fluid.mix_239_fluoride=熔融混合燃料氟化物-239
+tile.nuclearcraft.fluid_mix_239_fluoride_flibe.name=熔融混合燃料氟化物-239
+fluid.mix_239_fluoride_flibe=熔融混合燃料氟化物-239
+tile.nuclearcraft.fluid_mix_239_za.name=熔融混合燃料锆合金-239
+fluid.mix_239_za=熔融混合燃料锆合金-239
+
+tile.nuclearcraft.fluid_mix_241.name=熔融混合燃料-241
+fluid.mix_241=熔融混合燃料-241
+tile.nuclearcraft.fluid_mix_241_fluoride.name=熔融混合燃料氟化物-241
+fluid.mix_241_fluoride=熔融混合燃料氟化物-241
+tile.nuclearcraft.fluid_mix_241_fluoride_flibe.name=熔融混合燃料氟化物-241
+fluid.mix_241_fluoride_flibe=熔融混合燃料氟化物-241
+tile.nuclearcraft.fluid_mix_241_za.name=熔融混合燃料锆合金-241
+fluid.mix_241_za=熔融混合燃料锆合金-241
+
+tile.nuclearcraft.fluid_lea_242.name=熔融低浓缩镅-242
+fluid.lea_242=熔融低浓缩镅-242
+tile.nuclearcraft.fluid_lea_242_fluoride.name=熔融低浓缩镅-242 氟化物
+fluid.lea_242_fluoride=熔融低浓缩镅-242 氟化物
+tile.nuclearcraft.fluid_lea_242_fluoride_flibe.name=熔融低浓缩镅-242 氟化物燃料氟锂铍盐溶液
+fluid.lea_242_fluoride_flibe=熔融低浓缩镅-242 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lea_242_za.name=熔融低浓缩镅-242-锆合金
+fluid.lea_242_za=熔融低浓缩镅-242-锆合金
+
+tile.nuclearcraft.fluid_hea_242.name=熔融高浓缩镅-242
+fluid.hea_242=熔融高浓缩镅-242
+tile.nuclearcraft.fluid_hea_242_fluoride.name=熔融高浓缩镅-242 氟化物
+fluid.hea_242_fluoride=熔融高浓缩镅-242 氟化物
+tile.nuclearcraft.fluid_hea_242_fluoride_flibe.name=熔融高浓缩镅-242 氟化物燃料氟锂铍盐溶液
+fluid.hea_242_fluoride_flibe=熔融高浓缩镅-242 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hea_242_za.name=熔融高浓缩镅-242-锆合金
+fluid.hea_242_za=熔融高浓缩镅-242-锆合金
+
+tile.nuclearcraft.fluid_lecm_243.name=熔融低浓缩锔-243
+fluid.lecm_243=熔融低浓缩锔-243
+tile.nuclearcraft.fluid_lecm_243_fluoride.name=熔融低浓缩锔-243 氟化物
+fluid.lecm_243_fluoride=熔融低浓缩锔-243 氟化物
+tile.nuclearcraft.fluid_lecm_243_fluoride_flibe.name=熔融低浓缩锔-243 氟化物燃料氟锂铍盐溶液
+fluid.lecm_243_fluoride_flibe=熔融低浓缩锔-243 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lecm_243_za.name=熔融低浓缩锔-243-锆合金
+fluid.lecm_243_za=熔融低浓缩锔-243-锆合金
+
+tile.nuclearcraft.fluid_hecm_243.name=熔融高浓缩锔-243
+fluid.hecm_243=熔融高浓缩锔-243
+tile.nuclearcraft.fluid_hecm_243_fluoride.name=熔融高浓缩锔-243 氟化物
+fluid.hecm_243_fluoride=熔融高浓缩锔-243 氟化物
+tile.nuclearcraft.fluid_hecm_243_fluoride_flibe.name=熔融高浓缩锔-243 氟化物燃料氟锂铍盐溶液
+fluid.hecm_243_fluoride_flibe=熔融高浓缩锔-243 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hecm_243_za.name=熔融高浓缩锔-243-锆合金
+fluid.hecm_243_za=熔融高浓缩锔-243-锆合金
+
+tile.nuclearcraft.fluid_lecm_245.name=熔融低浓缩锔-245
+fluid.lecm_245=熔融低浓缩锔-245
+tile.nuclearcraft.fluid_lecm_245_fluoride.name=熔融低浓缩锔-245 氟化物
+fluid.lecm_245_fluoride=熔融低浓缩锔-245 氟化物
+tile.nuclearcraft.fluid_lecm_245_fluoride_flibe.name=熔融低浓缩锔-245 氟化物燃料氟锂铍盐溶液
+fluid.lecm_245_fluoride_flibe=熔融低浓缩锔-245 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lecm_245_za.name=熔融低浓缩锔-245-锆合金
+fluid.lecm_245_za=熔融低浓缩锔-245-锆合金
+
+tile.nuclearcraft.fluid_hecm_245.name=熔融高浓缩锔-245
+fluid.hecm_245=熔融高浓缩锔-245
+tile.nuclearcraft.fluid_hecm_245_fluoride.name=熔融高浓缩锔-245 氟化物
+fluid.hecm_245_fluoride=熔融高浓缩锔-245 氟化物
+tile.nuclearcraft.fluid_hecm_245_fluoride_flibe.name=熔融高浓缩锔-245 氟化物燃料氟锂铍盐溶液
+fluid.hecm_245_fluoride_flibe=熔融高浓缩锔-245 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hecm_245_za.name=熔融高浓缩锔-245-锆合金
+fluid.hecm_245_za=熔融高浓缩锔-245-锆合金
+
+tile.nuclearcraft.fluid_lecm_247.name=熔融低浓缩锔-247
+fluid.lecm_247=熔融低浓缩锔-247
+tile.nuclearcraft.fluid_lecm_247_fluoride.name=熔融低浓缩锔-247 氟化物
+fluid.lecm_247_fluoride=熔融低浓缩锔-247 氟化物
+tile.nuclearcraft.fluid_lecm_247_fluoride_flibe.name=熔融低浓缩锔-247 氟化物燃料氟锂铍盐溶液
+fluid.lecm_247_fluoride_flibe=熔融低浓缩锔-247 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lecm_247_za.name=熔融低浓缩锔-247-锆合金
+fluid.lecm_247_za=熔融低浓缩锔-247-锆合金
+
+tile.nuclearcraft.fluid_hecm_247.name=熔融高浓缩锔-247
+fluid.hecm_247=熔融高浓缩锔-247
+tile.nuclearcraft.fluid_hecm_247_fluoride.name=熔融高浓缩锔-247 氟化物
+fluid.hecm_247_fluoride=熔融高浓缩锔-247 氟化物
+tile.nuclearcraft.fluid_hecm_247_fluoride_flibe.name=熔融高浓缩锔-247 氟化物燃料氟锂铍盐溶液
+fluid.hecm_247_fluoride_flibe=熔融高浓缩锔-247 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hecm_247_za.name=熔融高浓缩锔-247-锆合金
+fluid.hecm_247_za=熔融高浓缩锔-247-锆合金
+
+tile.nuclearcraft.fluid_leb_248.name=熔融低浓缩锫-248
+fluid.leb_248=熔融低浓缩锫-248
+tile.nuclearcraft.fluid_leb_248_fluoride.name=熔融低浓缩锫-248 氟化物
+fluid.leb_248_fluoride=熔融低浓缩锫-248 氟化物
+tile.nuclearcraft.fluid_leb_248_fluoride_flibe.name=熔融低浓缩锫-248 氟化物燃料氟锂铍盐溶液
+fluid.leb_248_fluoride_flibe=熔融低浓缩锫-248 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_leb_248_za.name=熔融低浓缩锫-248-锆合金
+fluid.leb_248_za=熔融低浓缩锫-248-锆合金
+
+tile.nuclearcraft.fluid_heb_248.name=熔融高浓缩锫-248
+fluid.heb_248=熔融高浓缩锫-248
+tile.nuclearcraft.fluid_heb_248_fluoride.name=熔融高浓缩锫-248 氟化物
+fluid.heb_248_fluoride=熔融高浓缩锫-248 氟化物
+tile.nuclearcraft.fluid_heb_248_fluoride_flibe.name=熔融高浓缩锫-248 氟化物燃料氟锂铍盐溶液
+fluid.heb_248_fluoride_flibe=熔融高浓缩锫-248 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_heb_248_za.name=熔融高浓缩锫-248-锆合金
+fluid.heb_248_za=熔融高浓缩锫-248-锆合金
+
+tile.nuclearcraft.fluid_lecf_249.name=熔融低浓缩锎-249
+fluid.lecf_249=熔融低浓缩锎-249
+tile.nuclearcraft.fluid_lecf_249_fluoride.name=熔融低浓缩锎-249 氟化物
+fluid.lecf_249_fluoride=熔融低浓缩锎-249 氟化物
+tile.nuclearcraft.fluid_lecf_249_fluoride_flibe.name=熔融低浓缩锎-249 氟化物燃料氟锂铍盐溶液
+fluid.lecf_249_fluoride_flibe=熔融低浓缩锎-249 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lecf_249_za.name=熔融低浓缩锎-249-锆合金
+fluid.lecf_249_za=熔融低浓缩锎-249-锆合金
+
+tile.nuclearcraft.fluid_hecf_249.name=熔融高浓缩锎-249
+fluid.hecf_249=熔融高浓缩锎-249
+tile.nuclearcraft.fluid_hecf_249_fluoride.name=熔融高浓缩锎-249 氟化物
+fluid.hecf_249_fluoride=熔融高浓缩锎-249 氟化物
+tile.nuclearcraft.fluid_hecf_249_fluoride_flibe.name=熔融高浓缩锎-249 氟化物燃料氟锂铍盐溶液
+fluid.hecf_249_fluoride_flibe=熔融高浓缩锎-249 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hecf_249_za.name=熔融高浓缩锎-249-锆合金
+fluid.hecf_249_za=熔融高浓缩锎-249-锆合金
+
+tile.nuclearcraft.fluid_lecf_251.name=熔融低浓缩锎-251
+fluid.lecf_251=熔融低浓缩锎-251
+tile.nuclearcraft.fluid_lecf_251_fluoride.name=熔融低浓缩锎-251 氟化物
+fluid.lecf_251_fluoride=熔融低浓缩锎-251 氟化物
+tile.nuclearcraft.fluid_lecf_251_fluoride_flibe.name=熔融低浓缩锎-251 氟化物燃料氟锂铍盐溶液
+fluid.lecf_251_fluoride_flibe=熔融低浓缩锎-251 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_lecf_251_za.name=熔融低浓缩锎-251-锆合金
+fluid.lecf_251_za=熔融低浓缩锎-251-锆合金
+
+tile.nuclearcraft.fluid_hecf_251.name=熔融高浓缩锎-251
+fluid.hecf_251=熔融高浓缩锎-251
+tile.nuclearcraft.fluid_hecf_251_fluoride.name=熔融高浓缩锎-251 氟化物
+fluid.hecf_251_fluoride=熔融高浓缩锎-251 氟化物
+tile.nuclearcraft.fluid_hecf_251_fluoride_flibe.name=熔融高浓缩锎-251 氟化物燃料氟锂铍盐溶液
+fluid.hecf_251_fluoride_flibe=熔融高浓缩锎-251 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_hecf_251_za.name=熔融高浓缩锎-251-锆合金
+fluid.hecf_251_za=熔融高浓缩锎-251-锆合金
+
+tile.nuclearcraft.fluid_depleted_tbu.name=熔融枯竭钍-增殖铀燃料
+fluid.depleted_tbu=熔融枯竭钍-增殖铀燃料
+tile.nuclearcraft.fluid_depleted_tbu_fluoride.name=熔融枯竭钍-增殖铀 氟化物
+fluid.depleted_tbu_fluoride=熔融枯竭钍-增殖铀 氟化物
+tile.nuclearcraft.fluid_depleted_tbu_fluoride_flibe.name=熔融枯竭钍-增殖铀 氟化物燃料氟锂铍盐溶液
+fluid.depleted_tbu_fluoride_flibe=熔融枯竭钍-增殖铀 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_tbu_za.name=熔融枯竭钍-增殖铀-锆合金
+fluid.depleted_tbu_za=熔融枯竭钍-增殖铀-锆合金
+
+tile.nuclearcraft.fluid_depleted_leu_233.name=熔融枯竭低浓缩铀-233
+fluid.depleted_leu_233=熔融枯竭低浓缩铀-233
+tile.nuclearcraft.fluid_depleted_leu_233_fluoride.name=熔融枯竭低浓缩铀-233 氟化物
+fluid.depleted_leu_233_fluoride=熔融枯竭低浓缩铀-233 氟化物
+tile.nuclearcraft.fluid_depleted_leu_233_fluoride_flibe.name=熔融枯竭低浓缩铀-233 氟化物燃料氟锂铍盐溶液
+fluid.depleted_leu_233_fluoride_flibe=熔融枯竭低浓缩铀-233 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_leu_233_za.name=熔融枯竭低浓缩铀-233-锆合金
+fluid.depleted_leu_233_za=熔融枯竭低浓缩铀-233-锆合金
+
+tile.nuclearcraft.fluid_depleted_heu_233.name=熔融枯竭高浓缩铀-233
+fluid.depleted_heu_233=熔融枯竭高浓缩铀-233
+tile.nuclearcraft.fluid_depleted_heu_233_fluoride.name=熔融枯竭高浓缩铀-233 氟化物
+fluid.depleted_heu_233_fluoride=熔融枯竭高浓缩铀-233 氟化物
+tile.nuclearcraft.fluid_depleted_heu_233_fluoride_flibe.name=熔融枯竭高浓缩铀-233 氟化物燃料氟锂铍盐溶液
+fluid.depleted_heu_233_fluoride_flibe=熔融枯竭高浓缩铀-233 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_heu_233_za.name=熔融枯竭高浓缩铀-233-锆合金
+fluid.depleted_heu_233_za=熔融枯竭高浓缩铀-233-锆合金
+
+tile.nuclearcraft.fluid_depleted_leu_235.name=熔融枯竭低浓缩铀-235
+fluid.depleted_leu_235=熔融枯竭低浓缩铀-235
+tile.nuclearcraft.fluid_depleted_leu_235_fluoride.name=熔融枯竭低浓缩铀-235 氟化物
+fluid.depleted_leu_235_fluoride=熔融枯竭低浓缩铀-235 氟化物
+tile.nuclearcraft.fluid_depleted_leu_235_fluoride_flibe.name=熔融枯竭低浓缩铀-235 氟化物燃料氟锂铍盐溶液
+fluid.depleted_leu_235_fluoride_flibe=熔融枯竭低浓缩铀-235 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_leu_235_za.name=熔融枯竭低浓缩铀-235-锆合金
+fluid.depleted_leu_235_za=熔融枯竭低浓缩铀-235-锆合金
+
+tile.nuclearcraft.fluid_depleted_heu_235.name=熔融枯竭高浓缩铀-235
+fluid.depleted_heu_235=熔融枯竭高浓缩铀-235
+tile.nuclearcraft.fluid_depleted_heu_235_fluoride.name=熔融枯竭高浓缩铀-235 氟化物
+fluid.depleted_heu_235_fluoride=熔融枯竭高浓缩铀-235 氟化物
+tile.nuclearcraft.fluid_depleted_heu_235_fluoride_flibe.name=熔融枯竭高浓缩铀-235 氟化物燃料氟锂铍盐溶液
+fluid.depleted_heu_235_fluoride_flibe=熔融枯竭高浓缩铀-235 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_heu_235_za.name=熔融枯竭高浓缩铀-235-锆合金
+fluid.depleted_heu_235_za=熔融枯竭高浓缩铀-235-锆合金
+
+tile.nuclearcraft.fluid_depleted_len_236.name=熔融枯竭低浓缩镎-236
+fluid.depleted_len_236=熔融枯竭低浓缩镎-236
+tile.nuclearcraft.fluid_depleted_len_236_fluoride.name=熔融枯竭低浓缩镎-236 氟化物
+fluid.depleted_len_236_fluoride=熔融枯竭低浓缩镎-236 氟化物
+tile.nuclearcraft.fluid_depleted_len_236_fluoride_flibe.name=熔融枯竭低浓缩镎-236 氟化物燃料氟锂铍盐溶液
+fluid.depleted_len_236_fluoride_flibe=熔融枯竭低浓缩镎-236 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_len_236_za.name=熔融枯竭低浓缩镎-236-锆合金
+fluid.depleted_len_236_za=熔融枯竭低浓缩镎-236-锆合金
+
+tile.nuclearcraft.fluid_depleted_hen_236.name=熔融枯竭高浓缩镎-236
+fluid.depleted_hen_236=熔融枯竭高浓缩镎-236
+tile.nuclearcraft.fluid_depleted_hen_236_fluoride.name=熔融枯竭高浓缩镎-236 氟化物
+fluid.depleted_hen_236_fluoride=熔融枯竭高浓缩镎-236 氟化物
+tile.nuclearcraft.fluid_depleted_hen_236_fluoride_flibe.name=熔融枯竭高浓缩镎-236 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hen_236_fluoride_flibe=熔融枯竭高浓缩镎-236 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hen_236_za.name=熔融枯竭高浓缩镎-236-锆合金
+fluid.depleted_hen_236_za=熔融枯竭高浓缩镎-236-锆合金
+
+tile.nuclearcraft.fluid_depleted_lep_239.name=熔融枯竭低浓缩钚-239
+fluid.depleted_lep_239=熔融枯竭低浓缩钚-239
+tile.nuclearcraft.fluid_depleted_lep_239_fluoride.name=熔融枯竭低浓缩钚-239 氟化物
+fluid.depleted_lep_239_fluoride=熔融枯竭低浓缩钚-239 氟化物
+tile.nuclearcraft.fluid_depleted_lep_239_fluoride_flibe.name=熔融枯竭低浓缩钚-239 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lep_239_fluoride_flibe=熔融枯竭低浓缩钚-239 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lep_239_za.name=熔融枯竭低浓缩钚-239-锆合金
+fluid.depleted_lep_239_za=熔融枯竭低浓缩钚-239-锆合金
+
+tile.nuclearcraft.fluid_depleted_hep_239.name=熔融枯竭高浓缩钚-239
+fluid.depleted_hep_239=熔融枯竭高浓缩钚-239
+tile.nuclearcraft.fluid_depleted_hep_239_fluoride.name=熔融枯竭高浓缩钚-239 氟化物
+fluid.depleted_hep_239_fluoride=熔融枯竭高浓缩钚-239 氟化物
+tile.nuclearcraft.fluid_depleted_hep_239_fluoride_flibe.name=熔融枯竭高浓缩钚-239 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hep_239_fluoride_flibe=熔融枯竭高浓缩钚-239 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hep_239_za.name=熔融枯竭高浓缩钚-239-锆合金
+fluid.depleted_hep_239_za=熔融枯竭高浓缩钚-239-锆合金
+
+tile.nuclearcraft.fluid_depleted_lep_241.name=熔融枯竭低浓缩钚-241
+fluid.depleted_lep_241=熔融枯竭低浓缩钚-241
+tile.nuclearcraft.fluid_depleted_lep_241_fluoride.name=熔融枯竭低浓缩钚-241 氟化物
+fluid.depleted_lep_241_fluoride=熔融枯竭低浓缩钚-241 氟化物
+tile.nuclearcraft.fluid_depleted_lep_241_fluoride_flibe.name=熔融枯竭低浓缩钚-241 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lep_241_fluoride_flibe=熔融枯竭低浓缩钚-241 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lep_241_za.name=熔融枯竭低浓缩钚-241-锆合金
+fluid.depleted_lep_241_za=熔融枯竭低浓缩钚-241-锆合金
+
+tile.nuclearcraft.fluid_depleted_hep_241.name=熔融枯竭高浓缩钚-241
+fluid.depleted_hep_241=熔融枯竭高浓缩钚-241
+tile.nuclearcraft.fluid_depleted_hep_241_fluoride.name=熔融枯竭高浓缩钚-241 氟化物
+fluid.depleted_hep_241_fluoride=熔融枯竭高浓缩钚-241 氟化物
+tile.nuclearcraft.fluid_depleted_hep_241_fluoride_flibe.name=熔融枯竭高浓缩钚-241 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hep_241_fluoride_flibe=熔融枯竭高浓缩钚-241 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hep_241_za.name=熔融枯竭高浓缩钚-241-锆合金
+fluid.depleted_hep_241_za=熔融枯竭高浓缩钚-241-锆合金
+
+tile.nuclearcraft.fluid_depleted_mix_239.name=熔融枯竭混合燃料-239
+fluid.depleted_mix_239=熔融枯竭混合燃料-239
+tile.nuclearcraft.fluid_depleted_mix_239_fluoride.name=熔融枯竭混合燃料氟化物-239
+fluid.depleted_mix_239_fluoride=熔融枯竭混合燃料氟化物-239
+tile.nuclearcraft.fluid_depleted_mix_239_fluoride_flibe.name=熔融枯竭混合燃料氟化物-239
+fluid.depleted_mix_239_fluoride_flibe=熔融枯竭混合燃料氟化物-239
+tile.nuclearcraft.fluid_depleted_mix_239_za.name=熔融枯竭混合燃料锆合金-239
+fluid.depleted_mix_239_za=熔融枯竭混合燃料锆合金-239
+
+tile.nuclearcraft.fluid_depleted_mix_241.name=熔融枯竭混合燃料-241
+fluid.depleted_mix_241=熔融枯竭混合燃料-241
+tile.nuclearcraft.fluid_depleted_mix_241_fluoride.name=熔融枯竭混合燃料氟化物-241
+fluid.depleted_mix_241_fluoride=熔融枯竭混合燃料氟化物-241
+tile.nuclearcraft.fluid_depleted_mix_241_fluoride_flibe.name=熔融枯竭混合燃料氟化物-241
+fluid.depleted_mix_241_fluoride_flibe=熔融枯竭混合燃料氟化物-241
+tile.nuclearcraft.fluid_depleted_mix_241_za.name=熔融枯竭混合燃料锆合金-241
+fluid.depleted_mix_241_za=熔融枯竭混合燃料锆合金-241
+
+tile.nuclearcraft.fluid_depleted_lea_242.name=熔融枯竭低浓缩镅-242
+fluid.depleted_lea_242=熔融枯竭低浓缩镅-242
+tile.nuclearcraft.fluid_depleted_lea_242_fluoride.name=熔融枯竭低浓缩镅-242 氟化物
+fluid.depleted_lea_242_fluoride=熔融枯竭低浓缩镅-242 氟化物
+tile.nuclearcraft.fluid_depleted_lea_242_fluoride_flibe.name=熔融枯竭低浓缩镅-242 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lea_242_fluoride_flibe=熔融枯竭低浓缩镅-242 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lea_242_za.name=熔融枯竭低浓缩镅-242-锆合金
+fluid.depleted_lea_242_za=熔融枯竭低浓缩镅-242-锆合金
+
+tile.nuclearcraft.fluid_depleted_hea_242.name=熔融枯竭高浓缩镅-242
+fluid.depleted_hea_242=熔融枯竭高浓缩镅-242
+tile.nuclearcraft.fluid_depleted_hea_242_fluoride.name=熔融枯竭高浓缩镅-242 氟化物
+fluid.depleted_hea_242_fluoride=熔融枯竭高浓缩镅-242 氟化物
+tile.nuclearcraft.fluid_depleted_hea_242_fluoride_flibe.name=熔融枯竭高浓缩镅-242 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hea_242_fluoride_flibe=熔融枯竭高浓缩镅-242 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hea_242_za.name=熔融枯竭高浓缩镅-242-锆合金
+fluid.depleted_hea_242_za=熔融枯竭高浓缩镅-242-锆合金
+
+tile.nuclearcraft.fluid_depleted_lecm_243.name=熔融枯竭低浓缩锔-243
+fluid.depleted_lecm_243=熔融枯竭低浓缩锔-243
+tile.nuclearcraft.fluid_depleted_lecm_243_fluoride.name=熔融枯竭低浓缩锔-243 氟化物
+fluid.depleted_lecm_243_fluoride=熔融枯竭低浓缩锔-243 氟化物
+tile.nuclearcraft.fluid_depleted_lecm_243_fluoride_flibe.name=熔融枯竭低浓缩锔-243 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lecm_243_fluoride_flibe=熔融枯竭低浓缩锔-243 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lecm_243_za.name=熔融枯竭低浓缩锔-243-锆合金
+fluid.depleted_lecm_243_za=熔融枯竭低浓缩锔-243-锆合金
+
+tile.nuclearcraft.fluid_depleted_hecm_243.name=熔融枯竭高浓缩锔-243
+fluid.depleted_hecm_243=熔融枯竭高浓缩锔-243
+tile.nuclearcraft.fluid_depleted_hecm_243_fluoride.name=熔融枯竭高浓缩锔-243 氟化物
+fluid.depleted_hecm_243_fluoride=熔融枯竭高浓缩锔-243 氟化物
+tile.nuclearcraft.fluid_depleted_hecm_243_fluoride_flibe.name=熔融枯竭高浓缩锔-243 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hecm_243_fluoride_flibe=熔融枯竭高浓缩锔-243 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hecm_243_za.name=熔融枯竭高浓缩锔-243-锆合金
+fluid.depleted_hecm_243_za=熔融枯竭高浓缩锔-243-锆合金
+
+tile.nuclearcraft.fluid_depleted_lecm_245.name=熔融枯竭低浓缩锔-245
+fluid.depleted_lecm_245=熔融枯竭低浓缩锔-245
+tile.nuclearcraft.fluid_depleted_lecm_245_fluoride.name=熔融枯竭低浓缩锔-245 氟化物
+fluid.depleted_lecm_245_fluoride=熔融枯竭低浓缩锔-245 氟化物
+tile.nuclearcraft.fluid_depleted_lecm_245_fluoride_flibe.name=熔融枯竭低浓缩锔-245 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lecm_245_fluoride_flibe=熔融枯竭低浓缩锔-245 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lecm_245_za.name=熔融枯竭低浓缩锔-245-锆合金
+fluid.depleted_lecm_245_za=熔融枯竭低浓缩锔-245-锆合金
+
+tile.nuclearcraft.fluid_depleted_hecm_245.name=熔融枯竭高浓缩锔-245
+fluid.depleted_hecm_245=熔融枯竭高浓缩锔-245
+tile.nuclearcraft.fluid_depleted_hecm_245_fluoride.name=熔融枯竭高浓缩锔-245 氟化物
+fluid.depleted_hecm_245_fluoride=熔融枯竭高浓缩锔-245 氟化物
+tile.nuclearcraft.fluid_depleted_hecm_245_fluoride_flibe.name=熔融枯竭高浓缩锔-245 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hecm_245_fluoride_flibe=熔融枯竭高浓缩锔-245 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hecm_245_za.name=熔融枯竭高浓缩锔-245-锆合金
+fluid.depleted_hecm_245_za=熔融枯竭高浓缩锔-245-锆合金
+
+tile.nuclearcraft.fluid_depleted_lecm_247.name=熔融枯竭低浓缩锔-247
+fluid.depleted_lecm_247=熔融枯竭低浓缩锔-247
+tile.nuclearcraft.fluid_depleted_lecm_247_fluoride.name=熔融枯竭低浓缩锔-247 氟化物
+fluid.depleted_lecm_247_fluoride=熔融枯竭低浓缩锔-247 氟化物
+tile.nuclearcraft.fluid_depleted_lecm_247_fluoride_flibe.name=熔融枯竭低浓缩锔-247 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lecm_247_fluoride_flibe=熔融枯竭低浓缩锔-247 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lecm_247_za.name=熔融枯竭低浓缩锔-247-锆合金
+fluid.depleted_lecm_247_za=熔融枯竭低浓缩锔-247-锆合金
+
+tile.nuclearcraft.fluid_depleted_hecm_247.name=熔融枯竭高浓缩锔-247
+fluid.depleted_hecm_247=熔融枯竭高浓缩锔-247
+tile.nuclearcraft.fluid_depleted_hecm_247_fluoride.name=熔融枯竭高浓缩锔-247 氟化物
+fluid.depleted_hecm_247_fluoride=熔融枯竭高浓缩锔-247 氟化物
+tile.nuclearcraft.fluid_depleted_hecm_247_fluoride_flibe.name=熔融枯竭高浓缩锔-247 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hecm_247_fluoride_flibe=熔融枯竭高浓缩锔-247 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hecm_247_za.name=熔融枯竭高浓缩锔-247-锆合金
+fluid.depleted_hecm_247_za=熔融枯竭高浓缩锔-247-锆合金
+
+tile.nuclearcraft.fluid_depleted_leb_248.name=熔融枯竭低浓缩锫-248
+fluid.depleted_leb_248=熔融枯竭低浓缩锫-248
+tile.nuclearcraft.fluid_depleted_leb_248_fluoride.name=熔融枯竭低浓缩锫-248 氟化物
+fluid.depleted_leb_248_fluoride=熔融枯竭低浓缩锫-248 氟化物
+tile.nuclearcraft.fluid_depleted_leb_248_fluoride_flibe.name=熔融枯竭低浓缩锫-248 氟化物燃料氟锂铍盐溶液
+fluid.depleted_leb_248_fluoride_flibe=熔融枯竭低浓缩锫-248 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_leb_248_za.name=熔融枯竭低浓缩锫-248-锆合金
+fluid.depleted_leb_248_za=熔融枯竭低浓缩锫-248-锆合金
+
+tile.nuclearcraft.fluid_depleted_heb_248.name=熔融枯竭高浓缩锫-248
+fluid.depleted_heb_248=熔融枯竭高浓缩锫-248
+tile.nuclearcraft.fluid_depleted_heb_248_fluoride.name=熔融枯竭高浓缩锫-248 氟化物
+fluid.depleted_heb_248_fluoride=熔融枯竭高浓缩锫-248 氟化物
+tile.nuclearcraft.fluid_depleted_heb_248_fluoride_flibe.name=熔融枯竭高浓缩锫-248 氟化物燃料氟锂铍盐溶液
+fluid.depleted_heb_248_fluoride_flibe=熔融枯竭高浓缩锫-248 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_heb_248_za.name=熔融枯竭高浓缩锫-248-锆合金
+fluid.depleted_heb_248_za=熔融枯竭高浓缩锫-248-锆合金
+
+tile.nuclearcraft.fluid_depleted_lecf_249.name=熔融枯竭低浓缩锎-249
+fluid.depleted_lecf_249=熔融枯竭低浓缩锎-249
+tile.nuclearcraft.fluid_depleted_lecf_249_fluoride.name=熔融枯竭低浓缩锎-249 氟化物
+fluid.depleted_lecf_249_fluoride=熔融枯竭低浓缩锎-249 氟化物
+tile.nuclearcraft.fluid_depleted_lecf_249_fluoride_flibe.name=熔融枯竭低浓缩锎-249 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lecf_249_fluoride_flibe=熔融枯竭低浓缩锎-249 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lecf_249_za.name=熔融枯竭低浓缩锎-249-锆合金
+fluid.depleted_lecf_249_za=熔融枯竭低浓缩锎-249-锆合金
+
+tile.nuclearcraft.fluid_depleted_hecf_249.name=熔融枯竭高浓缩锎-249
+fluid.depleted_hecf_249=熔融枯竭高浓缩锎-249
+tile.nuclearcraft.fluid_depleted_hecf_249_fluoride.name=熔融枯竭高浓缩锎-249 氟化物
+fluid.depleted_hecf_249_fluoride=熔融枯竭高浓缩锎-249 氟化物
+tile.nuclearcraft.fluid_depleted_hecf_249_fluoride_flibe.name=熔融枯竭高浓缩锎-249 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hecf_249_fluoride_flibe=熔融枯竭高浓缩锎-249 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hecf_249_za.name=熔融枯竭高浓缩锎-249-锆合金
+fluid.depleted_hecf_249_za=熔融枯竭高浓缩锎-249-锆合金
+
+tile.nuclearcraft.fluid_depleted_lecf_251.name=熔融枯竭低浓缩锎-251
+fluid.depleted_lecf_251=熔融枯竭低浓缩锎-251
+tile.nuclearcraft.fluid_depleted_lecf_251_fluoride.name=熔融枯竭低浓缩锎-251 氟化物
+fluid.depleted_lecf_251_fluoride=熔融枯竭低浓缩锎-251 氟化物
+tile.nuclearcraft.fluid_depleted_lecf_251_fluoride_flibe.name=熔融枯竭低浓缩锎-251 氟化物燃料氟锂铍盐溶液
+fluid.depleted_lecf_251_fluoride_flibe=熔融枯竭低浓缩锎-251 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_lecf_251_za.name=熔融枯竭低浓缩锎-251-锆合金
+fluid.depleted_lecf_251_za=熔融枯竭低浓缩锎-251-锆合金
+
+tile.nuclearcraft.fluid_depleted_hecf_251.name=熔融枯竭高浓缩锎-251
+fluid.depleted_hecf_251=熔融枯竭高浓缩锎-251
+tile.nuclearcraft.fluid_depleted_hecf_251_fluoride.name=熔融枯竭高浓缩锎-251 氟化物
+fluid.depleted_hecf_251_fluoride=熔融枯竭高浓缩锎-251 氟化物
+tile.nuclearcraft.fluid_depleted_hecf_251_fluoride_flibe.name=熔融枯竭高浓缩锎-251 氟化物燃料氟锂铍盐溶液
+fluid.depleted_hecf_251_fluoride_flibe=熔融枯竭高浓缩锎-251 氟化物燃料氟锂铍盐溶液
+tile.nuclearcraft.fluid_depleted_hecf_251_za.name=熔融枯竭高浓缩锎-251-锆合金
+fluid.depleted_hecf_251_za=熔融枯竭高浓缩锎-251-锆合金
+
+tile.nuclearcraft.fluid_iron.name=熔融铁
+fluid.iron=熔融铁
+tile.nuclearcraft.fluid_iron_nak.name=共晶钠钾-铁混合物
+fluid.iron_nak=共晶钠钾-铁混合物
+tile.nuclearcraft.fluid_iron_nak_hot.name=热共晶钠钾-铁混合物
+fluid.iron_nak_hot=热共晶钠钾-铁混合物
+
+tile.nuclearcraft.fluid_redstone.name=熔融红石
+fluid.redstone=熔融红石
+tile.nuclearcraft.fluid_redstone_nak.name=共晶钠钾-红石混合物
+fluid.redstone_nak=共晶钠钾-红石混合物
+tile.nuclearcraft.fluid_redstone_nak_hot.name=热共晶钠钾-红石混合物
+fluid.redstone_nak_hot=热共晶钠钾-红石混合物
+
+tile.nuclearcraft.fluid_quartz.name=熔融石英
+fluid.quartz=熔融石英
+tile.nuclearcraft.fluid_quartz_nak.name=共晶钠钾-石英混合物
+fluid.quartz_nak=共晶钠钾-石英混合物
+tile.nuclearcraft.fluid_quartz_nak_hot.name=热共晶钠钾-石英混合物
+fluid.quartz_nak_hot=热共晶钠钾-石英混合物
+
+tile.nuclearcraft.fluid_obsidian.name=熔融黑曜石
+fluid.obsidian=熔融黑曜石
+tile.nuclearcraft.fluid_obsidian_nak.name=共晶钠钾-黑曜石混合物
+fluid.obsidian_nak=共晶钠钾-黑曜石混合物
+tile.nuclearcraft.fluid_obsidian_nak_hot.name=热共晶钠钾-黑曜石混合物
+fluid.obsidian_nak_hot=热共晶钠钾-黑曜石混合物
+
+tile.nuclearcraft.fluid_nether_brick.name=熔融地狱岩
+fluid.nether_brick=熔融地狱岩
+tile.nuclearcraft.fluid_nether_brick_nak.name=共晶钠钾-地狱岩混合物
+fluid.nether_brick_nak=共晶钠钾-地狱岩混合物
+tile.nuclearcraft.fluid_nether_brick_nak_hot.name=热共晶钠钾-地狱岩混合物
+fluid.nether_brick_nak_hot=热共晶钠钾-地狱岩混合物
+
+tile.nuclearcraft.fluid_glowstone.name=熔融荧石
+fluid.glowstone=熔融荧石
+tile.nuclearcraft.fluid_glowstone_nak.name=共晶钠钾-荧石混合物
+fluid.glowstone_nak=共晶钠钾-荧石混合物
+tile.nuclearcraft.fluid_glowstone_nak_hot.name=热共晶钠钾-荧石混合物
+fluid.glowstone_nak_hot=热共晶钠钾-荧石混合物
+
+tile.nuclearcraft.fluid_lapis.name=熔融青金石
+fluid.lapis=熔融青金石
+tile.nuclearcraft.fluid_lapis_nak.name=共晶钠钾-青金石混合物
+fluid.lapis_nak=共晶钠钾-青金石混合物
+tile.nuclearcraft.fluid_lapis_nak_hot.name=热共晶钠钾-青金石混合物
+fluid.lapis_nak_hot=热共晶钠钾-青金石混合物
+
+tile.nuclearcraft.fluid_gold.name=熔融金
+fluid.gold=熔融金
+tile.nuclearcraft.fluid_gold_nak.name=共晶钠钾-金混合物
+fluid.gold_nak=共晶钠钾-金混合物
+tile.nuclearcraft.fluid_gold_nak_hot.name=热共晶钠钾-金混合物
+fluid.gold_nak_hot=热共晶钠钾-金混合物
+
+tile.nuclearcraft.fluid_prismarine.name=熔融海晶石
+fluid.prismarine=熔融海晶石
+tile.nuclearcraft.fluid_prismarine_nak.name=共晶钠钾-海晶石混合物
+fluid.prismarine_nak=共晶钠钾-海晶石混合物
+tile.nuclearcraft.fluid_prismarine_nak_hot.name=热共晶钠钾-海晶石混合物
+fluid.prismarine_nak_hot=热共晶钠钾-海晶石混合物
+
+tile.nuclearcraft.fluid_slime.name=熔融史莱姆
+fluid.slime=熔融史莱姆
+tile.nuclearcraft.fluid_slime_nak.name=共晶钠钾-史莱姆混合物
+fluid.slime_nak=共晶钠钾-史莱姆混合物
+tile.nuclearcraft.fluid_slime_nak_hot.name=热共晶钠钾-史莱姆混合物
+fluid.slime_nak_hot=热共晶钠钾-史莱姆混合物
+
+tile.nuclearcraft.fluid_end_stone.name=熔融末地石
+fluid.end_stone=熔融末地石
+tile.nuclearcraft.fluid_end_stone_nak.name=共晶钠钾-末地石混合物
+fluid.end_stone_nak=共晶钠钾-末地石混合物
+tile.nuclearcraft.fluid_end_stone_nak_hot.name=热共晶钠钾-末地石混合物
+fluid.end_stone_nak_hot=热共晶钠钾-末地石混合物
+
+tile.nuclearcraft.fluid_purpur.name=熔融紫珀
+fluid.purpur=熔融紫珀
+tile.nuclearcraft.fluid_purpur_nak.name=共晶钠钾-紫珀混合物
+fluid.purpur_nak=共晶钠钾-紫珀混合物
+tile.nuclearcraft.fluid_purpur_nak_hot.name=热共晶钠钾-紫珀混合物
+fluid.purpur_nak_hot=热共晶钠钾-紫珀混合物
+
+tile.nuclearcraft.fluid_diamond.name=熔融钻石
+fluid.diamond=熔融钻石
+tile.nuclearcraft.fluid_diamond_nak.name=共晶钠钾-钻石混合物
+fluid.diamond_nak=共晶钠钾-钻石混合物
+tile.nuclearcraft.fluid_diamond_nak_hot.name=热共晶钠钾-钻石混合物
+fluid.diamond_nak_hot=热共晶钠钾-钻石混合物
+
+tile.nuclearcraft.fluid_emerald.name=熔融绿宝石
+fluid.emerald=熔融绿宝石
+tile.nuclearcraft.fluid_emerald_nak.name=共晶钠钾-绿宝石混合物
+fluid.emerald_nak=共晶钠钾-绿宝石混合物
+tile.nuclearcraft.fluid_emerald_nak_hot.name=热共晶钠钾-绿宝石混合物
+fluid.emerald_nak_hot=热共晶钠钾-绿宝石混合物
+
+tile.nuclearcraft.fluid_copper.name=熔融铜
+fluid.copper=熔融铜
+tile.nuclearcraft.fluid_copper_nak.name=共晶钠钾-铜混合物
+fluid.copper_nak=共晶钠钾-铜混合物
+tile.nuclearcraft.fluid_copper_nak_hot.name=热共晶钠钾-铜混合物
+fluid.copper_nak_hot=热共晶钠钾-铜混合物
+
+tile.nuclearcraft.fluid_tin.name=熔融锡
+fluid.tin=熔融锡
+tile.nuclearcraft.fluid_tin_nak.name=共晶钠钾-锡混合物
+fluid.tin_nak=共晶钠钾-锡混合物
+tile.nuclearcraft.fluid_tin_nak_hot.name=热共晶钠钾-锡混合物
+fluid.tin_nak_hot=热共晶钠钾-锡混合物
+
+tile.nuclearcraft.fluid_lead.name=熔融铅
+fluid.lead=熔融铅
+tile.nuclearcraft.fluid_lead_nak.name=共晶钠钾-铅混合物
+fluid.lead_nak=共晶钠钾-铅混合物
+tile.nuclearcraft.fluid_lead_nak_hot.name=热共晶钠钾-铅混合物
+fluid.lead_nak_hot=热共晶钠钾-铅混合物
+
+tile.nuclearcraft.fluid_boron.name=熔融硼
+fluid.boron=熔融硼
+tile.nuclearcraft.fluid_boron_nak.name=共晶钠钾-硼混合物
+fluid.boron_nak=共晶钠钾-硼混合物
+tile.nuclearcraft.fluid_boron_nak_hot.name=热共晶钠钾-硼混合物
+fluid.boron_nak_hot=热共晶钠钾-硼混合物
+
+tile.nuclearcraft.fluid_lithium.name=熔融锂
+fluid.lithium=熔融锂
+tile.nuclearcraft.fluid_lithium_nak.name=共晶钠钾-锂混合物
+fluid.lithium_nak=共晶钠钾-锂混合物
+tile.nuclearcraft.fluid_lithium_nak_hot.name=热共晶钠钾-锂混合物
+fluid.lithium_nak_hot=热共晶钠钾-锂混合物
+
+tile.nuclearcraft.fluid_magnesium.name=熔融镁
+fluid.magnesium=熔融镁
+tile.nuclearcraft.fluid_magnesium_nak.name=共晶钠钾-镁混合物
+fluid.magnesium_nak=共晶钠钾-镁混合物
+tile.nuclearcraft.fluid_magnesium_nak_hot.name=热共晶钠钾-镁混合物
+fluid.magnesium_nak_hot=热共晶钠钾-镁混合物
+
+tile.nuclearcraft.fluid_manganese.name=熔融锰
+fluid.manganese=熔融锰
+tile.nuclearcraft.fluid_manganese_nak.name=共晶钠钾-锰混合物
+fluid.manganese_nak=共晶钠钾-锰混合物
+tile.nuclearcraft.fluid_manganese_nak_hot.name=热共晶钠钾-锰混合物
+fluid.manganese_nak_hot=热共晶钠钾-锰混合物
+
+tile.nuclearcraft.fluid_aluminum.name=熔融铝
+fluid.aluminum=熔融铝
+tile.nuclearcraft.fluid_aluminum_nak.name=共晶钠钾-铝混合物
+fluid.aluminum_nak=共晶钠钾-铝混合物
+tile.nuclearcraft.fluid_aluminum_nak_hot.name=热共晶钠钾-铝混合物
+fluid.aluminum_nak_hot=热共晶钠钾-铝混合物
+
+tile.nuclearcraft.fluid_silver.name=熔融银
+fluid.silver=熔融银
+tile.nuclearcraft.fluid_silver_nak.name=共晶钠钾-银混合物
+fluid.silver_nak=共晶钠钾-银混合物
+tile.nuclearcraft.fluid_silver_nak_hot.name=热共晶钠钾-银混合物
+fluid.silver_nak_hot=热共晶钠钾-银混合物
+
+tile.nuclearcraft.fluid_fluorite.name=熔融氟石
+fluid.fluorite=熔融氟石
+tile.nuclearcraft.fluid_fluorite_nak.name=共晶钠钾-氟石混合物
+fluid.fluorite_nak=共晶钠钾-氟石混合物
+tile.nuclearcraft.fluid_fluorite_nak_hot.name=热共晶钠钾-氟石混合物
+fluid.fluorite_nak_hot=热共晶钠钾-氟石混合物
+
+tile.nuclearcraft.fluid_villiaumite.name=熔融氟盐
+fluid.villiaumite=熔融氟盐
+tile.nuclearcraft.fluid_villiaumite_nak.name=共晶钠钾-氟盐混合物
+fluid.villiaumite_nak=共晶钠钾-氟盐混合物
+tile.nuclearcraft.fluid_villiaumite_nak_hot.name=热共晶钠钾-氟盐混合物
+fluid.villiaumite_nak_hot=热共晶钠钾-氟盐混合物
+
+tile.nuclearcraft.fluid_carobbiite.name=熔融方氟钾石
+fluid.carobbiite=熔融方氟钾石
+tile.nuclearcraft.fluid_carobbiite_nak.name=共晶钠钾-方氟钾石混合物
+fluid.carobbiite_nak=共晶钠钾-方氟钾石混合物
+tile.nuclearcraft.fluid_carobbiite_nak_hot.name=热共晶钠钾-方氟钾石混合物
+fluid.carobbiite_nak_hot=热共晶钠钾-方氟钾石混合物
+
+tile.nuclearcraft.fluid_arsenic_nak.name=共晶钠钾-砷混合物
+fluid.arsenic_nak=共晶钠钾-砷混合物
+tile.nuclearcraft.fluid_arsenic_nak_hot.name=热共晶钠钾-砷混合物
+fluid.arsenic_nak_hot=热共晶钠钾-砷混合物
+
+tile.nuclearcraft.fluid_liquid_nitrogen_nak.name=共晶钠钾-氮混合物
+fluid.liquid_nitrogen_nak=共晶钠钾-氮混合物
+tile.nuclearcraft.fluid_liquid_nitrogen_nak_hot.name=热共晶钠钾-氮混合物
+fluid.liquid_nitrogen_nak_hot=热共晶钠钾-氮混合物
+
+tile.nuclearcraft.fluid_liquid_helium_nak.name=共晶钠钾-氦混合物
+fluid.liquid_helium_nak=共晶钠钾-氦混合物
+tile.nuclearcraft.fluid_liquid_helium_nak_hot.name=热共晶钠钾-氦混合物
+fluid.liquid_helium_nak_hot=热共晶钠钾-氦混合物
+
+tile.nuclearcraft.fluid_enderium_nak.name=共晶钠钾-末影混合物
+fluid.enderium_nak=共晶钠钾-末影混合物
+tile.nuclearcraft.fluid_enderium_nak_hot.name=热共晶钠钾-末影混合物
+fluid.enderium_nak_hot=热共晶钠钾-末影混合物
+
+tile.nuclearcraft.fluid_cryotheum_nak.name=共晶钠钾-凛冰混合物
+fluid.cryotheum_nak=共晶钠钾-凛冰混合物
+tile.nuclearcraft.fluid_cryotheum_nak_hot.name=热共晶钠钾-凛冰混合物
+fluid.cryotheum_nak_hot=热共晶钠钾-凛冰混合物
+
+item.nuclearcraft.rads=辐射：
+item.nuclearcraft.rad_resist=辐射抗性：
+item.nuclearcraft.food_rads=食物效果：
+
+item.nuclearcraft.ingot.copper.name=铜锭
+item.nuclearcraft.ingot.tin.name=锡锭
+item.nuclearcraft.ingot.lead.name=铅锭
+item.nuclearcraft.ingot.thorium.name=钍锭
+item.nuclearcraft.ingot.uranium.name=铀锭
+item.nuclearcraft.ingot.boron.name=硼锭
+item.nuclearcraft.ingot.lithium.name=锂锭
+item.nuclearcraft.ingot.magnesium.name=镁锭
+item.nuclearcraft.ingot.graphite.name=石墨锭
+item.nuclearcraft.ingot.beryllium.name=铍锭
+item.nuclearcraft.ingot.zirconium.name=锆锭
+item.nuclearcraft.ingot.manganese.name=锰锭
+item.nuclearcraft.ingot.aluminum.name=铝锭
+item.nuclearcraft.ingot.silver.name=银锭
+item.nuclearcraft.ingot.manganese_oxide.name=氧化锰锭
+item.nuclearcraft.ingot.manganese_dioxide.name=二氧化锰锭
+
+item.nuclearcraft.dust.copper.name=铜粉
+item.nuclearcraft.dust.tin.name=锡粉
+item.nuclearcraft.dust.lead.name=铅粉
+item.nuclearcraft.dust.thorium.name=钍粉
+item.nuclearcraft.dust.uranium.name=铀粉
+item.nuclearcraft.dust.boron.name=硼粉
+item.nuclearcraft.dust.lithium.name=锂粉
+item.nuclearcraft.dust.magnesium.name=镁粉
+item.nuclearcraft.dust.graphite.name=石墨粉
+item.nuclearcraft.dust.beryllium.name=铍粉
+item.nuclearcraft.dust.beryllium.desc=挖掘煤矿石时掉落。
+item.nuclearcraft.dust.zirconium.name=锆粉
+item.nuclearcraft.dust.zirconium.desc=挖掘下界石英矿石时掉落。
+item.nuclearcraft.dust.manganese.name=锰粉
+item.nuclearcraft.dust.aluminum.name=铝粉
+item.nuclearcraft.dust.silver.name=银粉
+item.nuclearcraft.dust.manganese_oxide.name=氧化锰粉
+item.nuclearcraft.dust.manganese_dioxide.name=二氧化锰粉
+
+item.nuclearcraft.gem.rhodochrosite.name=菱锰
+item.nuclearcraft.gem.rhodochrosite.desc=挖掘红石矿石时掉落。
+item.nuclearcraft.gem.boron_nitride.name=立方氮化硼
+item.nuclearcraft.gem.fluorite.name=氟石
+item.nuclearcraft.gem.fluorite.desc=挖掘青金石矿石时掉落。
+item.nuclearcraft.gem.villiaumite.name=氟盐
+item.nuclearcraft.gem.villiaumite.desc=挖掘钻石矿石时掉落。
+item.nuclearcraft.gem.carobbiite.name=方氟钾石
+item.nuclearcraft.gem.carobbiite.desc=挖掘钻石矿石时掉落。
+item.nuclearcraft.gem.boron_arsenide.name=砷化硼
+item.nuclearcraft.gem.silicon.name=硅
+
+item.nuclearcraft.gem_dust.diamond.name=钻石粉
+item.nuclearcraft.gem_dust.rhodochrosite.name=菱锰粉
+item.nuclearcraft.gem_dust.quartz.name=石英粉
+item.nuclearcraft.gem_dust.obsidian.name=黑曜石粉
+item.nuclearcraft.gem_dust.boron_nitride.name=六方氮化硼
+item.nuclearcraft.gem_dust.fluorite.name=氟石粉
+item.nuclearcraft.gem_dust.sulfur.name=硫磺
+item.nuclearcraft.gem_dust.sulfur.desc=挖掘煤矿石时掉落。
+item.nuclearcraft.gem_dust.coal.name=煤炭粉
+item.nuclearcraft.gem_dust.villiaumite.name=氟盐粉
+item.nuclearcraft.gem_dust.carobbiite.name=方氟钾石粉
+item.nuclearcraft.gem_dust.arsenic.name=砷粉
+item.nuclearcraft.gem_dust.end_stone.name=末地石粉
+
+item.nuclearcraft.alloy.bronze.name=青铜锭
+item.nuclearcraft.alloy.tough.name=高强合金锭
+item.nuclearcraft.alloy.hard_carbon.name=硬碳合金锭
+item.nuclearcraft.alloy.magnesium_diboride.name=二硼化镁锭
+item.nuclearcraft.alloy.lithium_manganese_dioxide.name=锂二氧化锰锭
+item.nuclearcraft.alloy.steel.name=钢锭
+item.nuclearcraft.alloy.ferroboron.name=硼铁合金锭
+item.nuclearcraft.alloy.shibuichi.name=胧银合金锭
+item.nuclearcraft.alloy.tin_silver.name=锡银合金锭
+item.nuclearcraft.alloy.lead_platinum.name=铅铂合金锭
+item.nuclearcraft.alloy.extreme.name=极限合金锭
+item.nuclearcraft.alloy.thermoconducting.name=热引合金锭
+item.nuclearcraft.alloy.zircaloy.name=锆锡合金锭
+item.nuclearcraft.alloy.silicon_carbide.name=碳化硅锭
+item.nuclearcraft.alloy.sic_sic_cmc.name=碳化硅复合材料锭
+# 碳化硅纤维增韧型碳化硅陶瓷基复合材料
+item.nuclearcraft.alloy.hsla_steel.name=高强度低合金钢锭
+item.nuclearcraft.alloy.zirconium_molybdenum.name=锆钼合金锭
+
+item.nuclearcraft.compound.calcium_sulfate.name=硫酸钙
+item.nuclearcraft.compound.crystal_binder.name=水晶粘合剂
+item.nuclearcraft.compound.energetic_blend.name=充能混合物
+item.nuclearcraft.compound.sodium_fluoride.name=氟化钠
+item.nuclearcraft.compound.potassium_fluoride.name=氟化钾
+item.nuclearcraft.compound.sodium_hydroxide.name=氢氧化钠
+item.nuclearcraft.compound.potassium_hydroxide.name=氢氧化钾
+item.nuclearcraft.compound.borax.name=硼砂
+item.nuclearcraft.compound.irradiated_borax.name=辐照硼砂
+item.nuclearcraft.compound.dimensional_blend.name=维度混合物
+item.nuclearcraft.compound.c_mn_blend.name=碳-锰混合物
+item.nuclearcraft.compound.alugentum.name=银铝粉
+
+item.nuclearcraft.part.plate_basic.name=基础板
+item.nuclearcraft.part.plate_advanced.name=高级板
+item.nuclearcraft.part.plate_du.name=贫铀板
+item.nuclearcraft.part.plate_elite.name=精英板
+item.nuclearcraft.part.wire_copper.name=铜螺线管
+item.nuclearcraft.part.wire_magnesium_diboride.name=二硼化镁螺线管
+item.nuclearcraft.part.bioplastic.name=生物塑料
+item.nuclearcraft.part.servo.name=伺服系统
+item.nuclearcraft.part.motor.name=电动马达
+item.nuclearcraft.part.actuator.name=线性执行器
+item.nuclearcraft.part.chassis.name=机器框架
+item.nuclearcraft.part.empty_frame.name=空框架
+item.nuclearcraft.part.steel_frame.name=钢框架
+item.nuclearcraft.part.plate_extreme.name=极限板
+item.nuclearcraft.part.sic_fiber.name=碳化硅纤维
+item.nuclearcraft.part.empty_sink.name=空散热器
+item.nuclearcraft.part.pyrolytic_carbon.name=热解碳
+
+item.nuclearcraft.upgrade.speed.name=速度升级
+item.nuclearcraft.upgrade.speed_desc=以消耗更多能量为代价提高机器的处理速度。可堆叠——每个速度升级都会%s速度，并%s能量消耗。
+item.nuclearcraft.upgrade.energy.name=能量升级
+item.nuclearcraft.upgrade.energy_desc=为机器减少能量消耗。可堆叠——每个能量升级都会%s能量消耗，但是最大的有效能量升级数量等同于速度升级的数量。
+
+item.nuclearcraft.fission_dust.bismuth.name=铋粉
+item.nuclearcraft.fission_dust.radium.name=镭粉
+item.nuclearcraft.fission_dust.polonium.name=钋粉
+item.nuclearcraft.fission_dust.tbp.name=镤-富集钍粉
+item.nuclearcraft.fission_dust.protactinium_233.name=镤-233 粉
+item.nuclearcraft.fission_dust.strontium_90.name=锶-90 粉
+item.nuclearcraft.fission_dust.molybdenum.name=钼粉
+item.nuclearcraft.fission_dust.ruthenium_106.name=钌-106 粉
+item.nuclearcraft.fission_dust.caesium_137.name=铯-137 粉
+item.nuclearcraft.fission_dust.promethium_147.name=钷-147 粉
+item.nuclearcraft.fission_dust.europium_155.name=铕-155 粉
+
+item.nuclearcraft.uranium.233.name=铀-233
+item.nuclearcraft.uranium.233_c.name=铀-233 碳化物
+item.nuclearcraft.uranium.233_ox.name=铀-233 氧化物
+item.nuclearcraft.uranium.233_ni.name=铀-233 氮化物
+item.nuclearcraft.uranium.233_za.name=铀-233-锆合金
+item.nuclearcraft.uranium.235.name=铀-235
+item.nuclearcraft.uranium.235_c.name=铀-235 碳化物
+item.nuclearcraft.uranium.235_ox.name=铀-235 氧化物
+item.nuclearcraft.uranium.235_ni.name=铀-235 氮化物
+item.nuclearcraft.uranium.235_za.name=铀-235-锆合金
+item.nuclearcraft.uranium.238.name=铀-238
+item.nuclearcraft.uranium.238_c.name=铀-238 碳化物
+item.nuclearcraft.uranium.238_ox.name=铀-238 氧化物
+item.nuclearcraft.uranium.238_ni.name=铀-238 氮化物
+item.nuclearcraft.uranium.238_za.name=铀-238-锆合金
+
+item.nuclearcraft.neptunium.236.name=镎-236
+item.nuclearcraft.neptunium.236_c.name=镎-236 碳化物
+item.nuclearcraft.neptunium.236_ox.name=镎-236 氧化物
+item.nuclearcraft.neptunium.236_ni.name=镎-236 氮化物
+item.nuclearcraft.neptunium.236_za.name=镎-236-锆合金
+item.nuclearcraft.neptunium.237.name=镎-237
+item.nuclearcraft.neptunium.237_c.name=镎-237 碳化物
+item.nuclearcraft.neptunium.237_ox.name=镎-237 氧化物
+item.nuclearcraft.neptunium.237_ni.name=镎-237 氮化物
+item.nuclearcraft.neptunium.237_za.name=镎-237-锆合金
+
+item.nuclearcraft.plutonium.238.name=钚-238
+item.nuclearcraft.plutonium.238_c.name=钚-238 碳化物
+item.nuclearcraft.plutonium.238_ox.name=钚-238 氧化物
+item.nuclearcraft.plutonium.238_ni.name=钚-238 氮化物
+item.nuclearcraft.plutonium.238_za.name=钚-238-锆合金
+item.nuclearcraft.plutonium.239.name=钚-239
+item.nuclearcraft.plutonium.239_c.name=钚-239 碳化物
+item.nuclearcraft.plutonium.239_ox.name=钚-239 氧化物
+item.nuclearcraft.plutonium.239_ni.name=钚-239 氮化物
+item.nuclearcraft.plutonium.239_za.name=钚-239-锆合金
+item.nuclearcraft.plutonium.241.name=钚-241
+item.nuclearcraft.plutonium.241_c.name=钚-241 碳化物
+item.nuclearcraft.plutonium.241_ox.name=钚-241 氧化物
+item.nuclearcraft.plutonium.241_ni.name=钚-241 氮化物
+item.nuclearcraft.plutonium.241_za.name=钚-241-锆合金
+item.nuclearcraft.plutonium.242.name=钚-242
+item.nuclearcraft.plutonium.242_c.name=钚-242 碳化物
+item.nuclearcraft.plutonium.242_ox.name=钚-242 氧化物
+item.nuclearcraft.plutonium.242_ni.name=钚-242 氮化物
+item.nuclearcraft.plutonium.242_za.name=钚-242-锆合金
+
+item.nuclearcraft.americium.241.name=镅-241
+item.nuclearcraft.americium.241_c.name=镅-241 碳化物
+item.nuclearcraft.americium.241_ox.name=镅-241 氧化物
+item.nuclearcraft.americium.241_ni.name=镅-241 氮化物
+item.nuclearcraft.americium.241_za.name=镅-241-锆合金
+item.nuclearcraft.americium.242.name=镅-242
+item.nuclearcraft.americium.242_c.name=镅-242 碳化物
+item.nuclearcraft.americium.242_ox.name=镅-242 氧化物
+item.nuclearcraft.americium.242_ni.name=镅-242 氮化物
+item.nuclearcraft.americium.242_za.name=镅-242-锆合金
+item.nuclearcraft.americium.243.name=镅-243
+item.nuclearcraft.americium.243_c.name=镅-243 碳化物
+item.nuclearcraft.americium.243_ox.name=镅-243 氧化物
+item.nuclearcraft.americium.243_ni.name=镅-243 氮化物
+item.nuclearcraft.americium.243_za.name=镅-243-锆合金
+
+item.nuclearcraft.curium.243.name=锔-243
+item.nuclearcraft.curium.243_c.name=锔-243 碳化物
+item.nuclearcraft.curium.243_ox.name=锔-243 氧化物
+item.nuclearcraft.curium.243_ni.name=锔-243 氮化物
+item.nuclearcraft.curium.243_za.name=锔-243-锆合金
+item.nuclearcraft.curium.245.name=锔-245
+item.nuclearcraft.curium.245_c.name=锔-245 碳化物
+item.nuclearcraft.curium.245_ox.name=锔-245 氧化物
+item.nuclearcraft.curium.245_ni.name=锔-245 氮化物
+item.nuclearcraft.curium.245_za.name=锔-245-锆合金
+item.nuclearcraft.curium.246.name=锔-246
+item.nuclearcraft.curium.246_c.name=锔-246 碳化物
+item.nuclearcraft.curium.246_ox.name=锔-246 氧化物
+item.nuclearcraft.curium.246_ni.name=锔-246 氮化物
+item.nuclearcraft.curium.246_za.name=锔-246-锆合金
+item.nuclearcraft.curium.247.name=锔-247
+item.nuclearcraft.curium.247_c.name=锔-247 碳化物
+item.nuclearcraft.curium.247_ox.name=锔-247 氧化物
+item.nuclearcraft.curium.247_ni.name=锔-247 氮化物
+item.nuclearcraft.curium.247_za.name=锔-247-锆合金
+
+item.nuclearcraft.berkelium.247.name=锫-247
+item.nuclearcraft.berkelium.247_c.name=锫-247 碳化物
+item.nuclearcraft.berkelium.247_ox.name=锫-247 氧化物
+item.nuclearcraft.berkelium.247_ni.name=锫-247 氮化物
+item.nuclearcraft.berkelium.247_za.name=锫-247-锆合金
+item.nuclearcraft.berkelium.248.name=锫-248
+item.nuclearcraft.berkelium.248_c.name=锫-248 碳化物
+item.nuclearcraft.berkelium.248_ox.name=锫-248 氧化物
+item.nuclearcraft.berkelium.248_ni.name=锫-248 氮化物
+item.nuclearcraft.berkelium.248_za.name=锫-248-锆合金
+
+item.nuclearcraft.californium.249.name=锎-249
+item.nuclearcraft.californium.249_c.name=锎-249 碳化物
+item.nuclearcraft.californium.249_ox.name=锎-249 氧化物
+item.nuclearcraft.californium.249_ni.name=锎-249 氮化物
+item.nuclearcraft.californium.249_za.name=锎-249-锆合金
+item.nuclearcraft.californium.250.name=锎-250
+item.nuclearcraft.californium.250_c.name=锎-250 碳化物
+item.nuclearcraft.californium.250_ox.name=锎-250 氧化物
+item.nuclearcraft.californium.250_ni.name=锎-250 氮化物
+item.nuclearcraft.californium.250_za.name=锎-250-锆合金
+item.nuclearcraft.californium.251.name=锎-251
+item.nuclearcraft.californium.251_c.name=锎-251 碳化物
+item.nuclearcraft.californium.251_ox.name=锎-251 氧化物
+item.nuclearcraft.californium.251_ni.name=锎-251 氮化物
+item.nuclearcraft.californium.251_za.name=锎-251-锆合金
+item.nuclearcraft.californium.252.name=锎-252
+item.nuclearcraft.californium.252_c.name=锎-252 碳化物
+item.nuclearcraft.californium.252_ox.name=锎-252 氧化物
+item.nuclearcraft.californium.252_ni.name=锎-252 氮化物
+item.nuclearcraft.californium.252_za.name=锎-252-锆合金
+
+item.nuclearcraft.pellet_thorium.tbu.name=钍-增殖铀 燃料
+item.nuclearcraft.pellet_thorium.tbu_c.name=钍-增殖铀 燃料 碳化物
+
+item.nuclearcraft.pellet_uranium.leu_233.name=低浓缩 铀-233 燃料
+item.nuclearcraft.pellet_uranium.leu_233_c.name=低浓缩 铀-233 燃料 碳化物
+item.nuclearcraft.pellet_uranium.heu_233.name=高浓缩 铀-233 燃料
+item.nuclearcraft.pellet_uranium.heu_233_c.name=高浓缩 铀-233 燃料 碳化物
+item.nuclearcraft.pellet_uranium.leu_235.name=低浓缩 铀-235 燃料
+item.nuclearcraft.pellet_uranium.leu_235_c.name=低浓缩 铀-235 燃料 碳化物
+item.nuclearcraft.pellet_uranium.heu_235.name=高浓缩 铀-235 燃料
+item.nuclearcraft.pellet_uranium.heu_235_c.name=高浓缩 铀-235 燃料 碳化物
+
+item.nuclearcraft.pellet_neptunium.len_236.name=低浓缩 镎-236 燃料
+item.nuclearcraft.pellet_neptunium.len_236_c.name=低浓缩 镎-236 燃料 碳化物
+item.nuclearcraft.pellet_neptunium.hen_236.name=高浓缩 镎-236 燃料
+item.nuclearcraft.pellet_neptunium.hen_236_c.name=高浓缩 镎-236 燃料 碳化物
+
+item.nuclearcraft.pellet_plutonium.lep_239.name=低浓缩 钚-239 燃料
+item.nuclearcraft.pellet_plutonium.lep_239_c.name=低浓缩 钚-239 燃料 碳化物
+item.nuclearcraft.pellet_plutonium.hep_239.name=高浓缩 钚-239 燃料
+item.nuclearcraft.pellet_plutonium.hep_239_c.name=高浓缩 钚-239 燃料 碳化物
+item.nuclearcraft.pellet_plutonium.lep_241.name=低浓缩 钚-241 燃料
+item.nuclearcraft.pellet_plutonium.lep_241_c.name=低浓缩 钚-241 燃料 碳化物
+item.nuclearcraft.pellet_plutonium.hep_241.name=高浓缩 钚-241 燃料
+item.nuclearcraft.pellet_plutonium.hep_241_c.name=高浓缩 钚-241 燃料 碳化物
+
+item.nuclearcraft.pellet_mixed.mix_239.name=混合物-239 燃料
+item.nuclearcraft.pellet_mixed.mix_239_c.name=混合物-239 燃料 碳化物
+item.nuclearcraft.pellet_mixed.mix_241.name=混合物-241 燃料
+item.nuclearcraft.pellet_mixed.mix_241_c.name=混合物-241 燃料 碳化物
+
+item.nuclearcraft.pellet_americium.lea_242.name=低浓缩 镅-242 燃料
+item.nuclearcraft.pellet_americium.lea_242_c.name=低浓缩 镅-242 燃料 碳化物
+item.nuclearcraft.pellet_americium.hea_242.name=高浓缩 镅-242 燃料
+item.nuclearcraft.pellet_americium.hea_242_c.name=高浓缩 镅-242 燃料 碳化物
+
+item.nuclearcraft.pellet_curium.lecm_243.name=低浓缩 锔-243 燃料
+item.nuclearcraft.pellet_curium.lecm_243_c.name=低浓缩 锔-243 燃料 碳化物
+item.nuclearcraft.pellet_curium.hecm_243.name=高浓缩 锔-243 燃料
+item.nuclearcraft.pellet_curium.hecm_243_c.name=高浓缩 锔-243 燃料 碳化物
+item.nuclearcraft.pellet_curium.lecm_245.name=低浓缩 锔-245 燃料
+item.nuclearcraft.pellet_curium.lecm_245_c.name=低浓缩 锔-245 燃料 碳化物
+item.nuclearcraft.pellet_curium.hecm_245.name=高浓缩 锔-245 燃料
+item.nuclearcraft.pellet_curium.hecm_245_c.name=高浓缩 锔-245 燃料 碳化物
+item.nuclearcraft.pellet_curium.lecm_247.name=低浓缩 锔-247 燃料
+item.nuclearcraft.pellet_curium.lecm_247_c.name=低浓缩 锔-247 燃料 碳化物
+item.nuclearcraft.pellet_curium.hecm_247.name=高浓缩 锔-247 燃料
+item.nuclearcraft.pellet_curium.hecm_247_c.name=高浓缩 锔-247 燃料 碳化物
+
+item.nuclearcraft.pellet_berkelium.leb_248.name=低浓缩 锫-248 燃料
+item.nuclearcraft.pellet_berkelium.leb_248_c.name=低浓缩 锫-248 燃料 碳化物
+item.nuclearcraft.pellet_berkelium.heb_248.name=高浓缩 锫-248 燃料
+item.nuclearcraft.pellet_berkelium.heb_248_c.name=高浓缩 锫-248 燃料 碳化物
+
+item.nuclearcraft.pellet_californium.lecf_249.name=低浓缩 锎-249 燃料
+item.nuclearcraft.pellet_californium.lecf_249_c.name=低浓缩 锎-249 燃料 碳化物
+item.nuclearcraft.pellet_californium.hecf_249.name=高浓缩 锎-249 燃料
+item.nuclearcraft.pellet_californium.hecf_249_c.name=高浓缩 锎-249 燃料 碳化物
+item.nuclearcraft.pellet_californium.lecf_251.name=低浓缩 锎-251 燃料
+item.nuclearcraft.pellet_californium.lecf_251_c.name=低浓缩 锎-251 燃料 碳化物
+item.nuclearcraft.pellet_californium.hecf_251.name=高浓缩 锎-251 燃料
+item.nuclearcraft.pellet_californium.hecf_251_c.name=高浓缩 锎-251 燃料 碳化物
+
+item.nuclearcraft.fuel_thorium.tbu_tr.name=钍-增殖铀 TRISO 燃料颗粒
+item.nuclearcraft.fuel_thorium.tbu_ox.name=钍-增殖铀 氧化物燃料丸
+item.nuclearcraft.fuel_thorium.tbu_ni.name=钍-增殖铀 氮化物燃料丸
+item.nuclearcraft.fuel_thorium.tbu_za.name=钍-增殖铀-锆合金燃料丸
+
+item.nuclearcraft.fuel_uranium.leu_233_tr.name=低浓缩 铀-233 TRISO 燃料颗粒
+item.nuclearcraft.fuel_uranium.leu_233_ox.name=低浓缩 铀-233 氧化物燃料丸
+item.nuclearcraft.fuel_uranium.leu_233_ni.name=低浓缩 铀-233 氮化物燃料丸
+item.nuclearcraft.fuel_uranium.leu_233_za.name=低浓缩 铀-233-锆合金燃料丸
+item.nuclearcraft.fuel_uranium.heu_233_tr.name=高浓缩 铀-233 TRISO 燃料颗粒
+item.nuclearcraft.fuel_uranium.heu_233_ox.name=高浓缩 铀-233 氧化物燃料丸
+item.nuclearcraft.fuel_uranium.heu_233_ni.name=高浓缩 铀-233 氮化物燃料丸
+item.nuclearcraft.fuel_uranium.heu_233_za.name=高浓缩 铀-233-锆合金燃料丸
+item.nuclearcraft.fuel_uranium.leu_235_tr.name=低浓缩 铀-235 TRISO 燃料颗粒
+item.nuclearcraft.fuel_uranium.leu_235_ox.name=低浓缩 铀-235 氧化物燃料丸
+item.nuclearcraft.fuel_uranium.leu_235_ni.name=低浓缩 铀-235 氮化物燃料丸
+item.nuclearcraft.fuel_uranium.leu_235_za.name=低浓缩 铀-235-锆合金燃料丸
+item.nuclearcraft.fuel_uranium.heu_235_tr.name=高浓缩 铀-235 TRISO 燃料颗粒
+item.nuclearcraft.fuel_uranium.heu_235_ox.name=高浓缩 铀-235 氧化物燃料丸
+item.nuclearcraft.fuel_uranium.heu_235_ni.name=高浓缩 铀-235 氮化物燃料丸
+item.nuclearcraft.fuel_uranium.heu_235_za.name=高浓缩 铀-235-锆合金燃料丸
+
+item.nuclearcraft.fuel_neptunium.len_236_tr.name=低浓缩 镎-236 TRISO 燃料颗粒
+item.nuclearcraft.fuel_neptunium.len_236_ox.name=低浓缩 镎-236 氧化物燃料丸
+item.nuclearcraft.fuel_neptunium.len_236_ni.name=低浓缩 镎-236 氮化物燃料丸
+item.nuclearcraft.fuel_neptunium.len_236_za.name=低浓缩 镎-236-锆合金燃料丸
+item.nuclearcraft.fuel_neptunium.hen_236_tr.name=高浓缩 镎-236 TRISO 燃料颗粒
+item.nuclearcraft.fuel_neptunium.hen_236_ox.name=高浓缩 镎-236 氧化物燃料丸
+item.nuclearcraft.fuel_neptunium.hen_236_ni.name=高浓缩 镎-236 氮化物燃料丸
+item.nuclearcraft.fuel_neptunium.hen_236_za.name=高浓缩 镎-236-锆合金燃料丸
+
+item.nuclearcraft.fuel_plutonium.lep_239_tr.name=低浓缩 钚-239 TRISO 燃料颗粒
+item.nuclearcraft.fuel_plutonium.lep_239_ox.name=低浓缩 钚-239 氧化物燃料丸
+item.nuclearcraft.fuel_plutonium.lep_239_ni.name=低浓缩 钚-239 氮化物燃料丸
+item.nuclearcraft.fuel_plutonium.lep_239_za.name=低浓缩 钚-239-锆合金燃料丸
+item.nuclearcraft.fuel_plutonium.hep_239_tr.name=高浓缩 钚-239 TRISO 燃料颗粒
+item.nuclearcraft.fuel_plutonium.hep_239_ox.name=高浓缩 钚-239 氧化物燃料丸
+item.nuclearcraft.fuel_plutonium.hep_239_ni.name=高浓缩 钚-239 氮化物燃料丸
+item.nuclearcraft.fuel_plutonium.hep_239_za.name=高浓缩 钚-239-锆合金燃料丸
+item.nuclearcraft.fuel_plutonium.lep_241_tr.name=低浓缩 钚-241 TRISO 燃料颗粒
+item.nuclearcraft.fuel_plutonium.lep_241_ox.name=低浓缩 钚-241 氧化物燃料丸
+item.nuclearcraft.fuel_plutonium.lep_241_ni.name=低浓缩 钚-241 氮化物燃料丸
+item.nuclearcraft.fuel_plutonium.lep_241_za.name=低浓缩 钚-241-锆合金燃料丸
+item.nuclearcraft.fuel_plutonium.hep_241_tr.name=高浓缩 钚-241 TRISO 燃料颗粒
+item.nuclearcraft.fuel_plutonium.hep_241_ox.name=高浓缩 钚-241 氧化物燃料丸
+item.nuclearcraft.fuel_plutonium.hep_241_ni.name=高浓缩 钚-241 氮化物燃料丸
+item.nuclearcraft.fuel_plutonium.hep_241_za.name=高浓缩 钚-241-锆合金燃料丸
+
+item.nuclearcraft.fuel_mixed.mix_239_tr.name=混合 TRISO-239 燃料颗粒
+item.nuclearcraft.fuel_mixed.mix_239_ox.name=混合氧化物-239 燃料丸
+item.nuclearcraft.fuel_mixed.mix_239_ni.name=混合氮化物-239 燃料丸
+item.nuclearcraft.fuel_mixed.mix_239_za.name=混合锆合金-239 燃料丸
+item.nuclearcraft.fuel_mixed.mix_241_tr.name=混合 TRISO-241 燃料颗粒
+item.nuclearcraft.fuel_mixed.mix_241_ox.name=混合氧化物-241 燃料丸
+item.nuclearcraft.fuel_mixed.mix_241_ni.name=混合氮化物-241 燃料丸
+item.nuclearcraft.fuel_mixed.mix_241_za.name=混合锆合金-241 燃料丸
+
+item.nuclearcraft.fuel_americium.lea_242_tr.name=低浓缩 镅-242 TRISO 燃料颗粒
+item.nuclearcraft.fuel_americium.lea_242_ox.name=低浓缩 镅-242 氧化物燃料丸
+item.nuclearcraft.fuel_americium.lea_242_ni.name=低浓缩 镅-242 氮化物燃料丸
+item.nuclearcraft.fuel_americium.lea_242_za.name=低浓缩 镅-242-锆合金燃料丸
+item.nuclearcraft.fuel_americium.hea_242_tr.name=高浓缩 镅-242 TRISO 燃料颗粒
+item.nuclearcraft.fuel_americium.hea_242_ox.name=高浓缩 镅-242 氧化物燃料丸
+item.nuclearcraft.fuel_americium.hea_242_ni.name=高浓缩 镅-242 氮化物燃料丸
+item.nuclearcraft.fuel_americium.hea_242_za.name=高浓缩 镅-242-锆合金燃料丸
+
+item.nuclearcraft.fuel_curium.lecm_243_tr.name=低浓缩 锔-243 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.lecm_243_ox.name=低浓缩 锔-243 氧化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_243_ni.name=低浓缩 锔-243 氮化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_243_za.name=低浓缩 锔-243-锆合金燃料丸
+item.nuclearcraft.fuel_curium.hecm_243_tr.name=高浓缩 锔-243 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.hecm_243_ox.name=高浓缩 锔-243 氧化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_243_ni.name=高浓缩 锔-243 氮化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_243_za.name=高浓缩 锔-243-锆合金燃料丸
+item.nuclearcraft.fuel_curium.lecm_245_tr.name=低浓缩 锔-245 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.lecm_245_ox.name=低浓缩 锔-245 氧化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_245_ni.name=低浓缩 锔-245 氮化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_245_za.name=低浓缩 锔-245-锆合金燃料丸
+item.nuclearcraft.fuel_curium.hecm_245_tr.name=高浓缩 锔-245 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.hecm_245_ox.name=高浓缩 锔-245 氧化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_245_ni.name=高浓缩 锔-245 氮化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_245_za.name=高浓缩 锔-245-锆合金燃料丸
+item.nuclearcraft.fuel_curium.lecm_247_tr.name=低浓缩 锔-247 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.lecm_247_ox.name=低浓缩 锔-247 氧化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_247_ni.name=低浓缩 锔-247 氮化物燃料丸
+item.nuclearcraft.fuel_curium.lecm_247_za.name=低浓缩 锔-247-锆合金燃料丸
+item.nuclearcraft.fuel_curium.hecm_247_tr.name=高浓缩 锔-247 TRISO 燃料颗粒
+item.nuclearcraft.fuel_curium.hecm_247_ox.name=高浓缩 锔-247 氧化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_247_ni.name=高浓缩 锔-247 氮化物燃料丸
+item.nuclearcraft.fuel_curium.hecm_247_za.name=高浓缩 锔-247-锆合金燃料丸
+
+item.nuclearcraft.fuel_berkelium.leb_248_tr.name=低浓缩 锫-248 TRISO 燃料颗粒
+item.nuclearcraft.fuel_berkelium.leb_248_ox.name=低浓缩 锫-248 氧化物燃料丸
+item.nuclearcraft.fuel_berkelium.leb_248_ni.name=低浓缩 锫-248 氮化物燃料丸
+item.nuclearcraft.fuel_berkelium.leb_248_za.name=低浓缩 锫-248-锆合金燃料丸
+item.nuclearcraft.fuel_berkelium.heb_248_tr.name=高浓缩 锫-248 TRISO 燃料颗粒
+item.nuclearcraft.fuel_berkelium.heb_248_ox.name=高浓缩 锫-248 氧化物燃料丸
+item.nuclearcraft.fuel_berkelium.heb_248_ni.name=高浓缩 锫-248 氮化物燃料丸
+item.nuclearcraft.fuel_berkelium.heb_248_za.name=高浓缩 锫-248-锆合金燃料丸
+
+item.nuclearcraft.fuel_californium.lecf_249_tr.name=低浓缩 锎-249 TRISO 燃料颗粒
+item.nuclearcraft.fuel_californium.lecf_249_ox.name=低浓缩 锎-249 氧化物燃料丸
+item.nuclearcraft.fuel_californium.lecf_249_ni.name=低浓缩 锎-249 氮化物燃料丸
+item.nuclearcraft.fuel_californium.lecf_249_za.name=低浓缩 锎-249-锆合金燃料丸
+item.nuclearcraft.fuel_californium.hecf_249_tr.name=高浓缩 锎-249 TRISO 燃料颗粒
+item.nuclearcraft.fuel_californium.hecf_249_ox.name=高浓缩 锎-249 氧化物燃料丸
+item.nuclearcraft.fuel_californium.hecf_249_ni.name=高浓缩 锎-249 氮化物燃料丸
+item.nuclearcraft.fuel_californium.hecf_249_za.name=高浓缩 锎-249-锆合金燃料丸
+item.nuclearcraft.fuel_californium.lecf_251_tr.name=低浓缩 锎-251 TRISO 燃料颗粒
+item.nuclearcraft.fuel_californium.lecf_251_ox.name=低浓缩 锎-251 氧化物燃料丸
+item.nuclearcraft.fuel_californium.lecf_251_ni.name=低浓缩 锎-251 氮化物燃料丸
+item.nuclearcraft.fuel_californium.lecf_251_za.name=低浓缩 锎-251-锆合金燃料丸
+item.nuclearcraft.fuel_californium.hecf_251_tr.name=高浓缩 锎-251 TRISO 燃料颗粒
+item.nuclearcraft.fuel_californium.hecf_251_ox.name=高浓缩 锎-251 氧化物燃料丸
+item.nuclearcraft.fuel_californium.hecf_251_ni.name=高浓缩 锎-251 氮化物燃料丸
+item.nuclearcraft.fuel_californium.hecf_251_za.name=高浓缩 锎-251-锆合金燃料丸
+
+info.nuclearcraft.fission_fuel.desc=裂变反应堆燃料
+info.nuclearcraft.fission_fuel.base_time.desc=基础衰竭时间：%s
+info.nuclearcraft.fission_fuel.base_heat.desc=基础产热：%s
+info.nuclearcraft.fission_fuel.base_efficiency.desc=基础效能：%s
+info.nuclearcraft.fission_fuel.criticality.desc=临界系数：%s
+info.nuclearcraft.fission_fuel.decay_factor.desc=衰变系数：%s
+info.nuclearcraft.fission_fuel.self_priming.desc=强中子射源！
+
+item.nuclearcraft.depleted_fuel_thorium.tbu_tr.name=枯竭 钍-增殖铀 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_thorium.tbu_ox.name=枯竭 钍-增殖铀 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_thorium.tbu_ni.name=枯竭 钍-增殖铀 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_thorium.tbu_za.name=枯竭 钍-增殖铀-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_uranium.leu_233_tr.name=枯竭 低浓缩 铀-233 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_uranium.leu_233_ox.name=枯竭 低浓缩 铀-233 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.leu_233_ni.name=枯竭 低浓缩 铀-233 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.leu_233_za.name=枯竭 低浓缩 铀-233-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_233_tr.name=枯竭 高浓缩 铀-233 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_uranium.heu_233_ox.name=枯竭 高浓缩 铀-233 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_233_ni.name=枯竭 高浓缩 铀-233 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_233_za.name=枯竭 高浓缩 铀-233-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_uranium.leu_235_tr.name=枯竭 低浓缩 铀-235 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_uranium.leu_235_ox.name=枯竭 低浓缩 铀-235 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.leu_235_ni.name=枯竭 低浓缩 铀-235 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.leu_235_za.name=枯竭 低浓缩 铀-235-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_235_tr.name=枯竭 高浓缩 铀-235 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_uranium.heu_235_ox.name=枯竭 高浓缩 铀-235 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_235_ni.name=枯竭 高浓缩 铀-235 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_uranium.heu_235_za.name=枯竭 高浓缩 铀-235-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_neptunium.len_236_tr.name=枯竭 低浓缩 镎-236 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_neptunium.len_236_ox.name=枯竭 低浓缩 镎-236 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_neptunium.len_236_ni.name=枯竭 低浓缩 镎-236 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_neptunium.len_236_za.name=枯竭 低浓缩 镎-236-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_tr.name=枯竭 高浓缩 镎-236 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_ox.name=枯竭 高浓缩 镎-236 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_ni.name=枯竭 高浓缩 镎-236 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_neptunium.hen_236_za.name=枯竭 高浓缩 镎-236-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_tr.name=枯竭 低浓缩 钚-239 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_ox.name=枯竭 低浓缩 钚-239 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_ni.name=枯竭 低浓缩 钚-239 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.lep_239_za.name=枯竭 低浓缩 钚-239-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_tr.name=枯竭 高浓缩 钚-239 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_ox.name=枯竭 高浓缩 钚-239 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_ni.name=枯竭 高浓缩 钚-239 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_239_za.name=枯竭 高浓缩 钚-239-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_tr.name=枯竭 低浓缩 钚-241 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_ox.name=枯竭 低浓缩 钚-241 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_ni.name=枯竭 低浓缩 钚-241 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.lep_241_za.name=枯竭 低浓缩 钚-241-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_tr.name=枯竭 高浓缩 钚-241 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_ox.name=枯竭 高浓缩 钚-241 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_ni.name=枯竭 高浓缩 钚-241 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_plutonium.hep_241_za.name=枯竭 高浓缩 钚-241-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_mixed.mix_239_tr.name=枯竭 混合 TRISO-239 燃料颗粒
+item.nuclearcraft.depleted_fuel_mixed.mix_239_ox.name=枯竭 混合氧化物-239 燃料丸
+item.nuclearcraft.depleted_fuel_mixed.mix_239_ni.name=枯竭 混合氮化物-239 燃料丸
+item.nuclearcraft.depleted_fuel_mixed.mix_239_za.name=枯竭 混合锆合金-239 燃料丸
+item.nuclearcraft.depleted_fuel_mixed.mix_241_tr.name=枯竭 混合 TRISO-241 燃料颗粒
+item.nuclearcraft.depleted_fuel_mixed.mix_241_ox.name=枯竭 混合氧化物-241 燃料丸
+item.nuclearcraft.depleted_fuel_mixed.mix_241_ni.name=枯竭 混合氮化物-241 燃料丸
+item.nuclearcraft.depleted_fuel_mixed.mix_241_za.name=枯竭 混合锆合金-241 燃料丸
+
+item.nuclearcraft.depleted_fuel_americium.lea_242_tr.name=枯竭 低浓缩 镅-242 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_americium.lea_242_ox.name=枯竭 低浓缩 镅-242 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_americium.lea_242_ni.name=枯竭 低浓缩 镅-242 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_americium.lea_242_za.name=枯竭 低浓缩 镅-242-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_americium.hea_242_tr.name=枯竭 高浓缩 镅-242 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_americium.hea_242_ox.name=枯竭 高浓缩 镅-242 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_americium.hea_242_ni.name=枯竭 高浓缩 镅-242 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_americium.hea_242_za.name=枯竭 高浓缩 镅-242-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_curium.lecm_243_tr.name=枯竭 低浓缩 锔-243 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.lecm_243_ox.name=枯竭 低浓缩 锔-243 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_243_ni.name=枯竭 低浓缩 锔-243 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_243_za.name=枯竭 低浓缩 锔-243-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_243_tr.name=枯竭 高浓缩 锔-243 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.hecm_243_ox.name=枯竭 高浓缩 锔-243 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_243_ni.name=枯竭 高浓缩 锔-243 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_243_za.name=枯竭 高浓缩 锔-243-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_245_tr.name=枯竭 低浓缩 锔-245 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.lecm_245_ox.name=枯竭 低浓缩 锔-245 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_245_ni.name=枯竭 低浓缩 锔-245 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_245_za.name=枯竭 低浓缩 锔-245-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_245_tr.name=枯竭 高浓缩 锔-245 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.hecm_245_ox.name=枯竭 高浓缩 锔-245 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_245_ni.name=枯竭 高浓缩 锔-245 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_245_za.name=枯竭 高浓缩 锔-245-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_247_tr.name=枯竭 低浓缩 锔-247 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.lecm_247_ox.name=枯竭 低浓缩 锔-247 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_247_ni.name=枯竭 低浓缩 锔-247 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.lecm_247_za.name=枯竭 低浓缩 锔-247-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_247_tr.name=枯竭 高浓缩 锔-247 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_curium.hecm_247_ox.name=枯竭 高浓缩 锔-247 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_247_ni.name=枯竭 高浓缩 锔-247 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_curium.hecm_247_za.name=枯竭 高浓缩 锔-247-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_tr.name=枯竭 低浓缩 锫-248 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_ox.name=枯竭 低浓缩 锫-248 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_ni.name=枯竭 低浓缩 锫-248 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_berkelium.leb_248_za.name=枯竭 低浓缩 锫-248-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_tr.name=枯竭 高浓缩 锫-248 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_ox.name=枯竭 高浓缩 锫-248 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_ni.name=枯竭 高浓缩 锫-248 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_berkelium.heb_248_za.name=枯竭 高浓缩 锫-248-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_californium.lecf_249_tr.name=枯竭 低浓缩 锎-249 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_californium.lecf_249_ox.name=枯竭 低浓缩 锎-249 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.lecf_249_ni.name=枯竭 低浓缩 锎-249 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.lecf_249_za.name=枯竭 低浓缩 锎-249-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_249_tr.name=枯竭 高浓缩 锎-249 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_californium.hecf_249_ox.name=枯竭 高浓缩 锎-249 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_249_ni.name=枯竭 高浓缩 锎-249 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_249_za.name=枯竭 高浓缩 锎-249-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_californium.lecf_251_tr.name=枯竭 低浓缩 锎-251 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_californium.lecf_251_ox.name=枯竭 低浓缩 锎-251 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.lecf_251_ni.name=枯竭 低浓缩 锎-251 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.lecf_251_za.name=枯竭 低浓缩 锎-251-锆合金燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_251_tr.name=枯竭 高浓缩 锎-251 TRISO 燃料颗粒
+item.nuclearcraft.depleted_fuel_californium.hecf_251_ox.name=枯竭 高浓缩 锎-251 氧化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_251_ni.name=枯竭 高浓缩 锎-251 氮化物燃料丸
+item.nuclearcraft.depleted_fuel_californium.hecf_251_za.name=枯竭 高浓缩 锎-251-锆合金燃料丸
+
+item.nuclearcraft.depleted_fuel_ic2.u.name=枯竭铀核燃料
+item.nuclearcraft.depleted_fuel_ic2.mox.name=枯竭混合氧化物核燃料
+
+item.nuclearcraft.boron.10.name=硼-10
+item.nuclearcraft.boron.11.name=硼-11
+
+item.nuclearcraft.lithium.6.name=锂-6
+item.nuclearcraft.lithium.7.name=锂-7
+
+item.nuclearcraft.sword_boron.name=硼剑
+item.nuclearcraft.pickaxe_boron.name=硼镐
+item.nuclearcraft.shovel_boron.name=硼锹
+item.nuclearcraft.axe_boron.name=硼斧
+item.nuclearcraft.hoe_boron.name=硼锄
+item.nuclearcraft.spaxelhoe_boron.name=硼斫石锄
+item.nuclearcraft.spaxelhoe_boron.desc=一把由所有普通硼工具组装而成的通用工具。
+
+item.nuclearcraft.sword_tough.name=高强合金剑
+item.nuclearcraft.pickaxe_tough.name=高强合金镐
+item.nuclearcraft.shovel_tough.name=高强合金锹
+item.nuclearcraft.axe_tough.name=高强合金斧
+item.nuclearcraft.hoe_tough.name=高强合金锄
+item.nuclearcraft.spaxelhoe_tough.name=高强合金斫石锄
+item.nuclearcraft.spaxelhoe_tough.desc=一把由所有普通高强合金工具组装而成的通用工具。
+
+item.nuclearcraft.sword_hard_carbon.name=硬碳合金剑
+item.nuclearcraft.pickaxe_hard_carbon.name=硬碳合金镐
+item.nuclearcraft.shovel_hard_carbon.name=硬碳合金锹
+item.nuclearcraft.axe_hard_carbon.name=硬碳合金斧
+item.nuclearcraft.hoe_hard_carbon.name=硬碳合金锄
+item.nuclearcraft.spaxelhoe_hard_carbon.name=硬碳合金斫石锄
+item.nuclearcraft.spaxelhoe_hard_carbon.desc=一把由所有普通硬碳合金工具组装而成的通用工具。
+
+item.nuclearcraft.sword_boron_nitride.name=氮化硼剑
+item.nuclearcraft.pickaxe_boron_nitride.name=氮化硼镐
+item.nuclearcraft.shovel_boron_nitride.name=氮化硼锹
+item.nuclearcraft.axe_boron_nitride.name=氮化硼斧
+item.nuclearcraft.hoe_boron_nitride.name=氮化硼锄
+item.nuclearcraft.spaxelhoe_boron_nitride.name=氮化硼斫石锄
+item.nuclearcraft.spaxelhoe_boron_nitride.desc=一把由所有普通氮化硼工具组装而成的通用工具。
+
+item.nuclearcraft.helm_boron.name=硼头盔
+item.nuclearcraft.chest_boron.name=硼胸甲
+item.nuclearcraft.legs_boron.name=硼护腿
+item.nuclearcraft.boots_boron.name=硼靴子
+
+item.nuclearcraft.helm_tough.name=高强合金头盔
+item.nuclearcraft.chest_tough.name=高强合金胸甲
+item.nuclearcraft.legs_tough.name=高强合金护腿
+item.nuclearcraft.boots_tough.name=高强合金靴子
+
+item.nuclearcraft.helm_hard_carbon.name=硬碳合金头盔
+item.nuclearcraft.chest_hard_carbon.name=硬碳合金胸甲
+item.nuclearcraft.legs_hard_carbon.name=硬碳合金护腿
+item.nuclearcraft.boots_hard_carbon.name=硬碳合金靴子
+
+item.nuclearcraft.helm_boron_nitride.name=氮化硼头盔
+item.nuclearcraft.chest_boron_nitride.name=氮化硼胸甲
+item.nuclearcraft.legs_boron_nitride.name=氮化硼护腿
+item.nuclearcraft.boots_boron_nitride.name=氮化硼靴子
+
+item.nuclearcraft.helm_hazmat.name=防护服头罩
+item.nuclearcraft.chest_hazmat.name=防护服上衣
+item.nuclearcraft.legs_hazmat.name=防护服护腿
+item.nuclearcraft.boots_hazmat.name=防护服靴子
+
+item.nuclearcraft.lithium_ion_cell.name=锂离子电池
+
+item.nuclearcraft.multitool.name=多功能工具
+
+info.nuclearcraft.multitool.clear_info=清除了多功能工具中的信息！
+
+info.nuclearcraft.multitool.copy_component_info=将组件信息存入了多功能工具！
+
+info.nuclearcraft.multitool.connect_component_monitor=将组件连接到了显示器！
+
+info.nuclearcraft.multitool.fission.connect_shield_manager=所有 %s 个防护屏都已连接到了管理器！
+
+info.nuclearcraft.multitool.quantum_computer.qubit_id=量子位 ID：%s
+info.nuclearcraft.multitool.quantum_computer.start_qubit_set=当前设定的量子位 ID 为 %s！
+info.nuclearcraft.multitool.quantum_computer.start_qubit_list=已创建新的量子位 ID 列表，其首项为 %s！
+info.nuclearcraft.multitool.quantum_computer.remove_qubit=将量子位 ID %s 移出了此列表！
+info.nuclearcraft.multitool.quantum_computer.add_qubit=将量子位 ID %s 加入了此列表！
+
+info.nuclearcraft.multitool.quantum_computer.single_gate_info=逻辑门当前的目标位为 %s
+info.nuclearcraft.multitool.quantum_computer.start_target_set=逻辑门正在等待对目标位的设定……
+info.nuclearcraft.multitool.quantum_computer.finish_target_set=逻辑门现在正以 %s 为目标位！
+
+info.nuclearcraft.multitool.quantum_computer.single_angle_gate_info=逻辑门当前的目标位为 %s，当前的工作角度为 %s°
+info.nuclearcraft.multitool.quantum_computer.start_angle=逻辑门正在等待对工作角度的设定……
+info.nuclearcraft.multitool.quantum_computer.tool_set_angle=将工作角度 %s° 存入了多功能工具！
+info.nuclearcraft.multitool.quantum_computer.finish_angle=逻辑门现在正以 %s° 为工作角度！
+
+info.nuclearcraft.multitool.quantum_computer.control_gate_info=逻辑门当前的目标位为 %s，当前的控制位为 %s
+info.nuclearcraft.multitool.quantum_computer.start_control_set=逻辑门正在等待对控制位的设定……
+info.nuclearcraft.multitool.quantum_computer.finish_control_set=逻辑门现在正以 %s 为控制位！
+
+info.nuclearcraft.multitool.quantum_computer.control_angle_gate_info=逻辑门当前的目标位为 %s，当前的工作角度为 %s°，当前的控制位为 %s
+
+info.nuclearcraft.multitool.quantum_computer.swap_gate_info=逻辑门当前交换量子位 %s 与 %s 的态
+info.nuclearcraft.multitool.quantum_computer.start_first_swap_list=逻辑门正在等待对所交换量子位的第一个列表的设定……
+info.nuclearcraft.multitool.quantum_computer.finish_first_swap_list=逻辑门现在所交换量子位的第一个列表为 %s！
+info.nuclearcraft.multitool.quantum_computer.start_second_swap_list=逻辑门正在等待对所交换量子位的第二个列表的设定……
+info.nuclearcraft.multitool.quantum_computer.finish_second_swap_list=逻辑门现在所交换量子位的第二个列表为 %s！
+
+info.nuclearcraft.multitool.quantum_computer.control_swap_gate_info=逻辑门当前交换量子位 %s 与 %s 的态，当前的控制位为 %s
+
+info.nuclearcraft.multitool.quantum_computer.controller.code_qasm_start=量子计算机正在进入 QASM 模式！门运算会被记录但不会在游戏中生效。
+info.nuclearcraft.multitool.quantum_computer.controller.code_qiskit_start=量子计算机正在进入 QISKit 模式！门运算会被记录但不会在游戏中生效。
+info.nuclearcraft.multitool.quantum_computer.controller.code_too_many_qubits=由于目前量子位过多，量子计算机无法进入代码生成模式。
+info.nuclearcraft.multitool.quantum_computer.controller.code_exit_too_many_qubits=由于目前量子位过多，量子计算机将退出代码生成模式。
+info.nuclearcraft.multitool.quantum_computer.controller.code_exit_empty=量子计算机正在退出代码生成模式。
+
+info.nuclearcraft.multitool.quantum_computer.controller.qasm_print=量子计算机正在退出 QASM 模式，生成的代码已被保存至 %s。
+info.nuclearcraft.multitool.quantum_computer.controller.qasm_error=量子计算机正在退出 QASM 模式，尝试将生成的代码保存至 %s 时出错。
+info.nuclearcraft.multitool.quantum_computer.controller.qasm_exit_empty=量子计算机正在退出 QASM 模式。
+info.nuclearcraft.multitool.quantum_computer.controller.qiskit_print=量子计算机正在退出 QISKit 模式，生成的代码已被保存至 %s。
+info.nuclearcraft.multitool.quantum_computer.controller.qiskit_error=量子计算机正在退出 QISKit 模式，尝试将生成的代码保存至 %s 时出错。
+info.nuclearcraft.multitool.quantum_computer.controller.qiskit_exit_empty=量子计算机正在退出 QISKit 模式。
+
+item.nuclearcraft.geiger_counter.name=盖革计数器
+item.nuclearcraft.geiger_counter.desc=监测及显示玩家身上的辐射量。同样可以检测其他实体的辐射量。当不在快捷栏或饰品栏时不会显示 HUD。
+item.nuclearcraft.geiger_counter.rads=辐射量：
+
+item.nuclearcraft.rad_shielding.light.name=轻型辐射屏蔽板
+item.nuclearcraft.rad_shielding.medium.name=中型辐射屏蔽板
+item.nuclearcraft.rad_shielding.heavy.name=重型辐射屏蔽板
+item.nuclearcraft.rad_shielding.desc=安装在盔甲上后玩家装备时会获得 %s 的辐射抗性。
+item.nuclearcraft.rad_shielding.desc_hardcore=安装在盔甲上后玩家装备时会获得 %s 的辐射抗性，安装在容器上时还能将其内部物品产生的辐射屏蔽去 %s。
+item.nuclearcraft.rad_shielding.not_hardcore=强化容器被配置文件禁止了！
+item.nuclearcraft.rad_shielding.failed_not_hardcore=没能成功安装屏蔽板。强化容器被配置文件禁止了！
+item.nuclearcraft.rad_shielding.install_fail=没能成功安装屏蔽板。容器已经拥有了下述的辐射抗性：
+item.nuclearcraft.rad_shielding.install_success=成功安装屏蔽板！容器现在拥有了下述的辐射抗性：
+
+item.nuclearcraft.radiation_badge.name=辐射徽章
+item.nuclearcraft.radiation_badge.desc=佩戴时，每当玩家获得 %s 的辐射量都会发出警示，在到达 %s 后便会破损.
+item.nuclearcraft.radiation_badge.exposure=你的辐射徽章目前的辐射值已达
+item.nuclearcraft.radiation_badge.broken=你的辐射徽章彻底损坏了……
+
+item.nuclearcraft.radaway.name=抗辐宁
+item.nuclearcraft.radaway.desc=以 %3$s 的速率移除 %1$s（%2$s）的辐射量。
+item.nuclearcraft.radaway_slow.name=缓效抗辐宁
+item.nuclearcraft.radaway_slow.desc=以 %3$s 的速率移除 %1$s（%2$s）的辐射量。
+item.nuclearcraft.rad_x.name=降辐剂
+item.nuclearcraft.rad_x.desc=增加 %s 的辐射抗性（%s 内）。效果可以叠加，但是持续时间也会变短。
+
+item.nuclearcraft.portable_ender_chest.name=便携末影箱
+item.nuclearcraft.portable_ender_chest.desc=可以在移动中使用的末影箱。
+
+item.nuclearcraft.dominos.name=Domino的大餐
+item.nuclearcraft.dominos.desc=Paul的最爱——这顿盛宴能恢复 16 点饥饿值！
+
+item.nuclearcraft.flour.name=面粉
+item.nuclearcraft.graham_cracker.name=全麦饼干
+
+item.nuclearcraft.roasted_cocoa_beans.name=焙烤可可豆
+item.nuclearcraft.ground_cocoa_nibs.name=碎可可
+item.nuclearcraft.cocoa_butter.name=可可脂
+item.nuclearcraft.cocoa_solids.name=可可粉
+item.nuclearcraft.unsweetened_chocolate.name=无糖巧克力
+item.nuclearcraft.dark_chocolate.name=黑巧克力
+item.nuclearcraft.milk_chocolate.name=牛奶巧克力
+
+item.nuclearcraft.gelatin.name=明胶
+item.nuclearcraft.marshmallow.name=棉花糖
+item.nuclearcraft.marshmallow.desc=要是有了这好东西，许多文明就衰落不了了。
+
+item.nuclearcraft.smore.name=棉花糖巧克力夹心饼干
+item.nuclearcraft.moresmore.name=双层棉花糖巧克力夹心饼干
+item.nuclearcraft.foursmore.name=四层棉花糖巧克力夹心饼干
+
+item.nuclearcraft.record_wanderer.name=音乐唱片
+item.nuclearcraft.record_wanderer.des0=Dion - The Wanderer
+item.nuclearcraft.record_wanderer.des1=8-Bit 版本制作者：8 Bit Universe
+item.nuclearcraft.record_end_of_the_world.name=音乐唱片
+item.nuclearcraft.record_end_of_the_world.des0=Skeeter Davis - The End of the World
+item.nuclearcraft.record_end_of_the_world.des1=8-Bit 版本制作者：GermanPikachuGaming
+item.nuclearcraft.record_money_for_nothing.name=音乐唱片
+item.nuclearcraft.record_money_for_nothing.des0=Dire Straits - Money For Nothing
+item.nuclearcraft.record_money_for_nothing.des1=8-Bit 版本制作者：Omnigrad
+item.nuclearcraft.record_hyperspace.name=音乐唱片
+item.nuclearcraft.record_hyperspace.des0=Ur-Quan Masters - Hyperspace
+item.nuclearcraft.record_hyperspace.des1=制作者：Riku Nuottajärvi
+
+entity.nuclearcraft.feral_ghoul.name=狂尸鬼
+
+jei.nuclearcraft.chance_output=输出：%s-%s [平均：%s]
+
+jei.nuclearcraft.base_process_time=基础处理时间：
+jei.nuclearcraft.base_process_power=基础功率：
+jei.nuclearcraft.base_process_radiation=基础辐射：
+
+jei.nuclearcraft.collector_production_rate=产量：
+
+jei.nuclearcraft.irradiator_flux_required=中子通量需求：
+jei.nuclearcraft.irradiator_heat_per_flux=单位中子通量产热：
+jei.nuclearcraft.irradiator_process_efficiency=效能提升倍率：
+jei.nuclearcraft.radiation_per_flux=每中子通量辐射：
+
+jei.nuclearcraft.pebble_fuel_time=基础衰竭时间：
+jei.nuclearcraft.pebble_fuel_heat=基础产热：
+jei.nuclearcraft.pebble_fuel_efficiency=基础效能：
+jei.nuclearcraft.pebble_fuel_criticality=临界系数：
+jei.nuclearcraft.pebble_fuel_decay_factor=衰变系数：
+jei.nuclearcraft.pebble_fuel_radiation=衰竭辐射：
+jei.nuclearcraft.pebble_fuel_self_priming=强中子射源！
+
+jei.nuclearcraft.solid_fuel_time=基础衰竭时间：
+jei.nuclearcraft.solid_fuel_heat=基础产热：
+jei.nuclearcraft.solid_fuel_efficiency=基础效能：
+jei.nuclearcraft.solid_fuel_criticality=临界系数：
+jei.nuclearcraft.solid_fuel_decay_factor=衰变系数：
+jei.nuclearcraft.solid_fuel_radiation=衰竭辐射：
+jei.nuclearcraft.solid_fuel_self_priming=强中子射源！
+
+jei.nuclearcraft.fission_heating_heat_per_mb=单位热容：
+
+jei.nuclearcraft.salt_fuel_time=基础衰竭时间：
+jei.nuclearcraft.salt_fuel_heat=基础产热：
+jei.nuclearcraft.salt_fuel_efficiency=基础效能：
+jei.nuclearcraft.salt_fuel_criticality=临界系数：
+jei.nuclearcraft.salt_fuel_decay_factor=衰变系数：
+jei.nuclearcraft.salt_fuel_radiation=衰竭辐射：
+jei.nuclearcraft.salt_fuel_self_priming=强中子射源！
+
+jei.nuclearcraft.fission_emergency_cooling_per_mb=每 mB 输入提供冷却:
+
+jei.nuclearcraft.fusion_time=基础连续时间：
+jei.nuclearcraft.fusion_power=基础能量上限：
+jei.nuclearcraft.fusion_temp=最佳温度：
+
+jei.nuclearcraft.decay_gen_lifetime=平均寿命：
+jei.nuclearcraft.decay_gen_power=能量产出：
+jei.nuclearcraft.decay_gen_radiation=衰变辐射：
+
+jei.nuclearcraft.salt_fuel_time=处理时间：
+jei.nuclearcraft.salt_fuel_heat=基础产热：
+
+jei.nuclearcraft.coolant_heater_rate=冷却速率：
+
+jei.nuclearcraft.exchanger_fluid_temp=温度：
+jei.nuclearcraft.exchanger_heating_provided=加热速率提供：
+jei.nuclearcraft.exchanger_cooling_provided=冷却速率提供：
+jei.nuclearcraft.exchanger_heating_required=加热量需求：
+jei.nuclearcraft.exchanger_cooling_required=冷却量需求：
+
+jei.nuclearcraft.condenser_condensing_temp=冷凝温度：
+jei.nuclearcraft.condenser_heat_removal_req=排热需求：
+
+jei.nuclearcraft.turbine_energy_density=基础能量密度：
+jei.nuclearcraft.turbine_expansion=流体膨胀系数：
+jei.nuclearcraft.turbine_spin_up_multiplier=旋转加速系数：
+
+jei.nuclearcraft.scrubber_process_time=净化寿命：
+jei.nuclearcraft.scrubber_process_power=能量需求：
+jei.nuclearcraft.scrubber_process_efficiency=净化仪效能：
+
+itemGroup.nuclearcraft.main=核电工艺
+itemGroup.nuclearcraft.material=核电工艺丨材料
+itemGroup.nuclearcraft.radiation=核电工艺丨辐射
+itemGroup.nuclearcraft.machine=核电工艺丨机器
+itemGroup.nuclearcraft.multiblock=核电工艺丨结构
+itemGroup.nuclearcraft.misc=核电工艺丨杂项
+
+gui.nc.config.main_title=核电工艺配置
+
+gui.nc.config.category.world_gen=世界生成
+gui.nc.config.category.world_gen.tooltip=配置世界生成。
+
+gui.nc.config.ore_dims=矿物生成维度列表
+gui.nc.config.ore_dims.comment=矿物生成维度的 ID 白名单/黑名单。
+gui.nc.config.ore_dims_list_type=矿物生成白名单/黑名单 (false/true)
+gui.nc.config.ore_dims_list_type.comment=这个维度列表是一个白名单 (false) 还是一个黑名单 (true) ？
+gui.nc.config.ore_gen=矿石生成
+gui.nc.config.ore_gen.comment=矿石会在世界中生成吗？顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+gui.nc.config.ore_size=区块矿石量
+gui.nc.config.ore_size.comment=每区块矿石的生成量。顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+gui.nc.config.ore_rate=生成率
+gui.nc.config.ore_rate.comment=矿石的生成率。顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+gui.nc.config.ore_min_height=最低生成高度
+gui.nc.config.ore_min_height.comment=矿石生成的最低高度。顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+gui.nc.config.ore_max_height=最高生成高度
+gui.nc.config.ore_max_height.comment=矿石生成的最高高度。顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+gui.nc.config.ore_drops=启用额外掉落物
+gui.nc.config.ore_drops.comment=原版矿石会掉落额外掉落物吗？顺序：菱锰，铍粉，锆粉，氟石，硫磺，氟盐，方氟钾石。
+gui.nc.config.ore_hide_disabled=隐藏已禁用矿石
+gui.nc.config.ore_hide_disabled.comment=从矿词和 JEI 中移除被禁用了的矿石吗？
+gui.nc.config.ore_harvest_levels=矿石挖掘等级
+gui.nc.config.ore_harvest_levels.comment=要求的挖掘等级。顺序：铜，锡，铅，钍，铀，硼，锂，镁。
+
+gui.nc.config.wasteland_biome=生成辐射废土生物群系
+gui.nc.config.wasteland_biome.comment=辐射废土生物群系会在主世界中生成吗？
+gui.nc.config.wasteland_biome_weight=辐射废土生物群系生成率
+gui.nc.config.wasteland_biome_weight.comment=辐射废土生物群系的生成率——数值越高，生成率便越高。
+
+gui.nc.config.wasteland_dimension_gen=启用辐射废土维度
+gui.nc.config.wasteland_dimension_gen.comment=辐射废土维度会生成吗？
+gui.nc.config.wasteland_dimension=辐射废土维度 ID
+gui.nc.config.wasteland_dimension.comment=设定辐射废土维度的 ID。
+
+gui.nc.config.mushroom_spread_rate=蘑菇传播速度
+gui.nc.config.mushroom_spread_rate.comment=核电工艺添加的蘑菇的传播速度——数值越高，速度便越快。
+gui.nc.config.mushroom_gen=生成蘑菇
+gui.nc.config.mushroom_gen.comment=地狱中会生成核电工艺添加的荧核菇吗？
+gui.nc.config.mushroom_gen_size=蘑菇生成数量
+gui.nc.config.mushroom_gen_size.comment=调整每次会生成的数量。
+gui.nc.config.mushroom_gen_rate=蘑菇生成速率
+gui.nc.config.mushroom_gen_rate.comment=调整每次生成的频率。
+
+gui.nc.config.corium_solidification=堆芯熔融物凝固维度列表
+gui.nc.config.corium_solidification.comment=堆芯熔融物凝固维度的 ID 白名单/黑名单。
+gui.nc.config.corium_solidification_list_type=堆芯熔融物凝固维度列表白名单/黑名单 (false/true)
+gui.nc.config.corium_solidification_list_type.comment=这个维度列表是一个白名单 (false) 还是一个黑名单 (true) ？
+
+gui.nc.config.category.processor=处理器配置
+gui.nc.config.category.processor.tooltip=配置与处理器相关的一些内容。
+
+gui.nc.config.processor_time=基础处理时间
+gui.nc.config.processor_time.comment=每个处理器的基础处理时间（单位：t）。顺序：小制造机，分离器，衰变加速器，燃料再处理机，合金炉，流体注入器，熔化机，超冷却机，电解机，组合机，冷却器，压缩机，化学反应器，流体混合器，结晶器，溶解器，流体提取机，离心机，岩石粉碎机。
+gui.nc.config.processor_power=基础功率
+gui.nc.config.processor_power.comment=每个处理器的基础能量消耗（单位：RF/t）。顺序：小制造机，分离器，衰变加速器，燃料再处理机，合金炉，流体注入器，熔化机，超冷却机，电解机，组合机，冷却器，压缩机，化学反应器，流体混合器，结晶器，溶解器，流体提取机，离心机，岩石粉碎机。
+gui.nc.config.speed_upgrade_power_laws_fp=速度升级功率
+gui.nc.config.speed_upgrade_power_laws_fp.comment=速度升级的功率设定。顺序：处理时间，功率，
+gui.nc.config.speed_upgrade_multipliers_fp=速度升级倍率
+gui.nc.config.speed_upgrade_multipliers_fp.comment=速度升级的基础倍率。顺序：处理时间，功率。
+gui.nc.config.energy_upgrade_power_laws_fp=能量升级速率
+gui.nc.config.energy_upgrade_power_laws_fp.comment=能量升级的功率设定。顺序：功率。
+gui.nc.config.energy_upgrade_multipliers_fp=能量升级倍率
+gui.nc.config.energy_upgrade_multipliers_fp.comment=能量升级的基础倍率。顺序：功率。
+gui.nc.config.upgrade_stack_sizes=升级最大堆叠数量
+gui.nc.config.upgrade_stack_sizes.comment=升级的最大堆叠数量。顺序：速度，能量。
+gui.nc.config.rf_per_eu=[IC2]工业2 的 EU 与 RF 的转换率
+gui.nc.config.rf_per_eu.comment=[IC2]工业2 和[GTCE]格雷科技：社区版的能量单位与红石通量的比值。
+gui.nc.config.enable_ic2_eu=启用[IC2]工业2 的 EU 支持。
+gui.nc.config.enable_ic2_eu.comment=如果设定为 (true) ，[IC2]工业2 的能量将会被核电工艺的机器接收或发出。
+gui.nc.config.enable_gtce_eu=[GTCE]格雷科技：社区版的 EU 支持
+gui.nc.config.enable_gtce_eu.comment=如果设定为 (true) ，那么[GTCE]格雷科技：社区版的 EU 可以被核电工艺的机器接收。
+gui.nc.config.enable_mek_gas=启用[Mek]通用机械的气体
+gui.nc.config.enable_mek_gas.comment=如果设定为 (true) ，那么[Mek]通用机械的气体可以被核电工艺的机器接收。
+gui.nc.config.machine_update_rate=机器更新
+gui.nc.config.machine_update_rate.comment=机器更新的时间（单位：t），用于包括多方块与 GUI 更新在内的多种情况。
+gui.nc.config.processor_passive_rate=被动产出速度
+gui.nc.config.processor_passive_rate.comment=被动机器的产出速度。顺序：造石机，无限水源，氮收集器。
+gui.nc.config.passive_push=自动导出
+gui.nc.config.passive_push.comment=被动机器会自动向相邻的容器导出物品与流体吗？
+gui.nc.config.cobble_gen_power=圆石生成功率
+gui.nc.config.cobble_gen_power.comment=生成圆石需要的功率（单位：RF/t）。
+gui.nc.config.ore_processing=矿石处理
+gui.nc.config.ore_processing.comment=核电工艺的机器可以处理矿石吗？
+gui.nc.config.manufactory_wood=小制造机的木头处理
+gui.nc.config.manufactory_wood.comment=调整木头处理时的产量。顺序：原木 -> 木板，木板 -> 木棍。
+gui.nc.config.rock_crusher_alternate=岩石粉碎机其他配方
+gui.nc.config.rock_crusher_alternate.comment=使用另一套只产出核电工艺的粉的岩石粉碎机的配方替代默认的吗？
+gui.nc.config.gtce_recipe_integration=注册[GTCE]格雷科技：社区版的配方
+gui.nc.config.gtce_recipe_integration.comment=如果设定为 (true) ，核电工艺的相关配方也会被加入至对应的机器里。顺序：小制造机，分离器，衰变加速器，燃料再处理机，合金炉，流体注入器，熔化机，超冷却机，电解机，组合机，冷却器，压缩机，化学反应器，流体混合器，结晶器，溶解器，流体提取机，离心机，岩石粉碎机。
+gui.nc.config.gtce_recipe_logging=[GTCE]格雷科技：社区版配方添加
+gui.nc.config.gtce_recipe_logging.comment=添加[GTCE]格雷科技：社区版的附加配方吗？
+gui.nc.config.smart_processor_input=机器智能自动输入
+gui.nc.config.smart_processor_input.comment=一个机器的输入是否会以内部已经有的物品以及有效的配方做决定？
+gui.nc.config.passive_permeation=被动能量扩散
+gui.nc.config.passive_permeation.comment=像主动冷却器或电磁铁（均不在重制版中）这样的被动机器会像相邻的同类机器发送物品、流体与能量吗？
+gui.nc.config.processor_particles=处理粒子效果
+gui.nc.config.processor_particles.comment=机器会在处理时散发出粒子效果吗？
+
+gui.nc.config.category.generator=产能器配置
+gui.nc.config.category.generator.tooltip=配置能产能的机器。
+
+gui.nc.config.rtg_power=放射性热电发电机能量产出
+gui.nc.config.rtg_power.comment=放射性热电发电机的能量产出（单位：RF/t）。顺序：铀，钚，镅，锎。
+gui.nc.config.solar_power=太阳能电池板能量产出
+gui.nc.config.solar_power.comment=太阳能电池板的能量产出（单位：RF/t）。顺序：基础，高级，贫铀，精英。
+gui.nc.config.decay_lifetime=衰变产能器平均寿命
+gui.nc.config.decay_lifetime.comment=与衰变产能器接触的放射性方块的平均寿命。顺序：钍，铀，铀-238，镎-237，钚-242，镅-243，锔-246，锫-247，锎-252。
+gui.nc.config.decay_power=衰变产能器能量产出
+gui.nc.config.decay_power.comment=与衰变产能器接触的放射性方块的能量产出。顺序：钍，铀，铀-238，镎-237，钚-242，镅-243，锔-246，锫-247，锎-252。
+
+gui.nc.config.category.energy_storage=能量储存配置
+gui.nc.config.category.energy_storage.tooltip=配置对能量的储存。
+
+gui.nc.config.battery_capacity=电容容量
+gui.nc.config.battery_capacity.comment=最大的 RF 储存量。顺序：[基础，高级，贫铀，精英]伏打电堆，[基础，高级，贫铀，精英]锂电池块）。
+
+gui.nc.config.category.fission=裂变配置
+gui.nc.config.category.fission.tooltip=配置与核裂变相关的内容。
+
+gui.nc.config.fission_power=产能倍率
+gui.nc.config.fission_power.comment=调整裂变反应堆的产能。
+gui.nc.config.fission_fuel_use=燃料使用倍率
+gui.nc.config.fission_fuel_use.comment=调整裂变反应堆使用燃料的速度。
+gui.nc.config.fission_heat_generation=产热倍率
+gui.nc.config.fission_heat_generation.comment=调整裂变反应堆的产热。
+gui.nc.config.fission_cooling_rate=冷却器冷却
+gui.nc.config.fission_cooling_rate.comment=冷却器减少的热量（单位：H/t）。顺序：水，铁，红石，石英，黑曜石，地狱砖，荧石，青金石，金，海晶石，史莱姆，末地石，紫珀，钻石，绿宝石，铜，锡，铅，硼，锂，镁，锰，铝，银，氟石，氟盐，方氟钾石，砷，液氮，液氦，末影，凛冰。
+gui.nc.config.fission_overheat=启用熔毁
+gui.nc.config.fission_overheat.comment=裂变反应堆会过热吗？
+gui.nc.config.fission_explosions=启用爆炸
+gui.nc.config.fission_explosions.comment=裂变反应堆熔毁时会爆炸吗？
+gui.nc.config.fission_meltdown_radiation_multiplier=熔毁辐射倍率
+gui.nc.config.fission_meltdown_radiation_multiplier.comment=熔毁时的辐射。
+gui.nc.config.fission_min_size=最小结构边长
+gui.nc.config.fission_min_size.comment=裂变结构的最小边长。
+gui.nc.config.fission_max_size=最大结构边长
+gui.nc.config.fission_max_size.comment=裂变结构的最大边长。
+gui.nc.config.fission_comparator_max_heat=比较器产生信号最大热量
+gui.nc.config.fission_comparator_max_heat.comment=会导致与控制器相邻的比较器产生满级红石信号强度的热量等级（单位：%）。
+gui.nc.config.fission_force_heat_comparator=热量比较器
+gui.nc.config.fission_force_heat_comparator.comment=如果设定为 (true) ，一个不产热或产热为负的控制器也会像产热为正的控制器一样向比较器产生强度基于热量的红石信号，而不是默认地在不产热或产热为负时采用以能量储存为基础的信号输出。
+gui.nc.config.fission_sound_volume=裂变音效范围
+gui.nc.config.fission_sound_volume.comment=调整能听到裂变音效的范围。
+
+gui.nc.config.fission_moderator_extra_power=减速剂功率调整
+gui.nc.config.fission_moderator_extra_heat=减速剂产热调整
+gui.nc.config.fission_moderator_extra_heat.comment=*只影响新结构*决定每个与燃料单元接触的减速剂的额外产热。该值等于六个完全包围一个燃料单元的减速剂额外产热与被完全包围的燃料单元产热的倍率。 每个减速剂贡献六分之一的额外产热（额外产热随减速剂数量增加而线性提升）。
+gui.nc.config.fission_neutron_reach=中子辐射最大长度
+gui.nc.config.fission_neutron_reach.comment=*只影响新结构*两个燃料单元之间最大能够产生中子通量提升和效能提升的有效减速剂数量。
+
+######################################################################################################
+# 。。。。。。接下来这段当中所有的燃料都应对应上文中的燃料，OX 为氧，NI 为氮，ZA 为锆，F4 为氟。。。。。。 #
+######################################################################################################
+
+gui.nc.config.fission_thorium_fuel_time=钍燃料衰竭时间
+gui.nc.config.fission_thorium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
+gui.nc.config.fission_thorium_heat_generation=钍燃料产热
+gui.nc.config.fission_thorium_heat_generation.comment=燃料基础的热量产出。顺序：TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
+gui.nc.config.fission_thorium_efficiency=钍燃料基础效能
+gui.nc.config.fission_thorium_efficiency.comment=燃料的基础效能。顺序：TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
+gui.nc.config.fission_thorium_criticality=钍燃料临界系数
+gui.nc.config.fission_thorium_criticality.comment=燃料的临界系数。顺序：TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
+gui.nc.config.fission_thorium_radiation=钍燃料辐射
+gui.nc.config.fission_thorium_radiation.comment=燃料在处理时会产生的辐射。顺序：TBU-TRISO, TBU-OX, TBU-NI, TBU-ZA, TBU-F4.
+
+gui.nc.config.fission_uranium_fuel_time=铀燃料衰竭时间
+gui.nc.config.fission_uranium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LEU-233-TRISO, LEU-233-OX, LEU-233-NI, LEU-233-ZA, LEU-233-F4, HEU-233-TRISO, HEU-233-OX, HEU-233-NI, HEU-233-ZA, HEU-233-F4, LEU-235-TRISO, LEU-235-OX, LEU-235-NI, LEU-235-ZA, LEU-235-F4, HEU-235-TRISO, HEU-235-OX, HEU-235-NI, HEU-235-ZA, HEU-235-F4.
+gui.nc.config.fission_uranium_heat_generation=铀燃料产热
+gui.nc.config.fission_uranium_heat_generation.comment=燃料基础的热量产出。顺序：LEU-233-TRISO, LEU-233-OX, LEU-233-NI, LEU-233-ZA, LEU-233-F4, HEU-233-TRISO, HEU-233-OX, HEU-233-NI, HEU-233-ZA, HEU-233-F4, LEU-235-TRISO, LEU-235-OX, LEU-235-NI, LEU-235-ZA, LEU-235-F4, HEU-235-TRISO, HEU-235-OX, HEU-235-NI, HEU-235-ZA, HEU-235-F4.
+gui.nc.config.fission_uranium_efficiency=铀燃料基础效能
+gui.nc.config.fission_uranium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_uranium_criticality=铀燃料临界系数
+gui.nc.config.fission_uranium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_uranium_radiation=铀燃料辐射
+gui.nc.config.fission_uranium_radiation.comment=燃料在处理时会产生的辐射。顺序：LEU-233-TRISO, LEU-233-OX, LEU-233-NI, LEU-233-ZA, LEU-233-F4, HEU-233-TRISO, HEU-233-OX, HEU-233-NI, HEU-233-ZA, HEU-233-F4, LEU-235-TRISO, LEU-235-OX, LEU-235-NI, LEU-235-ZA, LEU-235-F4, HEU-235-TRISO, HEU-235-OX, HEU-235-NI, HEU-235-ZA, HEU-235-F4.
+
+gui.nc.config.fission_neptunium_fuel_time=镎燃料衰竭时间
+gui.nc.config.fission_neptunium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LEN-236-TRISO, LEN-236-OX, LEN-236-NI, LEN-236-ZA, LEN-236-F4, HEN-236-TRISO, HEN-236-OX, HEN-236-NI, HEN-236-ZA, HEN-236-F4.
+gui.nc.config.fission_neptunium_heat_generation=镎燃料产热
+gui.nc.config.fission_neptunium_heat_generation.comment=燃料基础的热量产出。顺序：LEN-236-TRISO, LEN-236-OX, LEN-236-NI, LEN-236-ZA, LEN-236-F4, HEN-236-TRISO, HEN-236-OX, HEN-236-NI, HEN-236-ZA, HEN-236-F4.
+gui.nc.config.fission_neptunium_efficiency=镎燃料基础效能
+gui.nc.config.fission_neptunium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_neptunium_criticality=镎燃料临界系数
+gui.nc.config.fission_neptunium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_neptunium_radiation=镎燃料辐射
+gui.nc.config.fission_neptunium_radiation.comment=燃料在处理时会产生的辐射。顺序：LEN-236-TRISO, LEN-236-OX, LEN-236-NI, LEN-236-ZA, LEN-236-F4, HEN-236-TRISO, HEN-236-OX, HEN-236-NI, HEN-236-ZA, HEN-236-F4.
+
+gui.nc.config.fission_plutonium_fuel_time=钚燃料衰竭时间
+gui.nc.config.fission_plutonium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LEP-239-TRISO, LEP-239-OX, LEP-239-NI, LEP-239-ZA, LEP-239-F4, HEP-239-TRISO, HEP-239-OX, HEP-239-NI, HEP-239-ZA, HEP-239-F4, LEP-241-TRISO, LEP-241-OX, LEP-241-NI, LEP-241-ZA, LEP-241-F4, HEP-241-TRISO, HEP-241-OX, HEP-241-NI, HEP-241-ZA, HEP-241-F4.
+gui.nc.config.fission_plutonium_heat_generation=钚燃料产热
+gui.nc.config.fission_plutonium_heat_generation.comment=燃料基础的热量产出。顺序：LEP-239-TRISO, LEP-239-OX, LEP-239-NI, LEP-239-ZA, LEP-239-F4, HEP-239-TRISO, HEP-239-OX, HEP-239-NI, HEP-239-ZA, HEP-239-F4, LEP-241-TRISO, LEP-241-OX, LEP-241-NI, LEP-241-ZA, LEP-241-F4, HEP-241-TRISO, HEP-241-OX, HEP-241-NI, HEP-241-ZA, HEP-241-F4.
+gui.nc.config.fission_plutonium_efficiency=钚燃料基础效能
+gui.nc.config.fission_plutonium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_plutonium_criticality=钚燃料临界系数
+gui.nc.config.fission_plutonium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_plutonium_radiation=钚燃料辐射
+gui.nc.config.fission_plutonium_radiation.comment=燃料在处理时会产生的辐射。顺序：LEP-239-TRISO, LEP-239-OX, LEP-239-NI, LEP-239-ZA, LEP-239-F4, HEP-239-TRISO, HEP-239-OX, HEP-239-NI, HEP-239-ZA, HEP-239-F4, LEP-241-TRISO, LEP-241-OX, LEP-241-NI, LEP-241-ZA, LEP-241-F4, HEP-241-TRISO, HEP-241-OX, HEP-241-NI, HEP-241-ZA, HEP-241-F4.
+
+gui.nc.config.fission_mixed_fuel_time=混合燃料衰竭时间
+gui.nc.config.fission_mixed_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：MTRISO-239, MOX-239, MNI-239, MZA-239, MF4-239, MTRISO-241, MOX-241, MNI-241, MZA-241, MF4-241.
+gui.nc.config.fission_mixed_heat_generation=混合燃料产热
+gui.nc.config.fission_mixed_heat_generation.comment=燃料基础的热量产出。顺序：MTRISO-239, MOX-239, MNI-239, MZA-239, MF4-239, MTRISO-241, MOX-241, MNI-241, MZA-241, MF4-241.
+gui.nc.config.fission_mixed_efficiency=混合燃料基础效能
+gui.nc.config.fission_mixed_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_mixed_criticality=混合燃料临界系数
+gui.nc.config.fission_mixed_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_mixed_radiation=混合燃料辐射
+gui.nc.config.fission_mixed_radiation.comment=燃料在处理时会产生的辐射。顺序：MTRISO-239, MOX-239, MNI-239, MZA-239, MF4-239, MTRISO-241, MOX-241, MNI-241, MZA-241, MF4-241.
+
+gui.nc.config.fission_americium_fuel_time=镅燃料衰竭时间
+gui.nc.config.fission_americium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LEA-242-TRISO, LEA-242-OX, LEA-242-NI, LEA-242-ZA, LEA-242-F4, HEA-242-TRISO, HEA-242-OX, HEA-242-NI, HEA-242-ZA, HEA-242-F4.
+gui.nc.config.fission_americium_heat_generation=镅燃料产热
+gui.nc.config.fission_americium_heat_generation.comment=燃料基础的热量产出。顺序：LEA-242-TRISO, LEA-242-OX, LEA-242-NI, LEA-242-ZA, LEA-242-F4, HEA-242-TRISO, HEA-242-OX, HEA-242-NI, HEA-242-ZA, HEA-242-F4.
+gui.nc.config.fission_americium_efficiency=镅燃料基础效能
+gui.nc.config.fission_americium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_americium_criticality=镅燃料临界系数
+gui.nc.config.fission_americium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_americium_radiation=镅燃料辐射
+gui.nc.config.fission_americium_radiation.comment=燃料在处理时会产生的辐射。顺序：LEA-242-TRISO, LEA-242-OX, LEA-242-NI, LEA-242-ZA, LEA-242-F4, HEA-242-TRISO, HEA-242-OX, HEA-242-NI, HEA-242-ZA, HEA-242-F4.
+
+gui.nc.config.fission_curium_fuel_time=锔燃料衰竭时间
+gui.nc.config.fission_curium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LECm-243-TRISO, LECm-243-OX, LECm-243-NI, LECm-243-ZA, LECm-243-F4, HECm-243-TRISO, HECm-243-OX, HECm-243-NI, HECm-243-ZA, HECm-243-F4, LECm-245-TRISO, LECm-245-OX, LECm-245-NI, LECm-245-ZA, LECm-245-F4, HECm-245-TRISO, HECm-245-OX, HECm-245-NI, HECm-245-ZA, HECm-245-F4, LECm-247-TRISO, LECm-247-OX, LECm-247-NI, LECm-247-ZA, LECm-247-F4, HECm-247-TRISO, HECm-247-OX, HECm-247-NI, HECm-247-ZA, HECm-247-F4.
+gui.nc.config.fission_curium_heat_generation=锔燃料产热
+gui.nc.config.fission_curium_heat_generation.comment=燃料基础的热量产出。顺序：LECm-243-TRISO, LECm-243-OX, LECm-243-NI, LECm-243-ZA, LECm-243-F4, HECm-243-TRISO, HECm-243-OX, HECm-243-NI, HECm-243-ZA, HECm-243-F4, LECm-245-TRISO, LECm-245-OX, LECm-245-NI, LECm-245-ZA, LECm-245-F4, HECm-245-TRISO, HECm-245-OX, HECm-245-NI, HECm-245-ZA, HECm-245-F4, LECm-247-TRISO, LECm-247-OX, LECm-247-NI, LECm-247-ZA, LECm-247-F4, HECm-247-TRISO, HECm-247-OX, HECm-247-NI, HECm-247-ZA, HECm-247-F4.
+gui.nc.config.fission_curium_efficiency=锔燃料基础效能
+gui.nc.config.fission_curium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_curium_criticality=锔燃料临界系数
+gui.nc.config.fission_curium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_curium_radiation=锔燃料辐射
+gui.nc.config.fission_curium_radiation.comment=燃料在处理时会产生的辐射。顺序：LECm-243-TRISO, LECm-243-OX, LECm-243-NI, LECm-243-ZA, LECm-243-F4, HECm-243-TRISO, HECm-243-OX, HECm-243-NI, HECm-243-ZA, HECm-243-F4, LECm-245-TRISO, LECm-245-OX, LECm-245-NI, LECm-245-ZA, LECm-245-F4, HECm-245-TRISO, HECm-245-OX, HECm-245-NI, HECm-245-ZA, HECm-245-F4, LECm-247-TRISO, LECm-247-OX, LECm-247-NI, LECm-247-ZA, LECm-247-F4, HECm-247-TRISO, HECm-247-OX, HECm-247-NI, HECm-247-ZA, HECm-247-F4.
+
+gui.nc.config.fission_berkelium_fuel_time=锫燃料衰竭时间
+gui.nc.config.fission_berkelium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LEB-248-TRISO, LEB-248-OX, LEB-248-NI, LEB-248-ZA, LEB-248-F4, HEB-248-TRISO, HEB-248-OX, HEB-248-NI, HEB-248-ZA, HEB-248-F4.
+gui.nc.config.fission_berkelium_heat_generation=锫燃料产热
+gui.nc.config.fission_berkelium_heat_generation.comment=燃料基础的热量产出。顺序：LEB-248-TRISO, LEB-248-OX, LEB-248-NI, LEB-248-ZA, LEB-248-F4, HEB-248-TRISO, HEB-248-OX, HEB-248-NI, HEB-248-ZA, HEB-248-F4.
+gui.nc.config.fission_berkelium_efficiency=锫燃料基础效能
+gui.nc.config.fission_berkelium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_berkelium_criticality=锫燃料临界系数
+gui.nc.config.fission_berkelium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_berkelium_radiation=锫燃料辐射
+gui.nc.config.fission_berkelium_radiation.comment=燃料在处理时会产生的辐射。顺序：LEB-248-TRISO, LEB-248-OX, LEB-248-NI, LEB-248-ZA, LEB-248-F4, HEB-248-TRISO, HEB-248-OX, HEB-248-NI, HEB-248-ZA, HEB-248-F4.
+
+gui.nc.config.fission_californium_fuel_time=锎燃料衰竭时间
+gui.nc.config.fission_californium_fuel_time.comment=燃料的基础可用时间（单位：t）。顺序：LECf-249-TRISO, LECf-249-OX, LECf-249-NI, LECf-249-ZA, LECf-249-F4, HECf-249-TRISO, HECf-249-OX, HECf-249-NI, HECf-249-ZA, HECf-249-F4, LECf-251-TRISO, LECf-251-OX, LECf-251-NI, LECf-251-ZA, LECf-251-F4, HECf-251-TRISO, HECf-251-OX, HECf-251-NI, HECf-251-ZA, HECf-251-F4.
+gui.nc.config.fission_californium_heat_generation=锎燃料产热
+gui.nc.config.fission_californium_heat_generation.comment=燃料基础的热量产出。顺序：LECf-249-TRISO, LECf-249-OX, LECf-249-NI, LECf-249-ZA, LECf-249-F4, HECf-249-TRISO, HECf-249-OX, HECf-249-NI, HECf-249-ZA, HECf-249-F4, LECf-251-TRISO, LECf-251-OX, LECf-251-NI, LECf-251-ZA, LECf-251-F4, HECf-251-TRISO, HECf-251-OX, HECf-251-NI, HECf-251-ZA, HECf-251-F4.
+gui.nc.config.fission_californium_efficiency=锎燃料基础效能
+gui.nc.config.fission_californium_efficiency.comment=燃料的基础效能。顺序：
+gui.nc.config.fission_californium_criticality=锎燃料临界系数
+gui.nc.config.fission_californium_criticality.comment=燃料的临界系数。顺序：
+gui.nc.config.fission_californium_radiation=锎燃料辐射
+gui.nc.config.fission_californium_radiation.comment=燃料在处理时会产生的辐射。顺序：LECf-249-TRISO, LECf-249-OX, LECf-249-NI, LECf-249-ZA, LECf-249-F4, HECf-249-TRISO, HECf-249-OX, HECf-249-NI, HECf-249-ZA, HECf-249-F4, LECf-251-TRISO, LECf-251-OX, LECf-251-NI, LECf-251-ZA, LECf-251-F4, HECf-251-TRISO, HECf-251-OX, HECf-251-NI, HECf-251-ZA, HECf-251-F4.
+
+######################################################################################################
+# 。。。。。。上面的这段当中所有的燃料都应对应上文中的燃料，OX 为氧，NI 为氮，ZA 为锆，F4 为氟。。。。。。 #
+######################################################################################################
+
+gui.nc.config.category.fusion=聚变配置
+gui.nc.config.category.fusion.tooltip=配置与核聚变相关的内容。
+
+gui.nc.config.fusion_base_power=功率倍率
+gui.nc.config.fusion_base_power.comment=调整聚变的能量产出功率。
+gui.nc.config.fusion_fuel_use=燃料使用倍率
+gui.nc.config.fusion_fuel_use.comment=调整聚变反应堆使用燃料的速度。
+gui.nc.config.fusion_heat_generation=产热倍率
+gui.nc.config.fusion_heat_generation.comment=调整聚变反应堆的产热。
+gui.nc.config.fusion_heating_multiplier=产热速度倍率
+gui.nc.config.fusion_heating_multiplier.comment=在运行前调整聚变反应堆的产热速度。
+gui.nc.config.fusion_overheat=启用熔毁
+gui.nc.config.fusion_overheat.comment=聚变反应堆会过热吗？
+gui.nc.config.fusion_meltdown_radiation_multiplier=熔毁辐射倍率
+gui.nc.config.fusion_meltdown_radiation_multiplier.comment=熔毁时的辐射。
+gui.nc.config.fusion_active_cooling=启用聚变主动冷却
+gui.nc.config.fusion_active_cooling.comment=聚变反应堆可以被主动冷却吗（请在过于卡顿时关闭）？
+gui.nc.config.fusion_active_cooling_rate=主动冷却速率
+gui.nc.config.fusion_active_cooling_rate.comment=基础热量移除（单位：H/(t/mB)）。顺序：水，红石，石英，金，荧石，青金石，钻石，液氦，末影，凛冰，铁，绿宝石，铜，锡，镁。
+gui.nc.config.fusion_min_size=最小磁环尺寸
+gui.nc.config.fusion_min_size.comment=聚变磁环的最小尺寸。
+gui.nc.config.fusion_max_size=最大磁环尺寸
+gui.nc.config.fusion_max_size.comment=聚变磁环的最大尺寸。
+gui.nc.config.fusion_comparator_max_efficiency=比较器产生红石信号最大效能
+gui.nc.config.fusion_comparator_max_efficiency.comment=会导致与控制器相邻的比较器产生满级红石信号强度的效能（单位：%）。
+gui.nc.config.fusion_plasma_craziness=等离子体产生火
+gui.nc.config.fusion_plasma_craziness.comment=等离子体会产生火吗？如果设定为 (false) 则卡顿情况会在某种情况下改善。
+gui.nc.config.fusion_sound_volume=聚变音效范围
+gui.nc.config.fusion_sound_volume.comment=调整能听到聚变声音的范围。
+
+##################################
+# 。。。接下来这段未翻译完全。。。 #
+##################################
+
+gui.nc.config.fusion_fuel_time=Fusion Fuel Combo Durations
+gui.nc.config.fusion_fuel_time.comment=Base ticks the fuel combos last. 顺序：氢 - 氢，氢 - 氘，氢 - 氚，氢 - 氦-3，氢 - 锂-6，氢 - 锂-7，氢 - 硼-11，氘 - 氘，氘 - 氚，氘 - 氦-3，……，氘 - 硼-11，……，硼-11 - 硼-11。
+gui.nc.config.fusion_power=Fusion Fuel Combo Power Gen
+gui.nc.config.fusion_power.comment=Base RF/t the fuel combos produce. 顺序：氢 - 氢，氢 - 氘，氢 - 氚，氢 - 氦-3，氢 - 锂-6，氢 - 锂-7，氢 - 硼-11，氘 - 氘，氘 - 氚，氘 - 氦-3，……，氘 - 硼-11，……，硼-11 - 硼-11。
+gui.nc.config.fusion_heat_variable=Fusion Fuel Combo Heat Variables
+gui.nc.config.fusion_heat_variable.comment=Heat variables that determine the efficiency curves of the fuel combos. These are proportional to the optimal temperatures. 顺序：氢 - 氢，氢 - 氘，氢 - 氚，氢 - 氦-3，氢 - 锂-6，氢 - 锂-7，氢 - 硼-11，氘 - 氘，氘 - 氚，氘 - 氦-3，……，氘 - 硼-11，……，硼-11 - 硼-11。
+gui.nc.config.fusion_radiation=Fusion Fuel Combo Radiation
+gui.nc.config.fusion_radiation.comment=Base radiation the fuel combos produce while processing. 顺序：氢 - 氢，氢 - 氘，氢 - 氚，氢 - 氦-3，氢 - 锂-6，氢 - 锂-7，氢 - 硼-11，氘 - 氘，氘 - 氚，氘 - 氦-3，……，氘 - 硼-11，……，硼-11 - 硼-11。
+gui.nc.config.fusion_electromagnet_power=Electromagnet Power
+gui.nc.config.fusion_electromagnet_power.comment=RF/t required to keep an electromagnet active.
+
+gui.nc.config.category.heat_exchanger=热交换机配置
+gui.nc.config.category.heat_exchanger.tooltip=配置与热交换机相关的内容。
+
+gui.nc.config.heat_exchanger_min_size=最小结构边长
+gui.nc.config.heat_exchanger_min_size.comment=热交换结构的最小边长。
+gui.nc.config.heat_exchanger_max_size=最大结构边长
+gui.nc.config.heat_exchanger_max_size.comment=热交换结构的最大边长。
+gui.nc.config.heat_exchanger_conductivity=管道热导率
+gui.nc.config.heat_exchanger_conductivity.comment=Multiplier for heat transfer rate to and from this type of tube. For heat exchanging tubes, heating recipes will be faster by this factor while cooling recipes will be slower by this factor. For condensation tubes, recipes will simply be faster by this factor. 顺序：铜，硬碳合金，热导合金。
+gui.nc.config.heat_exchanger_coolant_mult=Coolant Heat Multiplier
+gui.nc.config.heat_exchanger_coolant_mult.comment=Multiplier for the heat required to cool hot coolant.
+gui.nc.config.heat_exchanger_alternate_exhaust_recipe=Alternate Exhaust Steam Recipe
+gui.nc.config.heat_exchanger_alternate_exhaust_recipe.comment=Will exhaust steam be heated into standard steam rather than low pressure steam?
+
+gui.nc.config.category.turbine=涡轮机配置
+gui.nc.config.category.turbine.tooltip=配置与涡轮机相关的内容。
+
+gui.nc.config.turbine_min_size=最小结构边长
+gui.nc.config.turbine_min_size.comment=涡轮机结构的最小边长。
+gui.nc.config.turbine_max_size=最大结构边长
+gui.nc.config.turbine_max_size.comment=涡轮机结构的最大边长。
+gui.nc.config.turbine_blade_efficiency=转子叶片效能
+gui.nc.config.turbine_blade_efficiency.comment=Multiplier for the energy transferred from the fluid flow to this type of rotor blade. 顺序：钢，极限合金，碳化硅复合材料。
+gui.nc.config.turbine_blade_expansion=转子叶片膨胀系数
+gui.nc.config.turbine_blade_expansion.comment=Coefficient by which a set of this type of rotor blade multiplies the volume of the fluid in the oncoming flow. 顺序：钢，极限合金，碳化硅复合材料。
+gui.nc.config.turbine_stator_expansion=转子定子膨胀系数
+gui.nc.config.turbine_stator_expansion.comment=Coefficient by which a set of rotor stators multiplies the volume of the fluid in the oncoming flow.
+gui.nc.config.turbine_coil_conductivity=发电机线圈传导率
+gui.nc.config.turbine_coil_conductivity.comment=参与效能计算时的倍率。顺序：镁，铍，铝，金，铜，银。
+gui.nc.config.turbine_power_per_mb=蒸汽基础能量密度
+gui.nc.config.turbine_power_per_mb.comment=不同种类的蒸汽被处理时的基础能量产出（单位：RF/mB）。顺序：高压蒸汽，低压蒸汽，蒸汽。
+gui.nc.config.turbine_expansion_level=蒸汽膨胀
+gui.nc.config.turbine_expansion_level.comment=不同种类的蒸汽的基础膨胀系数。顺序：高压蒸汽，低压蒸汽，蒸汽。
+gui.nc.config.turbine_spin_up_multiplier=蒸汽旋转加速系数
+gui.nc.config.turbine_spin_up_multiplier.comment=不同种类的蒸汽被处理时的旋转加速系数。顺序：高压蒸汽，低压蒸汽，蒸汽。
+gui.nc.config.turbine_mb_per_blade=转子叶片最大处理量
+gui.nc.config.turbine_mb_per_blade.comment=一个转子叶片能处理的最大蒸汽量（单位：mB/t）。
+gui.nc.config.turbine_sound_volume=涡轮机音效范围
+gui.nc.config.turbine_sound_volume.comment=调整能听到涡轮机声音的范围。
+
+gui.nc.config.category.quantum=量子配置
+gui.nc.config.category.quantum.tooltip=配置量子相关的内容。
+
+gui.nc.config.quantum_server_enabled=在专用服务器上启用
+gui.nc.config.quantum_server_enabled.comment=量子计算机可以在专用服务器上工作吗？默认为否 (false)，因为此功能会占用服务器内存，并且生成的代码存储在服务端而非客户端。
+gui.nc.config.quantum_max_qubits=最大量子位数量
+gui.nc.config.quantum_max_qubits.comment=一个量子计算机最多拥有的量子位数量。！！！警告！！！超过七个量子位的电路可能会消耗大量的系统资源，并占用巨大的内存！在调整此限制时需要进行 特别的 注意！
+gui.nc.config.quantum_max_qubits_code=最大编程用量子位数量
+gui.nc.config.quantum_max_qubits_code.comment=一个量子计算机最多拥有的用于生成代码的量子位数量。！！！警告！！！Gates with more control qubits will take increasingly more work and memory to decompile into basic operations, thus will generate increasingly mode code. If generating QASM code, IBM Q Experience's circuit composer will begin to struggle to deal with more than a few hundred lines. Increase this limit with EXTREME caution!
+gui.nc.config.quantum_angle_precision=逻辑门工作角度精确程度
+gui.nc.config.quantum_angle_precision.comment=通过设定由 0°-360° 均匀分布的角度的数量以控制可以设定逻辑门工作角度的角度。
+
+gui.nc.config.category.tool=工具配置
+gui.nc.config.category.tool.tooltip=配置工具。
+
+gui.nc.config.tool_mining_level=挖掘等级
+gui.nc.config.tool_mining_level.comment=挖掘等级的配置（木=0，石=1，以此类推）。顺序：硼，硼斫石锄，高强合金，高强合金斫石锄，硬碳合金，硬碳合金斫石锄，氮化硼，氮化硼斫石锄。
+gui.nc.config.tool_durability=耐久度
+gui.nc.config.tool_durability.comment=使用次数的上限。顺序：硼，硼斫石锄，高强合金，高强合金斫石锄，硬碳合金，硬碳合金斫石锄，氮化硼，氮化硼斫石锄。
+gui.nc.config.tool_speed=挖掘速度
+gui.nc.config.tool_speed.comment=不同方块的挖掘速度（木=2.0，石=4.0，以此类推）。顺序：硼，硼斫石锄，高强合金，高强合金斫石锄，硬碳合金，硬碳合金斫石锄，氮化硼，氮化硼斫石锄。
+gui.nc.config.tool_attack_damage=攻击伤害
+gui.nc.config.tool_attack_damage.comment=每一击造成的伤害（木=0.0，石=1.0，以此类推）。顺序：硼，硼斫石锄，高强合金，高强合金斫石锄，硬碳合金，硬碳合金斫石锄，氮化硼，氮化硼斫石锄。
+gui.nc.config.tool_enchantability=附魔能力
+gui.nc.config.tool_enchantability.comment=附魔的品质。顺序：硼，硼斫石锄，高强合金，高强合金斫石锄，硬碳合金，硬碳合金斫石锄，氮化硼，氮化硼斫石锄。
+gui.nc.config.tool_handle_modifier=[TiC2]匠魂2材料属性
+gui.nc.config.tool_handle_modifier.comment=材料的材料属性。顺序：硼，高强合金，硬碳合金，氮化硼。
+
+gui.nc.config.category.armor=盔甲配置
+gui.nc.config.category.armor.tooltip=配置盔甲。
+
+gui.nc.config.armor_durability=耐久度
+gui.nc.config.armor_durability.comment=盔甲的耐久度。顺序：硼，高强合金，硬碳合金，氮化硼，防护服。
+gui.nc.config.armor_boron=硼盔甲护甲值
+gui.nc.config.armor_boron.comment=不同部位盔甲的有效护甲值。顺序：靴子，护腿，胸甲，头盔。
+gui.nc.config.armor_tough=高强合金盔甲护甲值
+gui.nc.config.armor_tough.comment=不同部位盔甲的有效护甲值。顺序：靴子，护腿，胸甲，头盔。
+gui.nc.config.armor_hard_carbon=硬碳合金盔甲护甲值
+gui.nc.config.armor_hard_carbon.comment=不同部位盔甲的有效护甲值。顺序：靴子，护腿，胸甲，头盔。
+gui.nc.config.armor_boron_nitride=氮化硼盔甲护甲值
+gui.nc.config.armor_boron_nitride.comment=不同部位盔甲的有效护甲值。顺序：靴子，护腿，胸甲，头盔。
+gui.nc.config.armor_hazmat=防护服护甲值
+gui.nc.config.armor_hazmat.comment=不同部位盔甲的有效护甲值。顺序：靴子，护腿，上衣，头罩。
+gui.nc.config.armor_enchantability=附魔能力
+gui.nc.config.armor_enchantability.comment=附魔的品质。顺序：硼，高强合金，硬碳合金，氮化硼，防护服。
+gui.nc.config.armor_toughness=韧性
+gui.nc.config.armor_toughness.comment=盔甲的韧性。顺序：硼，高强合金，硬碳合金，氮化硼，防护服。
+
+gui.nc.config.category.entity=实体配置
+gui.nc.config.category.entity.tooltip=配置实体
+
+gui.nc.config.entity_tracking_range=追踪范围
+gui.nc.config.entity_tracking_range.comment=对于核电工艺的实体游戏会进行追踪性更新的范围。
+
+gui.nc.config.category.radiation=辐射配置
+gui.nc.config.category.radiation.tooltip=配置与核辐射相关的内容。
+
+gui.nc.config.radiation_enabled=启用辐射
+gui.nc.config.radiation_enabled.comment=启用核辐射吗？注意：启用后需要重启客户端以在 JEI 中查看与辐射相关的全部内容。
+
+gui.config.radiation.radiation_immune_players=玩家辐射免疫
+gui.config.radiation.radiation_immune_players.comment=被给予永久辐射免疫的玩家的 UUID 列表。
+
+gui.nc.config.radiation_world_chunks_per_tick=世界每 t 受辐射区块数
+gui.nc.config.radiation_world_chunks_per_tick.comment=世界中每 t 会更新所受辐射的区块的最大数量。
+gui.nc.config.radiation_player_tick_rate=玩家辐射更新速率
+gui.nc.config.radiation_player_tick_rate.comment=玩家每两次辐射更新之间经过的t数。
+
+gui.nc.config.radiation_worlds=世界背景辐射
+gui.nc.config.radiation_worlds.comment=各个维度的背景辐射。格式：'维度 ID_辐射'。
+gui.nc.config.radiation_biomes=生物群系背景辐射
+gui.nc.config.radiation_biomes.comment=各个生物群系的背景辐射。这些值与世界背景辐射堆叠在一起。格式：'模组 ID:生物群系名称_辐射'。
+gui.nc.config.radiation_structures=结构背景辐射
+gui.nc.config.radiation_structures.comment=各个结构的背景辐射。这些值与世界背景辐射或生物群系背景辐射堆叠在一起。格式：'结构名称_辐射'。
+gui.nc.config.radiation_world_limits=World Radiation Limit
+gui.nc.config.radiation_world_limits.comment=List of dimensions and their radiation level limits. 格式：'dimID_radiationLimit'.
+gui.nc.config.radiation_biome_limits=Biome Radiation Limit
+gui.nc.config.radiation_biome_limits.comment=List of biomes and their radiation level limits. These values stack with the underlying world's background radiation. 格式：'模组 ID:生物群系名称_辐射上限'。
+gui.nc.config.radiation_from_biomes_dims_blacklist=Biome Radiation Dimension Blacklist
+gui.nc.config.radiation_from_biomes_dims_blacklist.comment=List of IDs of dimensions to blacklist for biome background radiation.
+
+gui.nc.config.radiation_ores=矿石辐射
+gui.nc.config.radiation_ores.comment=List of ore dict entries and their stack radiation levels. Can be used to overwrite default values. Can use Unix-style wildcards for the ore name. 格式：'矿石名称_辐射'。
+gui.nc.config.radiation_items=物品辐射
+gui.nc.config.radiation_items.comment=List of items and their stack radiation levels. Can be used to overwrite default values. 格式：'模组 ID:名称:元数据_辐射'。
+gui.nc.config.radiation_blocks=方块辐射
+gui.nc.config.radiation_blocks.comment=List of blocks and their radiation levels. Can be used to overwrite default values. 格式：'模组 ID:名称:元数据_辐射'。
+gui.nc.config.radiation_fluids=流体辐射
+gui.nc.config.radiation_fluids.comment=List of fluids and their radiation levels. Can be used to overwrite default values. If the fluid has a corresponding block, then it will also be given a radiation level. 格式：'流体名称_辐射'。
+gui.nc.config.radiation_foods=食物辐射和辐射抗性
+gui.nc.config.radiation_foods.comment=List of foods and the rads and rad resistance gained on consumption. Negative values mean rads and rad resistance will be lost. Can be used to overwrite default values. 格式：'模组 ID:名称:元数据_辐射_辐射抗性'。
+
+gui.nc.config.radiation_ores_blacklist=矿石辐射黑名单
+gui.nc.config.radiation_ores_blacklist.comment=List of ore dict entries that will be forced not have a radiation level. Can use Unix-style wildcards for the ore name. 格式：'矿石名称'。
+gui.nc.config.radiation_items_blacklist=物品辐射黑名单
+gui.nc.config.radiation_items_blacklist.comment=List of items that will be forced not have a radiation level. 格式：'模组 ID:名称:元数据'。
+gui.nc.config.radiation_blocks_blacklist=方块辐射黑名单
+gui.nc.config.radiation_blocks_blacklist.comment=List of blocks that will be forced not have a radiation level. 格式：'模组 ID:名称:元数据'。
+gui.nc.config.radiation_fluids_blacklist=流体辐射黑名单
+gui.nc.config.radiation_fluids_blacklist.comment=List of fluids that will be forced not have a radiation level. 格式：'流体名称'。
+
+gui.nc.config.max_player_rads=玩家最大辐射值
+gui.nc.config.max_player_rads.comment=玩家受到致命辐射前的最大辐射值。
+gui.nc.config.radiation_player_decay_rate=玩家辐射速率降低速率
+gui.nc.config.radiation_player_decay_rate.comment=随着时间的流逝，玩家所受的辐射速率会逐渐降低。形式为百分比，表示每t剩余的辐射速率所占比例。
+gui.nc.config.max_entity_rads=实体最大辐射值
+gui.nc.config.max_entity_rads.comment=实体及其最大辐射值的列表。会覆盖默认的设定（每 2 点血量 100 Rads）。格式：'模组 ID:名称_最大辐射值'。
+gui.nc.config.radiation_entity_decay_rate=实体辐射速率降低速率
+gui.nc.config.radiation_entity_decay_rate.comment=随着时间的流逝，实体所受的辐射速率会逐渐降低。形式为百分比，表示每t剩余的辐射速率所占比例。
+gui.nc.config.radiation_spread_rate=Chunk Radiation Spread Rate
+gui.nc.config.radiation_spread_rate.comment=Controls the rate at which radiation will spread from chunk to chunk.
+gui.nc.config.radiation_spread_gradient=Chunk Radiation Spread Gradient
+gui.nc.config.radiation_spread_gradient.comment=Controls how high the ratio of radiation levels between chunks must be for radiation to spread between them.
+gui.nc.config.radiation_decay_rate=Chunk Radiation Decay Rate
+gui.nc.config.radiation_decay_rate.comment=Controls the rate at which radiation decreases in a chunk over time.
+gui.nc.config.radiation_lowest_rate=最低辐射率
+gui.nc.config.radiation_lowest_rate.comment=玩家的自身辐射与背景辐射的最低值，低于这个值的辐射率将被视为 0（单位：Rad/t）。
+gui.nc.config.radiation_chunk_limit=区块辐射上限
+gui.nc.config.radiation_chunk_limit.comment=一个区块最大的辐射率（单位：Rad/t）。值为负时没有上限。
+gui.nc.config.radiation_check_blocks=方块辐射提供
+gui.nc.config.radiation_check_blocks.comment=非方块实体会作用于区块辐射吗？
+
+gui.nc.config.radiation_sound_volumes=Radiation Sound Volumes
+gui.nc.config.radiation_sound_volumes.comment=Modifiers for the volumes of radiation sound effects. Order: Geiger counter ticking, RadAway use, Rad-X use, food effects, chems wearing off, radiation badge breaking, radiation level warning, feral ghoul attack.
+gui.nc.config.radiation_check_blocks=Block Radiation Contribution
+gui.nc.config.radiation_check_blocks.comment=Should non-tile entity blocks contribute to chunk radiation?
+gui.nc.config.radiation_block_effect_max_rate=Radiation Block Mutation Max Rate
+gui.nc.config.radiation_block_effect_max_rate.comment=The maximum number of attempts per chunk radiation update to mutate blocks.
+gui.nc.config.radiation_rain_mult=下雨时辐射倍率
+gui.nc.config.radiation_rain_mult.comment=下雨时辐射增长的倍率。
+gui.nc.config.radiation_swim_mult=游泳时辐射倍率
+gui.nc.config.radiation_swim_mult.comment=游泳时辐射增长的倍率。
+
+gui.nc.config.radiation_radaway_amount=抗辐宁辐射消除
+gui.nc.config.radiation_radaway_amount.comment=抗辐宁消除的辐射。
+gui.nc.config.radiation_radaway_slow_amount=缓效抗辐宁辐射消除
+gui.nc.config.radiation_radaway_slow_amount.comment=缓效抗辐宁消除的辐射。
+gui.nc.config.radiation_radaway_rate=抗辐宁辐射消除速率
+gui.nc.config.radiation_radaway_rate.comment=抗辐宁消除辐射的速率（单位：Rad/t）。
+gui.nc.config.radiation_radaway_slow_rate=缓效抗辐宁辐射消除速率
+gui.nc.config.radiation_radaway_slow_rate.comment=缓效抗辐宁消除辐射的速率（单位：Rad/t）。
+gui.nc.config.radiation_poison_time=辐射生效时间
+gui.nc.config.radiation_poison_time.comment=辐射效果在玩家所受辐射量上显现的时间间隔（单位：t）。
+gui.nc.config.radiation_radaway_cooldown=抗辐宁冷却时间
+gui.nc.config.radiation_radaway_cooldown.comment=两次服用抗辐宁之间必须等待的时间（单位：t）。
+gui.nc.config.radiation_rad_x_amount=降辐剂辐射抗性
+gui.nc.config.radiation_rad_x_amount.comment=服用降辐剂后的辐射抗性。
+gui.nc.config.radiation_rad_x_lifetime=降辐剂效果持续时间
+gui.nc.config.radiation_rad_x_lifetime.comment=一剂降辐剂的效果持续时间（单位：t）。
+gui.nc.config.radiation_rad_x_cooldown=降辐剂冷却时间
+gui.nc.config.radiation_rad_x_cooldown.comment=两次服用降辐剂之间必须等待的时间（单位：t）。
+gui.nc.config.radiation_shielding_level=辐射屏蔽板抗性
+gui.nc.config.radiation_shielding_level.comment=辐射屏蔽板提供的辐射抗性。顺序：轻，中，重。
+gui.nc.config.radiation_tile_shielding=辐射容器屏蔽
+gui.nc.config.radiation_tile_shielding.comment=If enabled along with hardcore containers, radiation shielding can be applied to tile entities.
+gui.nc.config.radiation_hazmat_shielding=Radiation Hazmat Shielding
+gui.nc.config.radiation_hazmat_shielding.comment=The rad resistance levels provided by each piece of the hazmat suit. 顺序：headwear, chestpiece, leggings, boots.
+gui.nc.config.radiation_scrubber_fraction=Scrubber Max Removal Rate
+gui.nc.config.radiation_scrubber_fraction.comment=The maximum rate at which a 100% efficiency scrubber will remove radiation as a fraction of the radiation level of the chunk it is in. Only applies when using linear scrubbing mechanics.
+gui.nc.config.radiation_scrubber_radius=Scrubber Search Radius
+gui.nc.config.radiation_scrubber_radius.comment=The range of scrubbers' search for occluding blocks.
+gui.nc.config.radiation_scrubber_non_linear=Non-linear Scrubber Mechanics
+gui.nc.config.radiation_scrubber_non_linear.comment=Use a non-linear scrubbing rate equation instead of the linear behaviour?
+gui.nc.config.radiation_scrubber_param=Non-linear Scrubber Parameters
+gui.nc.config.radiation_scrubber_param.comment=The four parameters a,b,c,d in the non-linear scrubbing rate equation 'F = a^[-(S/b)^(S/c + 1)^(1/d)]', where 'F' is the remaining fraction of radiation left in the chunk's update buffer after scrubbing and 'S' is the effective number of scrubbers in the chunk after accounting for their efficiencies. It is recommended that you only modify these if you know what you are doing.
+gui.nc.config.radiation_scrubber_time=Scrubber Recipe Lifetime
+gui.nc.config.radiation_scrubber_time.comment=The lifetime in ticks of one item or 250 mB of fluid in an active scrubber. 顺序：borax dust, RadAway, Slow-Acting RadAway
+gui.nc.config.radiation_scrubber_power=Scrubber Recipe Power Use
+gui.nc.config.radiation_scrubber_power.comment=The power in RF/t scrubbers need to be supplied to run with these ingredients. 顺序：borax dust, RadAway, Slow-Acting RadAway
+gui.nc.config.radiation_scrubber_efficiency=Scrubber Recipe Efficiency
+gui.nc.config.radiation_scrubber_efficiency.comment=The efficiency multiplier of an active scrubber using these ingredients. 顺序：borax dust, RadAway, Slow-Acting RadAway
+gui.nc.config.radiation_geiger_block_redstone=Geiger Block Comparator Scale
+gui.nc.config.radiation_geiger_block_redstone.comment=The radiation level, as a power of ten, at which the Geiger counter block will emit a full-strength comparator signal.
+
+##################################
+# 。。。上面的这段未翻译完全。。。 #
+##################################
+
+gui.nc.config.radiation_shielding_default_recipes=辐射屏蔽板默认合成
+gui.nc.config.radiation_shielding_default_recipes.comment=如果设定为 (true) ，那么所有的盔甲都可以被与辐射屏蔽板组装在一起。
+gui.nc.config.radiation_shielding_item_blacklist=辐射屏蔽板黑名单
+gui.nc.config.radiation_shielding_item_blacklist.comment=默认情况下不能与辐射屏蔽板组装在一起的盔甲列表。格式：'模组 ID:盔甲名称:元数据'。
+gui.nc.config.radiation_shielding_custom_stacks=辐射屏蔽板白名单
+gui.nc.config.radiation_shielding_custom_stacks.comment=默认情况下可以与辐射屏蔽板组装在一起的盔甲列表。一般情况下仅在默认的配方被禁用时使用。格式：'模组 ID:盔甲名称:元数据'。
+gui.nc.config.radiation_shielding_default_levels=盔甲默认辐射抗性
+gui.nc.config.radiation_shielding_default_levels.comment=盔甲默认的辐射抗性值的列表。格式：'模组 ID:盔甲名称:元数据_抗性'。注意：这并不是添加该设定的唯一方法，如果你安装了 CrT，你可以通过修改 NBT “ncRadiationResistance” 来实现对盔甲辐射抗性的修改。
+
+gui.nc.config.radiation_hud_size=辐射 HUD 尺寸
+gui.nc.config.radiation_hud_size.comment=辐射信息在 HUD 上的尺寸。
+gui.nc.config.radiation_hud_position=辐射 HUD 位置
+gui.nc.config.radiation_hud_position.comment=辐射 HUD 自以屏幕中心为原点顺时针计算的角度。计算规则：0 度是屏幕的正上方，45 度是屏幕的右上方，以此类推。
+gui.nc.config.radiation_hud_position_cartesian=辐射 HUD 笛卡尔位置
+gui.nc.config.radiation_hud_position_cartesian.comment=可选配置，如果不希望辐射 HUD 位于屏幕边缘或角落则可以启用，效果会覆盖以角度计算的配置。配置需要包含两个双精度浮点数 [x,y] 以表示辐射 HUD 自屏幕左上角计算靠右 (x) 和靠下 (y) 的程度。
+gui.nc.config.radiation_hud_text_outline=辐射 HUD 信息边框
+gui.nc.config.radiation_hud_text_outline.comment=如果设定为 (true) ，HUD 下部的信息将会拥有一个边框。
+
+gui.nc.config.radiation_require_counter=相关信息显示对计数器的需求
+gui.nc.config.radiation_require_counter.comment=如果设定为 (false) ，即使并未持有盖革计数器，辐射 HUD 也仍然会显示，并且计数器发出的声音也仍然能被听到。
+gui.nc.config.radiation_chunk_boundaries=计数器/净化仪区块边界
+gui.nc.config.radiation_chunk_boundaries.comment=如果设定为 (true) ，手持或看向盖革计数器方块或辐射净化仪时会显示其所在区块的边界。
+gui.nc.config.radiation_unit_prefixes=辐射单位前缀
+gui.nc.config.radiation_unit_prefixes.comment=如果设定为正整数，到这个数的辐射等级不会包含单位前缀。
+
+gui.nc.config.radiation_badge_durability=辐射徽章耐久
+gui.nc.config.radiation_badge_durability.comment=在损坏前一个辐射徽章能受到的辐射量。
+gui.nc.config.radiation_badge_info_rate=辐射徽章信息显示间隔
+gui.nc.config.radiation_badge_info_rate.comment=辐射徽章两次警示玩家之间受到的辐射量。
+
+gui.nc.config.radiation_hardcore_stacks=硬核辐射
+gui.nc.config.radiation_hardcore_stacks.comment=如果设定为 (true) ，玩家物品栏中的物品堆（Item Stack）产生辐射时，除了辐射玩家以外也会一并辐射玩家所在的区块。实体物品栏中的物品堆亦同。
+gui.nc.config.radiation_hardcore_containers=硬核容器
+gui.nc.config.radiation_hardcore_containers.comment=容器中的物品产生辐射时，会以此项乘以自身辐射率的辐射率辐射方块实体所在的区块。
+gui.nc.config.radiation_dropped_items=掉落物辐射
+gui.nc.config.radiation_dropped_items.comment=掉落物产生辐射时，会辐射其所在的区块。
+gui.nc.config.radiation_death_persist=辐射死亡保留
+gui.nc.config.radiation_death_persist.comment=如果设定为 (true) ，玩家死亡后自身的一定辐射不会被消除。
+gui.nc.config.radiation_death_persist_fraction=辐射死亡保留比例
+gui.nc.config.radiation_death_persist_fraction.comment=辐射死亡保留设定为 (true) 时玩家辐射保留的比例。
+gui.nc.config.radiation_death_immunity_time=死亡免疫
+gui.nc.config.radiation_death_immunity_time.comment=死亡后对辐射免疫的时间（单位：秒）。
+
+gui.nc.config.radiation_player_debuff_lists=玩家辐射效果
+gui.nc.config.radiation_player_debuff_lists.comment=对于玩家，不同辐射等级下会获得的效果列表。格式：'辐射百分等级_效果名称 A@强度,效果名称 B@强度,……,效果名称 Z@强度'。
+gui.nc.config.radiation_passive_debuff_lists=被动生物辐射效果
+gui.nc.config.radiation_passive_debuff_lists.comment=对于被动生物，不同辐射等级下会获得的效果列表。格式：'辐射百分等级_效果名称 A@强度,效果名称 B@强度,……,效果名称 Z@强度'。
+gui.nc.config.radiation_mob_buff_lists=生物辐射效果
+gui.nc.config.radiation_mob_buff_lists.comment=对于生物，不同辐射等级下会获得的效果列表。格式：'辐射百分等级_效果名称 A@强度,效果名称 B@强度,……,效果名称 Z@强度'。
+
+gui.nc.config.radiation_player_rads_fatal=玩家最大辐射致命
+gui.nc.config.radiation_player_rads_fatal.comment=如果设定为 (true) ，玩家自身辐射值达到上限时将死亡。
+gui.nc.config.radiation_passive_rads_fatal=被动生物最大辐射致命
+gui.nc.config.radiation_passive_rads_fatal.comment=如果设定为 (true) ，被动生物自身辐射值达到上限时将死亡。
+gui.nc.config.radiation_mob_rads_fatal=生物最大辐射致命
+gui.nc.config.radiation_mob_rads_fatal.comment=如果设定为 (true) ，生物自身辐射值达到上限时将死亡。
+
+gui.nc.config.radiation_horse_armor=马铠
+gui.nc.config.radiation_horse_armor.comment=如果设定为 (true) ，那么马铠也可以被与辐射屏蔽板组装在一起。
+
+gui.nc.config.category.registration=注册配置
+gui.nc.config.category.registration.tooltip=配置对内容的添加。
+
+gui.nc.config.register_processor=注册单方块机器
+gui.nc.config.register_processor.comment=添加单方块机器到游戏中吗？顺序：核熔炉，小制造机，分离器，衰变加速器，燃料再处理机，合金炉，流体注入器，熔化机，超冷却机，电解机，组合机，冷却器，压缩机，化学反应器，流体混合器，结晶器，溶解器，流体提取机，离心机，岩石粉碎机。
+gui.nc.config.register_passive=注册无耗材机器
+gui.nc.config.register_passive.comment=添加无耗材机器到游戏中吗？顺序：造石机、无限水源、氮收集器。
+gui.nc.config.register_battery=注册电池
+gui.nc.config.register_battery.comment=添加电池到游戏中吗？顺序：伏打电堆，锂离子电池块。
+gui.nc.config.register_quantum=注册量子计算机
+gui.nc.config.register_quantum.comment=添加量子计算机到游戏中吗？
+gui.nc.config.register_tool=注册工具
+gui.nc.config.register_tool.comment=添加工具到游戏中吗？顺序：硼，高强合金，硬碳合金，氮化硼。
+gui.nc.config.register_tic_tool=注册[TiC2]匠魂2 材料
+gui.nc.config.register_tic_tool.comment=下列材料会被注册为[TiC2]匠魂2 的材料吗？顺序：硼，高强合金，硬碳合金，氮化硼，钍，铀，镁，巧克力。
+gui.nc.config.register_armor=注册盔甲
+gui.nc.config.register_armor.comment=添加盔甲到游戏中吗？顺序：硼，高强合金，硬碳合金，氮化硼。
+gui.nc.config.register_conarm_armor=注册[ConArm]匠魂兵工厂材料
+gui.nc.config.register_conarm_armor.comment=下列材料会被注册为[ConArm]匠魂兵工厂的材料吗？顺序：硼，高强合金，硬碳合金，氮化硼，钍，铀，镁，巧克力。
+gui.nc.config.register_entity=注册实体生成
+gui.nc.config.register_entity.comment=下列实体会生成吗？顺序：狂尸鬼。
+gui.nc.config.register_fluid_blocks=注册可被放置的流体
+gui.nc.config.register_fluid_blocks.comment=添加可被放置的流体吗？请在方块 ID 不多的情况下尽可能设定为 (false) 。
+gui.nc.config.register_cofh_fluids=注册与 CoFH 相关的流体
+gui.nc.config.register_cofh_fluids.comment=添加[TE5]热力膨胀5 中的个别流体吗？建议在没有安装任何与 CoFH 相关的模组的情况下设定为 (true) 。
+gui.nc.config.register_projecte_emc=注册基础 EMC 值
+gui.nc.config.register_projecte_emc.comment=为核电工艺的材料添加 EMC 值吗？
+
+gui.nc.config.category.misc=杂项配置
+gui.nc.config.category.misc.tooltip=配置一些其他的内容。
+
+gui.nc.config.single_creative_tab=单一创造模式标签
+gui.nc.config.single_creative_tab.comment=将所有核电工艺添加的创造模式标签合并到一个大的标签当中吗？
+gui.nc.config.ctrl_info=使用 Ctrl 键查看更多信息
+gui.nc.config.ctrl_info.comment=使用 Ctrl 键代替 Shift 键作为查看更多信息的键位吗？
+gui.nc.config.jei_chance_items_include_null=在 JEI 中显示产出几率
+gui.nc.config.jei_chance_items_include_null.comment=如果有可能不产出，JEI 中的产出循环显示时会显示空格子吗？如果设定为 (false) ，有产出的格子的显示数量将会至少为 1，尽管这会使显示更加简洁，但是也可能为查看者带来对一些配方的误解。注意：这只会影响到 JEI 中的显示，而非实际的产出。
+
+gui.nc.config.rare_drops=启用稀有掉落
+gui.nc.config.rare_drops.comment=生物会掉落稀有掉落物吗？
+gui.nc.config.dungeon_loot=启用战利品生成
+gui.nc.config.dungeon_loot.comment=核电工艺的物品会生成在箱子中吗？
+
+gui.nc.config.ore_dict_raw_material_recipes=启用材料矿词配方
+gui.nc.config.ore_dict_raw_material_recipes.comment=矿词输入是否会被用于“锭 <-> 块”在工作台内的转换和“粉 -> 锭”在熔炉内的配方？如果设定为 (false) ，将会采用核电工艺的配方。
+gui.nc.config.ore_dict_priority_bool=启用输出矿词模组优先
+gui.nc.config.ore_dict_priority_bool.comment=输出会被下方的模组列表控制优先级吗？如果设定为 (false) ，将会输出同矿词默认的物品。
+gui.nc.config.ore_dict_priority=矿词模组优先
+gui.nc.config.ore_dict_priority.comment=决定输出的优先级：靠前的模组优先级更高。这被用于配置矿词相同模组不同的情况下的输出。如果没有找到合适的模组，将会输出同矿词默认的物品。
+
+gui.nc.computer.method_not_found=这个方法并不该显示在这里——它丢失了一个方法，你已……多尴尬啊……多尴尬啊！来 GitHub 库，清空你的脑袋，我们会找到你失去的方法。
+gui.nc.computer.invalid_method_number=无效方法值
+gui.nc.computer.number_of_arguments_error=已使用参数共 %s 个，预计 %s 个
+gui.nc.computer.invalid_argument_error=无效参数共 %s 个，预计 %s 个
+gui.nc.computer.integer_too_small_error=参数数量 %s 过小，预计需要至少 %s 个
+gui.nc.computer.integer_too_large_error=参数数量 %s 过大，预计需要最多 %s 个
+
+# Wasted Configurations
+gui.nc.config.generator_rf_per_eu=RF 与 EU 的转换率
+gui.nc.config.generator_rf_per_eu.comment=产能时 RF 与 EU 的转换率。
+
+gui.nc.config.fission_moderator_extra_power.comment=<重制版中无效>*只影响新结构*决定每个与反应堆燃料单元接触的减速剂产生的额外功率。该值等于六个减速剂的总额外产能与被这六个减速剂完全包围的燃料单元的产能比值。每个减速剂贡献六分之一的总额外产能（额外产能倍率线性提升）。
+
+gui.nc.config.category.accelerator=加速器配置
+gui.nc.config.category.accelerator.tooltip=配置与粒子加速相关的内容。
+
+gui.nc.config.accelerator_electromagnet_power=超导电磁铁功率
+gui.nc.config.accelerator_electromagnet_power.comment=让一个超导电磁铁保持生效的能量消耗（单位：RF/t）。
+gui.nc.config.accelerator_supercooler_coolant=超导超冷却机冷却液
+gui.nc.config.accelerator_supercooler_coolant.comment=让一个超导超冷却机保持生效的液氦消耗（单位：mB/t）。
+
+# ZeroCore
+zerocore.api.nc.multiblock.validation.success=多方块结构有效
+zerocore.api.nc.multiblock.validation.too_few_parts=多方块结构过小
+zerocore.api.nc.multiblock.validation.machine_too_large=多方块结构过大，它最多能在 %2$s 的尺寸内包含 %1$s 个方块
+zerocore.api.nc.multiblock.validation.machine_too_small=多方块结构过小，它最少要在 %2$s 的尺寸内包含 %1$s 个方块
+zerocore.api.nc.multiblock.validation.invalid_part=位于 [%1$d, %2$d, %3$d] 的部分与这个机器不兼容
+zerocore.api.nc.multiblock.validation.invalid_part_disconnected=位于 [%1$d, %2$d, %3$d] 的方块并未连接到多方块结构
+zerocore.api.nc.multiblock.validation.invalid_part_for_frame=位于 [%1$d, %2$d, %3$d] 的方块不能作为机器的框架
+zerocore.api.nc.multiblock.validation.invalid_part_for_bottom=位于 [%1$d, %2$d, %3$d] 的方块不能作为机器底面的一部分
+zerocore.api.nc.multiblock.validation.invalid_part_for_top=位于 [%1$d, %2$d, %3$d] 的方块不能作为机器顶层的一部分
+zerocore.api.nc.multiblock.validation.invalid_part_for_sides=位于 [%1$d, %2$d, %3$d] 的方块不能作为机器边缘的一部分
+zerocore.api.nc.multiblock.validation.invalid_part_for_interior=位于 [%1$d, %2$d, %3$d] 的方块不能作为机器内部的一部分
+zerocore.api.nc.multiblock.validation.invalid_logic=这个多方块结构并不是一个有效的结构——它丢失了一个逻辑核心，你已……多尴尬啊……多尴尬啊！来 GitHub 库，清空你的脑袋，我们会找到你失去的逻辑。
+
+nc.block.vent_toggle=切换出入口为
+nc.block.fission_vent_mode.input=输入
+nc.block.fission_vent_mode.output=输出
+nc.block.vent_toggle.mode=模式！
+
+nc.block.port_toggle=切换端口为
+nc.block.fission_port_mode.input=输入
+nc.block.fission_port_mode.output=输出
+nc.block.port_toggle.mode=模式！
+
+nc.block.fluid_toggle=将本面模式切换为：
+nc.block.fluid_toggle_opposite=将反面模式切换为：
+
+nc.block.salt_heater_fluid_side.default=默认
+nc.block.salt_heater_fluid_side.disabled=禁用
+nc.block.salt_heater_fluid_side.hot_coolant_out=热冷却液输出
+nc.block.salt_heater_fluid_side.coolant_spread=冷却液分配
+
+nc.block.salt_vessel_fluid_side.default=默认
+nc.block.salt_vessel_fluid_side.disabled=禁用
+nc.block.salt_vessel_fluid_side.depleted_out=枯竭燃料输出
+nc.block.salt_vessel_fluid_side.fuel_spread=燃料分配
+
+nc.block.exchanger_tube_fluid_side.disabled=禁用
+nc.block.exchanger_tube_fluid_side.default=默认
+nc.block.exchanger_tube_fluid_side.product_out=产物输出
+nc.block.exchanger_tube_fluid_side.input_spread=输入分配
+
+gui.nc.inventory.shift_for_info=按住 Shift 查看更多信息
+gui.nc.inventory.ctrl_for_info=按住 Ctrl 查看更多信息
+
+nuclearcraft.container.nuclear_furnace=核熔炉
+nuclearcraft.container.manufactory=小制造机
+nuclearcraft.container.separator=分离器
+nuclearcraft.container.decay_hastener=衰变加速器
+nuclearcraft.container.fuel_reprocessor=燃料再处理机
+nuclearcraft.container.alloy_furnace=合金炉
+nuclearcraft.container.infuser=流体注入器
+nuclearcraft.container.melter=熔化机
+nuclearcraft.container.supercooler=超冷却机
+nuclearcraft.container.electrolyzer=电解机
+nuclearcraft.container.assembler=组合机
+nuclearcraft.container.ingot_former=冷却器
+nuclearcraft.container.pressurizer=压缩机
+nuclearcraft.container.chemical_reactor=化学反应器
+nuclearcraft.container.salt_mixer=流体混合器
+nuclearcraft.container.crystallizer=结晶器
+nuclearcraft.container.enricher=溶解器
+nuclearcraft.container.extractor=流体提取器
+nuclearcraft.container.centrifuge=离心机
+nuclearcraft.container.rock_crusher=岩石粉碎机
+nuclearcraft.container.machine_config=机器配置
+
+nuclearcraft.container.machine_interface=机器控制界面
+nuclearcraft.container.bin=通用垃圾桶
+
+nuclearcraft.container.cobblestone_generator=造石机
+nuclearcraft.container.cobblestone_generator_compact=压缩造石机
+nuclearcraft.container.cobblestone_generator_dense=致密造石机
+nuclearcraft.container.water_source=无限水源
+nuclearcraft.container.water_source_compact=压缩无限水源
+nuclearcraft.container.water_source_dense=致密无限水源
+nuclearcraft.container.nitrogen_collector=氮收集器
+nuclearcraft.container.nitrogen_collector_compact=压缩氮收集器
+nuclearcraft.container.nitrogen_collector_dense=致密氮收集器
+
+nuclearcraft.container.radiation_scrubber=辐射净化仪
+
+gui.nc.container.no_cluster=无集群！
+
+gui.nc.container.fission_controller.clusters=集群数量：
+gui.nc.container.fission_controller.sparsity=稀疏效能倍率：
+gui.nc.container.fission_controller.useful_parts=可用部分：
+gui.nc.container.fission_controller.temperature=外壳温度：
+gui.nc.container.fission_controller.net_heating=外壳净热量：
+gui.nc.container.fission_controller.effective_heat=外壳有效热量：
+gui.nc.container.fission_controller.reserved_heat=外壳热量储备：
+gui.nc.container.fission_controller.net_cluster_heating=集群净冷却：
+gui.nc.container.fission_controller.total_cluster_cooling=集群总冷却：
+gui.nc.container.fission_controller.efficiency=平均效能：
+gui.nc.container.fission_controller.heat_mult=平均热量倍率：
+gui.nc.container.fission_controller.heat_stored=外壳热量等级：
+
+gui.nc.container.fission_irradiator.irradiator=裂变辐照器
+gui.nc.container.fission_irradiator.heat_stored=集群热量等级：
+
+gui.nc.container.solid_fission_controller.reactor=裂变燃料反应堆
+gui.nc.container.solid_fission_controller.output_rate=产出速率：
+
+gui.nc.container.solid_fission_cell.cell=裂变燃料单元：
+gui.nc.container.solid_fission_cell.heat_stored=集群热量等级：
+
+gui.nc.container.salt_fission_controller.reactor=熔盐反应堆
+gui.nc.container.salt_fission_controller.heating_speed_multiplier=平均加热速率：
+
+gui.nc.container.salt_fission_vessel.vessel=裂变燃料容器
+gui.nc.container.salt_fission_vessel.heat_stored=集群热量等级：
+gui.nc.container.salt_fission_heater.heater=裂变冷却液加热器
+gui.nc.container.salt_fission_heater.heat_stored=集群热量等级：
+
+gui.nc.container.fission_heater_port.name=裂变冷却液加热器端口
+
+gui.nc.container.fusion_core.reactor=聚变反应堆
+gui.nc.container.fusion_core.ring_incomplete=磁环未完成
+gui.nc.container.fusion_core.ring_incomplete_at=磁环未完成
+gui.nc.container.fusion_core.ring_blocked=磁环内部受阻
+gui.nc.container.fusion_core.power_issue=电磁铁未供能
+gui.nc.container.fusion_core.incorrect_structure=结构无效
+gui.nc.container.fusion_core.no_problem=正常
+gui.nc.container.fusion_core.size=磁环大小：
+gui.nc.container.fusion_core.energy=能量：
+gui.nc.container.fusion_core.power=功率：
+gui.nc.container.fusion_core.heat=热量：
+gui.nc.container.fusion_core.temperature=温度：
+gui.nc.container.fusion_core.temperature_change=温度变化：
+gui.nc.container.fusion_core.cooling_rate=主动冷却率：
+gui.nc.container.fusion_core.efficiency=效能：
+gui.nc.container.fusion_core.fuels=现有燃料：
+gui.nc.container.fusion_core.empty=空
+gui.nc.container.fusion_core.reactor_not_found=未能与聚变反应堆建立连接——结构无效
+
+gui.nc.container.heat_exchanger_controller.heat_exchanger=热交换机（半成品）
+gui.nc.container.heat_exchanger_controller.tubes=管道数量：
+gui.nc.container.heat_exchanger_controller.efficiency=平均效能：
+gui.nc.container.heat_exchanger_controller.efficiency_max=最高平均效能：
+gui.nc.container.heat_exchanger_controller.active_percent=有效管道：
+
+gui.nc.container.turbine_controller.turbine=涡轮机
+gui.nc.container.turbine_controller.power=能量输出：
+gui.nc.container.turbine_controller.dynamo_efficiency=发电效能：
+gui.nc.container.turbine_controller.dynamo_coil_count=线圈数量：
+gui.nc.container.turbine_controller.expansion_level=膨胀系数：
+gui.nc.container.turbine_controller.rotor_efficiency=转子效能：
+gui.nc.container.turbine_controller.fluid_rate=输入：
+gui.nc.container.turbine_controller.power_bonus=输入加成：
+
+gui.nc.container.energy_stored=能量储存：
+gui.nc.container.process_power=功率：
+gui.nc.container.power_gen=能量产出：
+gui.nc.container.speed_multiplier=速度提升倍率：
+gui.nc.container.power_multiplier=能量消耗倍率：
+gui.nc.container.no_energy=无需能量供应！
+gui.nc.container.shift_clear_tank=按住 Shift 单击以清空
+gui.nc.container.shift_clear_filter=按住 Shift 单击以清空
+gui.nc.container.change_tanks_mode=阻止输入溢出
+gui.nc.container.void_leftover_fluid=清空遗留流体
+gui.nc.container.void_outputs=清空输出溢出
+gui.nc.container.comparator_mode=效能/热量比较器
+
+gui.nc.container.machine_side_config=各面配置
+gui.nc.container.redstone_control=红石控制
+gui.nc.container.input_item_config=输入格配置
+gui.nc.container.input_tank_config=输入液体配置
+gui.nc.container.output_item_config=输出格配置
+gui.nc.container.output_tank_config=输出液体配置
+gui.nc.container.upgrade_config=升级格配置
+
+gui.nc.container.slot_setting_config=物品格配置：
+gui.nc.container.tank_setting_config=液体格配置：
+gui.nc.container.default_setting_config=默认
+gui.nc.container.void_excess_setting_config=清空溢出
+gui.nc.container.void_setting_config=清空全部
+
+gui.nc.container.bottom_config=底部：
+gui.nc.container.top_config=顶部：
+gui.nc.container.left_config=左侧：
+gui.nc.container.right_config=右侧：
+gui.nc.container.front_config=正面：
+gui.nc.container.back_config=背面：
+gui.nc.container.in_config=输入
+gui.nc.container.out_config=输出
+gui.nc.container.both_config=输入/输出
+gui.nc.container.non_config=无
+
+info.nuclearcraft.item_energy.energy_stored=能量储存：
+info.nuclearcraft.item_energy.power_tier=EU 能量等级：
+
+gui.nc.container.shift_clear_multiblock=按住 Shift 单击以 彻底 清除所有材料
+
+nuclearcraft.multiblock_validation.invalid_block=位于 [%1$d, %2$d, %3$d] 的方块%4$s无效
+nuclearcraft.multiblock_validation.no_controller=完成多方块结构必须要有一个控制器
+nuclearcraft.multiblock_validation.too_many_controllers=完成多方块结构必须要有且仅有一个控制器
+
+nuclearcraft.multiblock_validation.fission_reactor.prohibit_cells=这不是一个固态燃料反应堆——这里不应该有单元！
+nuclearcraft.multiblock_validation.fission_reactor.prohibit_sinks=这不是一个固态燃料反应堆——这里不应该有散热器！
+nuclearcraft.multiblock_validation.fission_reactor.prohibit_vessels=这不是一个熔盐反应堆——这里不应该有容器！
+nuclearcraft.multiblock_validation.fission_reactor.prohibit_heaters=这不是一个熔盐反应堆——这里不应该有加热器！
+
+nuclearcraft.multiblock.fission_reactor_source.no_target=没有目标！
+nuclearcraft.multiblock.fission_reactor_source.target=目标为位于 [%1$d, %2$d, %3$d] 的%4$s
+
+nuclearcraft.multiblock_validation.heat_exchanger.prohibit_exchanger_tubes=这不是一个热交换机——这里不应该有热交换管道！
+nuclearcraft.multiblock_validation.heat_exchanger.prohibit_condenser_tubes=这不是一个冷凝机——这里不应该有冷凝管道！
+
+nuclearcraft.multiblock_validation.turbine.need_bearings=需要两组相对的轴承。
+nuclearcraft.multiblock_validation.turbine.bearings_side_square=轴承所在的墙壁必须是矩形的。
+nuclearcraft.multiblock_validation.turbine.valve_wrong_wall=输入口和输出口必须相对且位于轴承所在的墙壁上。
+nuclearcraft.multiblock_validation.turbine.bearings_centre_and_square=轴承组必须是正方形的并且位于相对的两面墙的正中央。
+nuclearcraft.multiblock_validation.turbine.shaft_centre=转子轴必须完全连接到轴承。
+nuclearcraft.multiblock_validation.turbine.space_between_blades=叶片和定子以外的部分必须空着。
+nuclearcraft.multiblock_validation.turbine.different_type_blades=每个转子轴上四个面所对应的叶片和定子必须完全相同。
+nuclearcraft.multiblock_validation.turbine.missing_blades=每个转子轴上四个面所对应的叶片和定子必须完全搭建到墙壁。
+
+nuclearcraft.multiblock_validation.quantum_computer.server_disabled=服务端配置文件允许时，量子计算机才能正常工作。
+nuclearcraft.multiblock_validation.quantum_computer.too_many_qubits=现在有 %s 个量子位连接到了这个量子计算机上——最多只能有 %s 个。
+
+nuclearcraft.collector.jei_name=收集器
+nuclearcraft.multiblock_gui.fission_moderator.jei_name=裂变减速剂
+nuclearcraft.multiblock_gui.fission_reflector.jei_name=裂变反射器
+nuclearcraft.multiblock_gui.fission_irradiator.jei_name=裂变辐照器
+nuclearcraft.multiblock_gui.pebble_fission.jei_name=球床裂变
+nuclearcraft.multiblock_gui.solid_fission.jei_name=固态燃料裂变
+nuclearcraft.fission_moderator.jei_name=裂变减速剂
+nuclearcraft.fission_reflector.jei_name=裂变反射器
+nuclearcraft.fission_heating.jei_name=固态燃料裂变加热
+nuclearcraft.multiblock_gui.salt_fission.jei_name=熔盐裂变
+nuclearcraft.fission_emergency_cooling.jei_name=熔盐反应堆紧急冷却
+nuclearcraft.multiblock_gui.coolant_heater.jei_name=熔盐冷却
+nuclearcraft.multiblock_gui.heat_exchanger.jei_name=热交换管道
+nuclearcraft.multiblock_gui.condenser.jei_name=冷凝管道
+nuclearcraft.multiblock_gui.turbine.jei_name=涡轮机
+nuclearcraft.radiation_scrubber.jei_name=辐射净化仪
+
+advancement.nuclearcraft.root.name=核电工艺
+advancement.nuclearcraft.root.desc=核与核物理，我的世界风
+
+advancement.nuclearcraft.manufactory.name=工业化进程
+advancement.nuclearcraft.manufactory.desc=制作一个小制造机
+
+advancement.nuclearcraft.separator.name=分离化学
+advancement.nuclearcraft.separator.desc=制作一个分离器
+
+advancement.nuclearcraft.voltaic_pile_basic.name=电力大街
+# pun or meme
+advancement.nuclearcraft.voltaic_pile_basic.desc=制作一个基础伏打电堆
+
+advancement.nuclearcraft.electrolyzer.name=噼啪作响的电极
+advancement.nuclearcraft.electrolyzer.desc=制作一个电解机
+
+advancement.nuclearcraft.decay_generator.name=一等能量
+advancement.nuclearcraft.decay_generator.desc=制作一个衰变产能器
+
+advancement.nuclearcraft.bin.name=Mr. Dilkington
+# pun or meme
+advancement.nuclearcraft.bin.desc=制作一个通用垃圾桶
+
+advancement.nuclearcraft.portable_ender_chest.name=欢乐满人间
+# pun or meme
+advancement.nuclearcraft.portable_ender_chest.desc=制作一个便携末影箱
+
+advancement.nuclearcraft.speed_upgrade.name=工作超频
+advancement.nuclearcraft.speed_upgrade.desc=制作一个速度升级
+
+advancement.nuclearcraft.energy_upgrade.name=多项抑合
+advancement.nuclearcraft.energy_upgrade.desc=制作一个能量升级
+
+advancement.nuclearcraft.machine_interface.name=三维延展
+advancement.nuclearcraft.machine_interface.desc=制作一个机器控制界面
+
+advancement.nuclearcraft.alloy_furnace.name=Smelt up a Storm
+# pun or meme
+advancement.nuclearcraft.alloy_furnace.desc=制作一个合金炉
+
+advancement.nuclearcraft.fuel_reprocessor.name=Picking up the Pieces
+# pun or meme
+advancement.nuclearcraft.fuel_reprocessor.desc=制作一个燃料再处理机
+
+advancement.nuclearcraft.decay_hastener.name=极限辐射
+advancement.nuclearcraft.decay_hastener.desc=制作一个衰变加速器
+
+advancement.nuclearcraft.lithium_ion_battery_basic.name=埃隆的脚印
+# pun or meme
+advancement.nuclearcraft.lithium_ion_battery_basic.desc=制作一个基础锂离子电池块
+
+advancement.nuclearcraft.assembler.name=流水线
+advancement.nuclearcraft.assembler.desc=制作一个组合机
+
+advancement.nuclearcraft.solar_panel_basic.name=生态环保
+advancement.nuclearcraft.solar_panel_basic.desc=制作一个基础太阳能电池板
+
+advancement.nuclearcraft.rtg_uranium.name=温暖绿光
+advancement.nuclearcraft.rtg_uranium.desc=制作一个铀放射性热电发电机
+
+advancement.nuclearcraft.infuser.name=把它注进去
+advancement.nuclearcraft.infuser.desc=制作一个流体注入器
+
+advancement.nuclearcraft.melter.name=又热又辣
+advancement.nuclearcraft.melter.desc=制作一个熔化机
+
+advancement.nuclearcraft.chemical_reactor.name=纯波利亚科夫
+# pun or meme
+advancement.nuclearcraft.chemical_reactor.desc=制作一个化学反应器
+
+advancement.nuclearcraft.supercooler.name=Hoth Machine
+# pun or meme
+advancement.nuclearcraft.supercooler.desc=制作一个超冷却机
+
+advancement.nuclearcraft.extractor.name=挤压海绵
+advancement.nuclearcraft.extractor.desc=制作一个流体提取机
+
+advancement.nuclearcraft.enricher.name=化工酿造
+advancement.nuclearcraft.enricher.desc=制作一个溶解器
+
+advancement.nuclearcraft.nuclear_furnace.name=厨房噩梦
+advancement.nuclearcraft.nuclear_furnace.desc=制作一个核熔炉
+
+advancement.nuclearcraft.neptunium.name=甜蜜“镎”普顿
+# pun or meme
+advancement.nuclearcraft.neptunium.desc=得到镎
+
+advancement.nuclearcraft.rtg_plutonium.name=恶魔之核
+advancement.nuclearcraft.rtg_plutonium.desc=制作一个钚放射性热电发电机
+
+advancement.nuclearcraft.ingot_former.name=陶瓷模子
+advancement.nuclearcraft.ingot_former.desc=制作一个冷却器
+
+advancement.nuclearcraft.salt_mixer.name=混合并叠合
+advancement.nuclearcraft.salt_mixer.desc=制作一个流体混合器
+
+advancement.nuclearcraft.crystallizer.name=绝命毒师
+# pun or meme
+advancement.nuclearcraft.crystallizer.desc=制作一个结晶器
+
+advancement.nuclearcraft.centrifuge.name=詹姆斯•邦德
+# pun or meme
+advancement.nuclearcraft.centrifuge.desc=制作一个离心机
+
+advancement.nuclearcraft.rock_crusher.name=滚石
+# pun or meme
+advancement.nuclearcraft.rock_crusher.desc=制作一个岩石粉碎机
+
+advancement.nuclearcraft.plutonium.name=临界
+advancement.nuclearcraft.plutonium.desc=得到钚
+
+advancement.nuclearcraft.rtg_americium.name=辐饰
+advancement.nuclearcraft.rtg_americium.desc=制作一个镅放射性热电发电机
+
+advancement.nuclearcraft.pressurizer.name=得知真相之恐怖
+# pun or meme
+advancement.nuclearcraft.pressurizer.desc=制作一个压缩机
+
+advancement.nuclearcraft.americium.name=我们信仰物理
+# pun or meme
+advancement.nuclearcraft.americium.desc=得到镅
+
+advancement.nuclearcraft.rtg_californium.name=End of the Line
+# pun or meme
+advancement.nuclearcraft.rtg_californium.desc=制作一个锎放射性热电发电机
+
+advancement.nuclearcraft.curium.name=好奇的“锔”里
+# pun or meme
+advancement.nuclearcraft.curium.desc=得到锔
+
+advancement.nuclearcraft.berkelium.name=阿拉米达货
+advancement.nuclearcraft.berkelium.desc=得到锫
+
+advancement.nuclearcraft.californium.name=加州梦
+# pun or meme
+advancement.nuclearcraft.californium.desc=得到锎
+
+advancement.nuclearcraft.solid_fission_controller.name=原子分裂 [1/2]
+advancement.nuclearcraft.solid_fission_controller.desc=制作一个固态燃料裂变控制器
+
+advancement.nuclearcraft.salt_fission_controller.name=下一代核电 [1/2]
+advancement.nuclearcraft.salt_fission_controller.desc=制作一个熔盐裂变控制器
+
+advancement.nuclearcraft.heat_exchanger_controller.name=热力连接 [1/2]
+advancement.nuclearcraft.heat_exchanger_controller.desc=制作一个热交换机控制器
+
+advancement.nuclearcraft.turbine_controller.name=敬爱的朗肯 [1/2]
+advancement.nuclearcraft.turbine_controller.desc=制作一个涡轮机控制器
+
+advancement.nuclearcraft.condenser_controller.name=啊，循环连上了！ [1/2]
+advancement.nuclearcraft.condenser_controller.desc=制作一个冷凝机控制器
+
+advancement.nuclearcraft.solid_fission_reactor_assembled.name=原子分裂 [2/2]
+advancement.nuclearcraft.solid_fission_reactor_assembled.desc=建造一个固态燃料裂变反应堆
+
+advancement.nuclearcraft.salt_fission_reactor_assembled.name=下一代核电 [2/2]
+advancement.nuclearcraft.salt_fission_reactor_assembled.desc=建造一个熔盐裂变反应堆
+
+advancement.nuclearcraft.heat_exchanger_assembled.name=热力连接 [2/2]
+advancement.nuclearcraft.heat_exchanger_assembled.desc=建造一个热交换机
+
+advancement.nuclearcraft.turbine_assembled.name=敬爱的朗肯 [2/2]
+advancement.nuclearcraft.turbine_assembled.desc=建造一个涡轮机
+
+advancement.nuclearcraft.condenser_assembled.name=啊，循环连上了！ [2/2]
+advancement.nuclearcraft.condenser_assembled.desc=建造一个冷凝机
+
+advancement.nuclearcraft.geiger_counter.name=进入普里皮亚季前的准备
+advancement.nuclearcraft.geiger_counter.desc=制作一个盖革计数器
+
+advancement.nuclearcraft.radaway.name=摆脱辐射
+advancement.nuclearcraft.radaway.desc=做一些抗辐宁
+
+advancement.nuclearcraft.rad_x.name=趋向免疫
+advancement.nuclearcraft.rad_x.desc=做一些降辐剂
+
+advancement.nuclearcraft.rad_shielding.name=Brave Sir Robin
+# pun or meme
+advancement.nuclearcraft.rad_shielding.desc=做一些重型辐射屏蔽板
+
+advancement.nuclearcraft.radiation_scrubber.name=污染控制
+advancement.nuclearcraft.radiation_scrubber.desc=制作一个辐射净化仪
+
+advancement.nuclearcraft.marshmallow.name=Lansdell 的捭阖之术
+# pun or meme
+advancement.nuclearcraft.marshmallow.desc=制作一个棉花糖
+
+advancement.nuclearcraft.smore.name=快来到篝火边！
+advancement.nuclearcraft.smore.desc=制作一块棉花糖巧克力夹心饼干
+
+advancement.nuclearcraft.moresmore.name=更多一些
+advancement.nuclearcraft.moresmore.desc=制作一块双层棉花糖巧克力夹心饼干
+# pun or meme
+
+advancement.nuclearcraft.foursmore.name=再多一些
+advancement.nuclearcraft.foursmore.desc=制作一块四层棉花糖巧克力夹心饼干
+
+block.nc.fusion_run=聚变反应堆：运行
+block.nc.turbine_run=涡轮机：运行
+
+player.nc.geiger_tick=盖革计数器：计数
+player.nc.radaway=抗辐宁：被服用
+player.nc.rad_x=降辐剂：被服用
+player.nc.chems_wear_off=辐射抑制效果结束
+player.nc.rad_poisoning=辐射中
+
+entity.nc.feral_ghoul_ambient=狂尸鬼：环绕
+entity.nc.feral_ghoul_hurt=狂尸鬼：受伤
+entity.nc.feral_ghoul_death=狂尸鬼：死亡
+entity.nc.feral_ghoul_step=狂尸鬼：行走
+entity.nc.feral_ghoul_fall=狂尸鬼：摔落
+entity.nc.feral_ghoul_charge=狂尸鬼：蓄力
+
+music.nc.wanderer=Wanderer
+music.nc.end_of_the_world=End of the World
+music.nc.money_for_nothing=Money For Nothing
+music.nc.hyperspace=Hyperspace
+
+material.boron.name=硼
+material.tough.name=高强合金
+material.hard_carbon.name=硬碳合金
+material.boron_nitride.name=氮化硼
+material.thorium.name=钍
+material.uranium.name=铀
+material.magnesium.name=镁
+material.chocolate.name=巧克力
+
+modifier.moldable.name=可塑
+modifier.moldable.desc=§o瑞士莲。§r\n为你的工具增加额外的材料属性槽。
+# Lindt
+modifier.uplifting.name=振奋
+modifier.uplifting.desc=§o今天我们奋战！§r\n在你使用你的工具时偶尔恢复生命值。
+# Megadeth or LotR Movies
+modifier.withering.name=凋零
+modifier.withering.desc=§o死亡将我们变成“恶魔”。§r\n凋零目标。
+# Patti Lather's Book or Hannibal
+
+modifier.moldable_armor.name=可塑
+modifier.moldable_armor.desc=§o瑞士莲。§r\n为你的护甲增加额外的材料属性槽。
+modifier.poisonous_armor.name=毒性
+modifier.poisonous_armor.desc=§o这么多人要杀，没多少时间了！§r\n令目标中毒。
+# Batman & Robin
+modifier.uplifting_armor.name=振奋
+modifier.uplifting_armor.desc=§o我命令你们抗敌，西方的人类！§r\n在你受伤时偶尔恢复生命值。
+# 我命令你们坚持住，西方的人类！
+# LotR Movies
+modifier.withering_armor.name=凋零
+modifier.withering_armor.desc=§oWe may have years，we may have hours...§r\n凋零目标。
+# Grim Fandango
+
+message.nuclearcraft.filter=设定过滤器：
+
+message.nuclearcraft.qubit_id=量子位 ID：
+
+message.nuclearcraft.rad_x_wore_off=你的降辐剂的效果结束了……
+message.nuclearcraft.rad_warning=伴随着剧烈的头痛，一种金属的恶臭在你的嘴里蔓延……你正在受到可怕的辐射！最好使用盖革计数器查看当前辐射的严重程度……
+message.nuclearcraft.radaway_cooling_down=你的抗辐宁效果的剩余冷却时间：
+message.nuclearcraft.rad_x_cooling_down=你的降辐剂的剩余冷却时间：
+message.nuclearcraft.scrubber_removal_rate=主动背景辐射消除速率：
+
+hud.nuclearcraft.rad_immune_for=免疫时间剩余：
+hud.nuclearcraft.rad_immune=辐射免疫状态！
+
+commands.nuclearcraft.set_chunk_radiation.usage=/nc_set_chunk_radiation <辐射量> [坐标x] [坐标z]
+commands.nuclearcraft.set_chunk_radius_radiation.usage=/nc_set_chunk_radius_radiation <辐射量> <半径>
+commands.nuclearcraft.set_world_radiation.usage=/nc_set_world_radiation <辐射量>
+commands.nuclearcraft.set_player_radiation.usage=/nc_set_world_radiation <辐射量> [玩家]
+
+commands.nuclearcraft.reconstruct_script_addons.usage=/nc_reload_script_addons ["句法"]
+commands.nuclearcraft.reconstruct_script_addons.success=重新构建脚本插件成功！
+commands.nuclearcraft.reconstruct_script_addons.fail=尝试重新构建脚本插件时出现了一个错误……
+
+message.nuclearcraft.radiation_config_info=服务端启用了关于辐射的设定！
+message.nuclearcraft.radiation_config_info_jei=服务端启用了关于辐射的设定！建议客户端一并启用，以查看与辐射相关的全部内容！
+
+death.attack.superfluid_freeze=%s 进入了玻色-爱因斯坦凝聚态
+death.attack.plasma_burn=%s 进入了等离子态
+death.attack.gas_burn=%s 极其痛苦地汽化了
+death.attack.steam_burn=%s 看起来更适于生活在热水壶里
+death.attack.molten_burn=%s 踏上了前往地狱的旅程，然而有去无回
+death.attack.corium_burn=%s 决定跟随其裂变反应堆的命运
+death.attack.hot_coolant_burn=%s 在热冷却液中“冷却”了
+death.attack.acid_burn=%s 终于发现了自己身处强碱中
+death.attack.fluid_burn=%s 被煎了
+death.attack.hypothermia=%s 在超低温中被冻死了
+death.attack.fission_burn=%s 在裂变反应堆中被烤了
+death.attack.fatal_rads=%s 受到了致命剂量的辐射
+
+# 指导手册
+
+nc.guide_book.name=核电工艺手册（翻译未完成）
+nc.guide_book.edition=重制版
+nc.guide_book.desc=核电工艺是一个以核能发电为中心的科技模组。本模组的多数特性与机制都以对应的现实科技为蓝本，尽管为了游戏体验着想，这些特性与机制相对于现实有许多简化、差异及抽象化。
+
+# 字符串
+
+nc.sf.plural_rule=0
+
+nc.sf.zero=零个
+nc.sf.one=一个
+nc.sf.two=两个
+nc.sf.three=三个
+nc.sf.four=四个
+nc.sf.five=五个
+nc.sf.six=六个
+
+nc.sf.no=没有
+
+nc.sf.and=和
+nc.sf.or=或
+
+nc.sf.placement_rule.and_or.adjacent0=%1$s%2$s
+nc.sf.placement_rule.and_or.adjacent1=%1$s，%2$s
+nc.sf.placement_rule.and_or.adjacent2=%1$s%2$s%3$s
+nc.sf.placement_rule.and_or.adjacent3=%1$s，%2$s%3$s
+nc.sf.placement_rule.and_or.adjacent4=%1$s。
+
+nc.sf.placement_rule.adjacent.must_be_adjacent_to=必须接触
+nc.sf.placement_rule.adjacent.at_least=至少%1$s
+nc.sf.placement_rule.adjacent.at_least_along_axis=在同一条线上的至少%1$s
+nc.sf.placement_rule.adjacent.at_least_along_axes=在同几条线上的至少%1$s
+nc.sf.placement_rule.adjacent.at_least_at_vertex=在同一个垂直处的至少%1$s
+nc.sf.placement_rule.adjacent.exactly=刚好%1$s
+nc.sf.placement_rule.adjacent.exactly_along_axis=在同一条线上的刚好%1$s
+nc.sf.placement_rule.adjacent.exactly_along_axes=在同几条线上的刚好%1$s
+nc.sf.placement_rule.adjacent.exactly_at_vertex=在同一个垂直处的刚好%1$s
+nc.sf.placement_rule.adjacent.at_most=最多%1$s
+nc.sf.placement_rule.adjacent.at_most_along_axis=在同一条线上的最多%1$s
+nc.sf.placement_rule.adjacent.at_most_along_axes=在同几条线上的最多%1$s
+nc.sf.placement_rule.adjacent.no=完全%1$s
+
+nc.sf.placement_rule.adjacent.ambiguity0prev=!同一条线&&!同几条线&&!同一个垂直处
+nc.sf.placement_rule.adjacent.ambiguity0last=同一条线||同几条线||同一个垂直处
+nc.sf.placement_rule.adjacent.ambiguity1prev=在同一||在同几
+
+nc.sf.reactor_casing0=%s反应堆外壳
+nc.sf.conductor0=%s反应堆连接器
+
+nc.sf.cell0=%s有效的燃料单元
+nc.sf.vessel0=%s有效的燃料容器
+
+nc.sf.moderator0=%s有效的且与有效单元相邻的减速剂
+nc.sf.reflector0=%s有效的反射器
+
+nc.sf.irradiator0=%s有效的中子辐照器
+nc.sf.shield0=%s有效的中子防护屏
+
+nc.sf.any_sink0=%s任意种类的散热器
+nc.sf.any_sink1=任意%s散热器
+nc.sf.water_sink0=%s有效的水散热器
+nc.sf.iron_sink0=%s有效的铁散热器
+nc.sf.redstone_sink0=%s有效的红石散热器
+nc.sf.quartz_sink0=%s有效的石英散热器
+nc.sf.obsidian_sink0=%s有效的黑曜石散热器
+nc.sf.nether_brick_sink0=%s有效的地狱砖散热器
+nc.sf.glowstone_sink0=%s有效的荧石散热器
+nc.sf.lapis_sink0=%s有效的青金石散热器
+nc.sf.gold_sink0=%s有效的金散热器
+nc.sf.prismarine_sink0=%s有效的海晶石散热器
+nc.sf.slime_sink0=%s有效的史莱姆散热器
+nc.sf.end_stone_sink0=%s有效的末地石散热器
+nc.sf.purpur_sink0=%s有效的紫珀散热器
+nc.sf.diamond_sink0=%s有效的钻石散热器
+nc.sf.emerald_sink0=%s有效的绿宝石散热器
+nc.sf.copper_sink0=%s有效的铜散热器
+nc.sf.tin_sink0=%s有效的锡散热器
+nc.sf.lead_sink0=%s有效的铅散热器
+nc.sf.boron_sink0=%s有效的硼散热器
+nc.sf.lithium_sink0=%s有效的锂散热器
+nc.sf.magnesium_sink0=%s有效的镁散热器
+nc.sf.manganese_sink0=%s有效的锰散热器
+nc.sf.aluminum_sink0=%s有效的铝散热器
+nc.sf.silver_sink0=%s有效的银散热器
+nc.sf.fluorite_sink0=%s有效的氟石散热器
+nc.sf.villiaumite_sink0=%s有效的氟盐散热器
+nc.sf.carobbiite_sink0=%s有效的方氟钾石散热器
+nc.sf.arsenic_sink0=%s有效的砷散热器
+nc.sf.liquid_nitrogen_sink0=%s有效的液氮散热器
+nc.sf.liquid_helium_sink0=%s有效的液氦散热器
+nc.sf.enderium_sink0=%s有效的末影散热器
+nc.sf.cryotheum_sink0=%s有效的凛冰散热器
+
+nc.sf.any_heater0=%s任意种类的加热器
+nc.sf.any_heater1=任意%s加热器
+nc.sf.standard_heater0=%s有效的标准加热器
+nc.sf.iron_heater0=%s有效的铁加热器
+nc.sf.redstone_heater0=%s有效的红石加热器
+nc.sf.quartz_heater0=%s有效的石英加热器
+nc.sf.obsidian_heater0=%s有效的黑曜石加热器
+nc.sf.nether_brick_heater0=%s有效的地狱砖加热器
+nc.sf.glowstone_heater0=%s有效的荧石加热器
+nc.sf.lapis_heater0=%s有效的青金石加热器
+nc.sf.gold_heater0=%s有效的金加热器
+nc.sf.prismarine_heater0=%s有效的海晶石加热器
+nc.sf.slime_heater0=%s有效的史莱姆加热器
+nc.sf.end_stone_heater0=%s有效的末地石加热器
+nc.sf.purpur_heater0=%s有效的紫珀加热器
+nc.sf.diamond_heater0=%s有效的钻石加热器
+nc.sf.emerald_heater0=%s有效的绿宝石加热器
+nc.sf.copper_heater0=%s有效的铜加热器
+nc.sf.tin_heater0=%s有效的锡加热器
+nc.sf.lead_heater0=%s有效的铅加热器
+nc.sf.boron_heater0=%s有效的硼加热器
+nc.sf.lithium_heater0=%s有效的锂加热器
+nc.sf.magnesium_heater0=%s有效的镁加热器
+nc.sf.manganese_heater0=%s有效的锰加热器
+nc.sf.aluminum_heater0=%s有效的铝加热器
+nc.sf.silver_heater0=%s有效的银加热器
+nc.sf.fluorite_heater0=%s有效的氟石加热器
+nc.sf.villiaumite_heater0=%s有效的氟盐加热器
+nc.sf.carobbiite_heater0=%s有效的方氟钾石加热器
+nc.sf.arsenic_heater0=%s有效的砷加热器
+nc.sf.liquid_nitrogen_heater0=%s有效的液氮加热器
+nc.sf.liquid_helium_heater0=%s有效的液氦加热器
+nc.sf.enderium_heater0=%s有效的末影加热器
+nc.sf.cryotheum_heater0=%s有效的凛冰加热器
+
+nc.sf.turbine_casing0=%s涡轮机外壳
+nc.sf.bearing0=%s有效的转子轴承
+nc.sf.connector0=%s有效的线圈连接器
+
+nc.sf.any_coil0=%s任意种类的发电机线圈
+nc.sf.any_coil1=任意%s发电机线圈
+nc.sf.magnesium_coil0=%s镁发电机线圈
+nc.sf.beryllium_coil0=%s铍发电机线圈
+nc.sf.aluminum_coil0=%s铝发电机线圈
+nc.sf.gold_coil0=%s金发电机线圈
+nc.sf.copper_coil0=%s铜发电机线圈
+nc.sf.silver_coil0=%s银发电机线圈
+
+nc.sf.power_adverb0=保持恒定
+nc.sf.power_adverb1=线性地%s
+nc.sf.power_adverb2=两次方地%s
+nc.sf.power_adverb3=三次方地%s
+nc.sf.power_adverb4=四次方地%s
+nc.sf.power_adverb5=五次方地%s
+nc.sf.power_adverb6=六次方地%s
+nc.sf.power_adverb7=七次方地%s
+nc.sf.power_adverb8=八次方地%s
+nc.sf.power_adverb9=九次方地%s
+nc.sf.power_adverb10=十次方地%s
+nc.sf.power_adverb11=十一次方地%s
+nc.sf.power_adverb12=十二次方地%s
+nc.sf.power_adverb13=十三次方地%s
+nc.sf.power_adverb14=十四次方地%s
+nc.sf.power_adverb15=十五次方地%s
+
+nc.sf.increase=提升
+nc.sf.decrease=降低
+nc.sf.increase_approximately=近似地提升
+nc.sf.decrease_approximately=近似地降低
+nc.sf.power_adverb_preposition=%2$s%1$s
+nc.sf.with=
+
+# 如有不符合《中文文案排版指北》的内容和未正常转义的 % 请务必告知，万分感谢

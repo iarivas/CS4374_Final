@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "nuclearcraft:chemical_reactor"
+		},
+		"title": {
+			"translate": "advancement.nuclearcraft.chemical_reactor.name"
+		},
+		"description": {
+			"translate": "advancement.nuclearcraft.chemical_reactor.desc"
+		}
+	},
+	"parent": "nuclearcraft:processors/alloy_furnace",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nuclearcraft:chemical_reactor"
+					}
+				]
+			}
+		}
+	}
+}

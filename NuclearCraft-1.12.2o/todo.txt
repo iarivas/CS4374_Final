@@ -1,0 +1,145 @@
+Radiation text colours config
+Optional minimum and maximum N/t for irradiator recipes
+
+Move fission recipe stat multipliers to logic (instead of recipe addition)
+
+Fix irradiators still running on flux from decay-heating cells/vessels
+Fix fuel being depleted in decay-heating cells/vessels
+
+Read Pu + Fatmice neutron poison discussion (+ "Technically, almost all of the neutron poisons were removed with the spent fuel")
+Reduce neutron poison lifetime
+
+Multiblock monitors: show cluster information, meltdown locations, side configurations, etc.
+
+Tweak MSR vessel bunches? ("it might lead to more interesting grouped vessels formation because currently the efficiency loss...")
+
+v2o.6: QMD feature merge: nitrogen collector -> air collector
+
+v2o.6: Refactor multiblock NBT
+
+Show potential (pre-primed) stats if reactor is idle
+Keep clusters running even when multiblock is invalidated
+
+Link managers to listeners with multitool (default behaviour: act on all listeners)
+Add neutron source managers
+Add unidirectional interior neutron source
+
+Finish fission meltdown mechanics
+Add melting logic to non-fuel components
+Graphite/beryllium fires, heavy water evaporation, etc.
+Hydrogen build-up by ZA fuels above a certain temperature, hygrogen explosion if breaking open reactor above this temperature?
+
+Replace casing emergency cooling with cluster/port based version (no placement rules, works for both SFRs and MSRs)
+Add component heat dissipation while invalid?
+Configurable reactor rainbow bonus?
+Recipe-based moderator and reflector components?
+
+Refactor old tile entity hierarchy - modularise item/fluid/energy handling
+Modularise processor classes
+Refactor GUIs
+
+CT Registration of machines?
+
+Multitool support for side configurations
+OC support for side configurations
+
+OC support for port filtering
+
+CC Tweaked support
+
+Complete printing of registered multiblock component stats and rules to separate nuclearcraft.info file
+
+Weapons based on acids and toxic materials?
+
+Configurable hardcore reactor maintenance mechanics?
+
+Patchouli documentation
+
+Sorption colours:
+Items: 007FFF, FF7F00
+Fluids: 007F7F, FF0000
+Energy: 007FBF, FF3F00
+___________________________________________________________________________________________________________________________
+---------------------------------------------------------------------------------------------------------------------------
+
+SiC–SiC ceramic matrix composite for top-tier turbine blades, made by melt infiltration (MI) of silicon, following chemical vapor infiltration (CVI) of carbon into SiC fibre, formed from SiC gas phase via laser-driven chemical vapor deposition (LCVD)
+___________________________________________________________________________________________________________________________
+
+1.16+: Potential block state getter optimisation - https://github.com/RogueLogix/BiggerSeries/blob/master/Phosphophyllite/src/main/java/net/roguelogix/phosphophyllite/util/Util.java#L51-L83 (chunkCachedBlockStateIteration)
+1.16+: Potential TE getter optimisation - https://github.com/mekanism/Mekanism/blob/1.16.x/src/main/java/mekanism/common/util/MekanismUtils.java#L929-L948 (getChunkForTile)
+
+1.16+: Cherenkov radiation (configurable)?
+1.16+: Make reflectors tile entities (can form clusters)
+___________________________________________________________________________________________________________________________
+
+1.16+: Item stack NBT support in NC recipes (also allow for NBT 'wildcards')
+___________________________________________________________________________________________________________________________
+
+1.16+: Add sound effects from Exile to machines
+___________________________________________________________________________________________________________________________
+
+Multiblock Electrolyser
+
+Girdler process for deuterium extraction: https://en.wikipedia.org/wiki/Girdler_sulfide_process
+Add generic reaction tower for slow chemical recipes
+
+Girdler process requires two towers:
+H2S + [preheated water OR steam?] + energy -> deuterium-enriched H2S + deuterium-depleted water
+deuterium-enriched H2S + water -> H2S + deuterium-enriched water
+
+Fractional distillation: deuterium-enriched water -> heavy water + water
+
+1.16+: Uranium/Thorium ore processing - ore -> 2x crushed ore -> hexa/tetrafluoride -> 4x dust?
+1.16+: Tiered machines: basic -> advanced -> DU -> elite? https://discordapp.com/channels/425461908712325130/425471153067524098/651401188054401025
+___________________________________________________________________________________________________________________________
+
+1.16+: Specialised fuel-making machine
+
+1.16+: Make clusters share heat with casing (if connected)
+1.16+: Make active reflectors conduct heat
+1.16+: Placement rule tweaks (e.g. nerf emerald and liquid helium)
+
+Gas-cooled Pebble-Bed Reactor that produces energy directly
+Option to use superheated gases in turbine loop?
+QT gas coolants: https://docs.google.com/spreadsheets/d/1gtXbk_S9ginkjgDo8BNXQr54kaQcToaqUa2E9LA0CMQ/edit#gid=1165328757
+
+1.16+: MSR split: NaK coolant for thermal, eutectic Pb-Bi alloy coolant for fast?
+___________________________________________________________________________________________________________________________
+
+Heat Exchanger: make heat flow maths realistic: https://en.wikipedia.org/wiki/Countercurrent_exchange
+Implement LMTD for parallel-flow exchangers and condensers? (https://en.wikipedia.org/wiki/Logarithmic_mean_temperature_difference)
+Implement heat transfer coefficient as percentage for each tube material
+Add powered 'heat pump', placed between tube lines, to move heat from cold -> hot?
+
+Add condenser controller, split mechanics like the fission reactor
+
+Decay pool to preheat condensate water from radioactive isotopes? (https://discordapp.com/channels/425461908712325130/425470889354723350/574303555465510912)
+
+1.16+: Give dynamo depth for 3D coil puzzle?
+___________________________________________________________________________________________________________________________
+
+Fusion Reactor: https://discordapp.com/channels/425461908712325130/425471153067524098/621412674948825134
+Allow for variable lining thickness? https://discordapp.com/channels/425461908712325130/425471153067524098/635267993294733312
+Change Fusion Reactor to produce steam instead of energy: Water -> High Pressure Steam from Heating Blanket in Electromagnet Ring
+New reactivity curve: R = z*(T/(1.5*h))^(-1.5)*exp(-1.5*h/T), z ≡ 200/9*sqrt(6)*exp(1.5) ≈ 243.952253514146, T = temperature (kK), h = optimal temperature (kK)
+Superconducting e-magnets can be used instead for an efficiency bonus?
+
+___________________________________________________________________________________________________________________________
+
+[Only if QMD does not update]
+
+1.16+: Add Synchrotron modules that use radiation - one per corner:
+
+1.16+: Add Collider Controller - electron/positron/proton input on corner
+1.16+: Particles need to be fired in opposite directions to work
+1.16+: Add multiblock collider experiments - one per corner:
+
+1.16+: Particles implemented as new material type, similar to Mek gases
+___________________________________________________________________________________________________________________________
+
+1.16+: Inertial Confinement Fusion - synchrotron radiation as laser -> heat molten salt coolant
+
+1.16+: Focus Fusion -> direct energy production?
+___________________________________________________________________________________________________________________________
+
+1.16+: Hawking Generator - form black hole and power with matter -> Hawking radiation produced for energy

@@ -1,0 +1,94 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "nuclearcraft:item/pellet"
+	},
+	"variants": {
+		"type": {
+			"lecf_249_tr": {
+				"model": "nuclearcraft:item/triso",
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_249_tr"
+				}
+			},
+			"lecf_249_ox": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_249_ox"
+				}
+			},
+			"lecf_249_ni": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_249_ni"
+				}
+			},
+			"lecf_249_za": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_249_za"
+				}
+			},
+			"hecf_249_tr": {
+				"model": "nuclearcraft:item/triso",
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_249_tr"
+				}
+			},
+			"hecf_249_ox": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_249_ox"
+				}
+			},
+			"hecf_249_ni": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_249_ni"
+				}
+			},
+			"hecf_249_za": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_249_za"
+				}
+			},
+			"lecf_251_tr": {
+				"model": "nuclearcraft:item/triso",
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_251_tr"
+				}
+			},
+			"lecf_251_ox": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_251_ox"
+				}
+			},
+			"lecf_251_ni": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_251_ni"
+				}
+			},
+			"lecf_251_za": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/lecf_251_za"
+				}
+			},
+			"hecf_251_tr": {
+				"model": "nuclearcraft:item/triso",
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_251_tr"
+				}
+			},
+			"hecf_251_ox": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_251_ox"
+				}
+			},
+			"hecf_251_ni": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_251_ni"
+				}
+			},
+			"hecf_251_za": {
+				"textures": {
+					"layer0": "nuclearcraft:items/fuel_californium/hecf_251_za"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_column",
+		"textures": {
+			"end": "nuclearcraft:blocks/turbine/rotor_shaft_end",
+			"side": "nuclearcraft:blocks/turbine/rotor_shaft_side"
+		}
+	},
+	"variants": {
+		"inventory": [{}],
+		"dir": {
+			"invisible": {
+				"model": "nuclearcraft:block_invisible"
+			},
+			"x": {"x": 90, "y": 90},
+			"y": {},
+			"z": {"x": 90}
+		}
+	}
+}

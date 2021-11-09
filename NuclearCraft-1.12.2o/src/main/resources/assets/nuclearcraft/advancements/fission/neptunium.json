@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "nuclearcraft:neptunium",
+			"data": 9
+		},
+		"title": {
+			"translate": "advancement.nuclearcraft.neptunium.name"
+		},
+		"description": {
+			"translate": "advancement.nuclearcraft.neptunium.desc"
+		}
+	},
+	"parent": "nuclearcraft:fission/solid_fission_reactor_assembled",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nuclearcraft:neptunium"
+					}
+				]
+			}
+		}
+	}
+}

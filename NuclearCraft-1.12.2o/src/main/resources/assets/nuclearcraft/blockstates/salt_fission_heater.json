@@ -1,0 +1,90 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube_all"
+	},
+	"variants": {
+		"type": {
+			"standard": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/standard"
+				}
+			},
+			"iron": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/iron"
+				}
+			},
+			"redstone": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/redstone"
+				}
+			},
+			"quartz": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/quartz"
+				}
+			},
+			"obsidian": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/obsidian"
+				}
+			},
+			"nether_brick": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/nether_brick"
+				}
+			},
+			"glowstone": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/glowstone"
+				}
+			},
+			"lapis": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/lapis"
+				}
+			},
+			"gold": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/gold"
+				}
+			},
+			"prismarine": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/prismarine"
+				}
+			},
+			"slime": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/slime"
+				}
+			},
+			"end_stone": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/end_stone"
+				}
+			},
+			"purpur": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/purpur"
+				}
+			},
+			"diamond": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/diamond"
+				}
+			},
+			"emerald": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/emerald"
+				}
+			},
+			"copper": {
+				"textures": {
+					"all": "nuclearcraft:blocks/fission/salt/heater/copper"
+				}
+			}
+		}
+	}
+}

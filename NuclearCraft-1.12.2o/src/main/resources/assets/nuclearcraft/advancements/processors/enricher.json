@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "nuclearcraft:enricher"
+		},
+		"title": {
+			"translate": "advancement.nuclearcraft.enricher.name"
+		},
+		"description": {
+			"translate": "advancement.nuclearcraft.enricher.desc"
+		}
+	},
+	"parent": "nuclearcraft:processors/chemical_reactor",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nuclearcraft:enricher"
+					}
+				]
+			}
+		}
+	}
+}

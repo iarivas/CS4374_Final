@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "nuclearcraft:plutonium",
+			"data": 9
+		},
+		"title": {
+			"translate": "advancement.nuclearcraft.plutonium.name"
+		},
+		"description": {
+			"translate": "advancement.nuclearcraft.plutonium.desc"
+		}
+	},
+	"parent": "nuclearcraft:fission/solid_fission_reactor_assembled",
+	"criteria": {
+		"has_item": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "nuclearcraft:plutonium"
+					}
+				]
+			}
+		}
+	}
+}
