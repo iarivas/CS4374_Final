@@ -14,7 +14,6 @@ import nc.util.*;
 import net.minecraft.util.IStringSerializable;
 
 public class NCInfo {
-	
 	// Fission Fuel
 	
 	public static String[] fissionFuelInfo(BasicRecipe fuelInfo) {
