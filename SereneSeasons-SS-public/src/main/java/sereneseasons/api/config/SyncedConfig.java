@@ -11,7 +11,7 @@ public class SyncedConfig
     public static void addOption(ISyncedOption option, String defaultValue)
     {
         optionsToSync.put(option.getOptionName(), new SyncedConfigEntry(defaultValue));
-    }
+    }//test for push
 
     public static boolean getBooleanValue(ISyncedOption option)
     {
