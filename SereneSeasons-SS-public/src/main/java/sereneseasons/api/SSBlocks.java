@@ -5,7 +5,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 
 public class SSBlocks
 {
-    public static Block season_sensor;
+    public Block season_sensor;
 
-    public static BlockEntityType<?> season_sensor_tile_entity;
+    public BlockEntityType<?> season_sensor_tile_entity;
 }

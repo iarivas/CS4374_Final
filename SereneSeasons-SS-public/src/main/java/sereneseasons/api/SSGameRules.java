@@ -8,5 +8,5 @@ import net.minecraft.world.level.GameRules;
 
 public class SSGameRules
 {
-    public static GameRules.Key<GameRules.BooleanValue> RULE_DOSEASONCYCLE;
+    public static final GameRules.Key<GameRules.BooleanValue> RULE_DOSEASONCYCLE;
 }

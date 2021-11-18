@@ -4,14 +4,14 @@ import com.google.common.collect.Maps;
 
 import java.util.Map;
 
-public class SyncedConfig
+public abstract class SyncedConfig
 {
-    public static Map<String, SyncedConfigEntry> optionsToSync = Maps.newHashMap();
+    public Map<String, SyncedConfigEntry> optionsToSync = Maps.newHashMap();
 
-    public static void addOption(ISyncedOption option, String defaultValue)
+    public static void addOption(final ISyncedOption option, final String defaultValue)
     {
         optionsToSync.put(option.getOptionName(), new SyncedConfigEntry(defaultValue));
-    }//test for push
+    }
 
     public static boolean getBooleanValue(ISyncedOption option)
     {
@@ -25,7 +25,9 @@ public class SyncedConfig
 
     public static String getValue(ISyncedOption option)
     {
-        return optionsToSync.get(option.getOptionName()).value;
+        String holdName = option.getOptionName();
+        SyncedConfigEntry e = optionsToSync.get(holdName);
+        return e.value;
     }
 
     public static void restoreDefaults()
@@ -41,7 +43,7 @@ public class SyncedConfig
         public String value;
         public final String defaultValue;
 
-        public SyncedConfigEntry(String defaultValue)
+        public SyncedConfigEntry(final String defaultValue)
         {
             this.defaultValue = defaultValue;
             this.value = defaultValue;
