@@ -231,10 +231,7 @@ public class HeatExchanger extends CuboidalMultiblock<IHeatExchangerPart, HeatEx
 	}
 	
 	protected boolean isRedstonePowered() {
-		if (controller != null && controller.checkIsRedstonePowered(WORLD, controller.getTilePos())) {
-			return true;
-		}
-		return false;
+		return (controller != null && controller.checkIsRedstonePowered(WORLD, controller.getTilePos()));
 	}
 	
 	protected void updateHeatExchangerStats() {

@@ -39,44 +39,39 @@ public abstract class ContainerFluidGenerator<GENERATOR extends IFluidGenerator 
 		int otherSlotsSize = tile instanceof TileFluidGenerator ? ((TileFluidGenerator) tile).getOtherSlotsSize() : 0;
 		int invStart = otherSlotsSize;
 		int invEnd = 36 + otherSlotsSize;
+		//main branch
 		if (slot != null && slot.getHasStack()) {
 			ItemStack itemstack1 = slot.getStack();
 			itemstack = itemstack1.copy();
-			if (index >= 0 && index < invStart) {
-				if (!mergeItemStack(itemstack1, invStart, invEnd, false)) {
-					return ItemStack.EMPTY;
-				}
-				slot.onSlotChange(itemstack1, itemstack);
-			}
-			else if (index >= invStart) {
-				if (recipeHandler.isValidItemInput(itemstack1)) {
-					if (!mergeItemStack(itemstack1, 0, 0, false)) {
-						return ItemStack.EMPTY;
-					}
-				}
-				else if (index >= invStart && index < invEnd - 9) {
-					if (!mergeItemStack(itemstack1, invEnd - 9, invEnd, false)) {
-						return ItemStack.EMPTY;
-					}
-				}
-				else if (index >= invEnd - 9 && index < invEnd && !mergeItemStack(itemstack1, invStart, invEnd - 9, false)) {
-					return ItemStack.EMPTY;
-				}
-			}
-			else if (!mergeItemStack(itemstack1, invStart, invEnd, false)) {
-				return ItemStack.EMPTY;
-			}
-			if (itemstack1.isEmpty()) {
+			//branch 1
+			emptyStackHelper(index, invStart, invEnd, itemstack1, itemstack);
+			//branch 2
+			if (itemstack1.isEmpty()){
 				slot.putStack(ItemStack.EMPTY);
-			}
-			else {
+			}else{
 				slot.onSlotChanged();
-			}
-			if (itemstack1.getCount() == itemstack.getCount()) {
-				return ItemStack.EMPTY;
-			}
+			}	
 			slot.onTake(player, itemstack1);
 		}
 		return itemstack;
 	}
+	private ItemStack emptyStackHelper(int index, int invStart, int invEnd, ItemStack itemstack1, ItemStack itemstack){
+		//branch 1.1
+		if (index >= 0 && index < invStart && !mergeItemStack(itemstack1, invStart, invEnd, false)) {
+			slot.onSlotChange(itemstack1, itemstack);
+			return ItemStack.EMPTY;
+		}
+		//branch 1.2
+		else if (index >= invStart && 
+				( (recipeHandler.isValidItemInput(itemstack1) && !mergeItemStack(itemstack1, 0, 0, false)) || 
+				(index >= invStart && index < invEnd - 9 && !mergeItemStack(itemstack1, invEnd - 9, invEnd, false)) ||
+				(index >= invEnd - 9 && index < invEnd && !mergeItemStack(itemstack1, invStart, invEnd - 9, false)) )) {
+					return ItemStack.EMPTY;
+				}
+		//branch 1.3
+		else if(!mergeItemStack(itemstack1, invStart, invEnd, false) || itemstack1.getCount() == itemstack.getCount()) {
+			return ItemStack.EMPTY;
+		}
+	}
+
 }
