@@ -68,23 +68,19 @@ public class SkyRendererEnd extends IAdaptiveRenderer {
 				{
 					GlStateManager.rotate(90.0F, 1.0F, 0.0F, 0.0F);
 				}
-
-				if (i == 2)
+				else if (i == 2)
 				{
 					GlStateManager.rotate(-90.0F, 1.0F, 0.0F, 0.0F);
 				}
-
-				if (i == 3)
+				else if (i == 3)
 				{
 					GlStateManager.rotate(180.0F, 1.0F, 0.0F, 0.0F);
 				}
-
-				if (i == 4)
+				else if (i == 4)
 				{
 					GlStateManager.rotate(90.0F, 0.0F, 0.0F, 1.0F);
 				}
-
-				if (i == 5)
+				else
 				{
 					GlStateManager.rotate(-90.0F, 0.0F, 0.0F, 1.0F);
 				}

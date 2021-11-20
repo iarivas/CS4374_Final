@@ -19,7 +19,7 @@ import stellarium.world.StellarScene;
 
 public interface IProxy {
 	
-	public void preInit(FMLPreInitializationEvent event);
+	void preInit(FMLPreInitializationEvent event);
 	
     public void load(FMLInitializationEvent event) throws IOException;
 

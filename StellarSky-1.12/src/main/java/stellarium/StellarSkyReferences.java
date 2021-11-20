@@ -4,7 +4,7 @@ import java.io.File;
 
 import net.minecraftforge.common.config.Configuration;
 
-public class StellarSkyReferences {
+public abstract class StellarSkyReferences {
 	
 	public static final String MODID = "stellarsky";
 	public static final String VERSION = "@VERSION@";
