@@ -42,9 +42,10 @@ public class DragonAnimationsLibrary {
      * @see #registerSingle(IEnumDragonPoses, IEnumDragonModelTypes)
      */
     public static void register(IEnumDragonPoses[] poses, IEnumDragonModelTypes[] modelTypes) {
-        for(IEnumDragonPoses p : poses)
-            for(IEnumDragonModelTypes m : modelTypes)
+        for(IEnumDragonPoses p : poses) {
+            for (IEnumDragonModelTypes m : modelTypes)
                 registerSingle(p, m, IceAndFire.MODID);
+        }
     }
 
     /**
@@ -56,9 +57,10 @@ public class DragonAnimationsLibrary {
      * @see #registerSingle(IEnumDragonPoses, IEnumDragonModelTypes, String)
      */
     public static void register(IEnumDragonPoses[] poses, IEnumDragonModelTypes[] modelTypes, String modID) {
-        for(IEnumDragonPoses p : poses)
-            for(IEnumDragonModelTypes m : modelTypes)
+        for(IEnumDragonPoses p : poses) {
+            for (IEnumDragonModelTypes m : modelTypes)
                 registerSingle(p, m, modID);
+        }
     }
 
     /**

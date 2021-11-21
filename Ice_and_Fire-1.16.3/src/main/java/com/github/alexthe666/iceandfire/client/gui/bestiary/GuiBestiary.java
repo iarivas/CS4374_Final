@@ -53,9 +53,9 @@ public class GuiBestiary extends Screen {
     private static final ResourceLocation DRAWINGS_1 = new ResourceLocation("iceandfire:textures/gui/bestiary/drawings_1.png");
     private static final ResourceLocation DRAWINGS_2 = new ResourceLocation("iceandfire:textures/gui/bestiary/drawings_2.png");
     private static final Map<String, ResourceLocation> PICTURE_LOCATION_CACHE = Maps.newHashMap();
-    public List<EnumBestiaryPages> allPageTypes = new ArrayList<EnumBestiaryPages>();
+    public List<EnumBestiaryPages> allPageTypesWithDiamond = new ArrayList<>();
     public EnumBestiaryPages pageType;
-    public List<IndexPageButton> indexButtons = new ArrayList<IndexPageButton>();
+    public List<IndexPageButton> indexButtonsWithDiamond = new ArrayList<>();
     public ChangePageButton previousPage;
     public ChangePageButton nextPage;
     public int bookPages;

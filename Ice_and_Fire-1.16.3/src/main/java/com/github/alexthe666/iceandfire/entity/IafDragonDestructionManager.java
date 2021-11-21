@@ -236,7 +236,7 @@ public class IafDragonDestructionManager {
             }
 
             final float stageDmg = Math.max(1, stage - 1) * 2F;
-            final int statusDuration = 15;
+            int statusDuration = 15;
             world.getEntitiesWithinAABB(
         		LivingEntity.class,
         		new AxisAlignedBB(
@@ -323,7 +323,7 @@ public class IafDragonDestructionManager {
             }
 
             final float stageDmg = Math.max(1, stage - 1) * 2F;
-            final int statusDuration = 400;
+            int statusDuration = 400;
             world.getEntitiesWithinAABB(
         		LivingEntity.class,
         		new AxisAlignedBB(

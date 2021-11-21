@@ -1035,10 +1035,6 @@ public abstract class EntityDragonBase extends TameableEntity implements IPassab
         return !this.isQueuedToSit() && !this.isSleeping() && this.getControllingPassenger() == null && !this.isModelDead() && sleepProgress == 0 && this.getAnimation() != ANIMATION_SHAKEPREY;
     }
 
-    public boolean isAlive() {
-        return super.isAlive();
-    }
-
     @Override
     public ActionResultType applyPlayerInteraction(PlayerEntity player, Vector3d vec, Hand hand) {
         ItemStack stack = player.getHeldItem(hand);
@@ -2320,9 +2316,6 @@ public abstract class EntityDragonBase extends TameableEntity implements IPassab
         return super.getSoundPitch();
     }
 
-    public SoundEvent getBabyFireSound() {
-        return SoundEvents.BLOCK_FIRE_EXTINGUISH;
-    }
 
     protected boolean isPlayingAttackAnimation() {
         return this.getAnimation() == ANIMATION_BITE || this.getAnimation() == ANIMATION_SHAKEPREY || this.getAnimation() == ANIMATION_WINGBLAST ||
