@@ -93,8 +93,8 @@ public class AlloyFurnaceRecipes extends BasicRecipeHandler {
 		addFissionAlloyRecipes();
 	}
 	
-	public void addAlloyIngotIngotRecipes(String in1, int inSize1, String in2, int inSize2, String out, int outSize, double time, double power) {
-		addAlloyRecipes(in1, inSize1, in2, inSize2, out, outSize, time, power, NUGGET_VOLUME_TYPES, INGOT_VOLUME_TYPES, BLOCK_VOLUME_TYPES, NUGGET_VOLUME_TYPES, INGOT_VOLUME_TYPES, BLOCK_VOLUME_TYPES);
+	public void addAlloyIngotIngotRecipes(String ingredient1, int ingredient1Size, String ingredient2, int ingredient2Size, String result, int resultSize, double time, double power) {
+		addAlloyRecipes(ingredient1, ingredient1Size, ingredient2, ingredient2Size, result, resultSize, time, power, NUGGET_VOLUME_TYPES, INGOT_VOLUME_TYPES, BLOCK_VOLUME_TYPES, NUGGET_VOLUME_TYPES, INGOT_VOLUME_TYPES, BLOCK_VOLUME_TYPES);
 	}
 	
 	public void addAlloyIngotDustRecipes(String in1, int inSize1, String in2, int inSize2, String out, int outSize, double time, double power) {

@@ -135,13 +135,13 @@ public class NCBlock extends Block {
 			if (!smartRender) {
 				return true;
 			}
-			
+
 			IBlockState otherState = world.getBlockState(pos.offset(side));
-			Block block = otherState.getBlock();
-			
 			if (blockState != otherState) {
 				return true;
 			}
+			
+			Block block = otherState.getBlock();
 			
 			return block == this ? false : super.shouldSideBeRendered(blockState, world, pos, side);
 		}
