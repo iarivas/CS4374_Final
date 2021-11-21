@@ -12,16 +12,16 @@ public class CapabilityHelper {
 	// Mekanism
 	
 	@CapabilityInject(IGasHandler.class)
-	public static Capability<IGasHandler> GAS_HANDLER_CAPABILITY = null;
+	public static final Capability<IGasHandler> GAS_HANDLER_CAPABILITY = null;
 	
 	@CapabilityInject(ILogisticalTransporter.class)
-	public static Capability<ILogisticalTransporter> LOGISTICAL_TRANSPORTER_CAPABILITY = null;
+	public static final Capability<ILogisticalTransporter> LOGISTICAL_TRANSPORTER_CAPABILITY = null;
 	
 	// Common Capabilities
 	
 	@CapabilityInject(ITemperature.class)
-	public static Capability<ITemperature> CAPABILITY_TEMPERATURE = null;
+	public static final Capability<ITemperature> CAPABILITY_TEMPERATURE = null;
 	
 	@CapabilityInject(IWorker.class)
-	public static Capability<IWorker> CAPABILITY_WORKER = null;
+	public static final Capability<IWorker> CAPABILITY_WORKER = null;
 }

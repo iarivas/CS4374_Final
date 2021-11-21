@@ -76,7 +76,8 @@ public class RollHierarchyController implements IDynamicController {
 				RollHierarchyController subController = new RollHierarchyController(this, child, !this.isHorizontal, this.helper, element.rollSpacingSize());
 				childs.add(subController);
 				this.rollSize += (child.getSize() + 2 * child.rollSpacingSize());
-				GuiElement<?> childGui = new GuiElement<IDynamicController>(new GuiDynamic(), subController);
+				//IDynamicController
+				GuiElement<?> childGui = new GuiElement<>(new GuiDynamic(), subController);
 				rowList.add(Pair.of(childGui, child.getSize() + 2 * child.rollSpacingSize()));
 			}
 

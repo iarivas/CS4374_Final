@@ -8,6 +8,6 @@ import net.minecraft.world.item.Item;
 
 public class SSItems
 {
-    public static Item calendar;
-    public static Item ss_icon;
+    public Item calendar;
+    public Item ss_icon;
 }

@@ -6,7 +6,7 @@ package sereneseasons.api.season;
 
 import net.minecraft.world.level.Level;
 
-public class SeasonHelper 
+public abstract class SeasonHelper
 {
     public static ISeasonDataProvider dataProvider;
 
@@ -18,14 +18,24 @@ public class SeasonHelper
     {
         ISeasonState data;
 
-        if (!world.isClientSide())
+        if (world.isClientSide())
+        {
+            data = dataProvider.getClientSeasonState();
+
+        }
+        else
+        {
+            data = dataProvider.getServerSeasonState(world);
+        }
+
+        /*if (!world.isClientSide())
         {
             data = dataProvider.getServerSeasonState(world);
         }
         else
         {
             data = dataProvider.getClientSeasonState();
-        }
+        }*/
 
         return data;
     }

@@ -195,7 +195,7 @@ public class ShaderHelper {
 	}
 
 	private class ShaderUniform implements IUniformField {
-		int location;
+		private int location;
 
 		public ShaderUniform(int location) {
 			this.location = location;

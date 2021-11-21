@@ -49,7 +49,8 @@ public class StellarSkyAPI {
 	 * */
 	public static ISkySetType getSkyType(WorldSet worldSet) {
 		ISkySetType type = INSTANCE.skyTypes.get(worldSet);
-		return (type != null? type : SkySetTypeDefault.INSTANCE);
+		//return (type != null? type : SkySetTypeDefault.INSTANCE);
+		return (type == null? SkySetTypeDefault.INSTANCE : type); // A better form
 	}
 
 	public static ImmutableList<ISkyRenderType> possibleRenderTypes(WorldSet worldSet) {

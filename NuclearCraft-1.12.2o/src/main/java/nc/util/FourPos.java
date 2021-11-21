@@ -33,7 +33,8 @@ public class FourPos {
 		if (obj == this) {
 			return true;
 		}
-		if (obj == null || !(obj instanceof FourPos)) {
+		//a null returns false
+		if (!(obj instanceof FourPos)) {
 			return false;
 		}
 		

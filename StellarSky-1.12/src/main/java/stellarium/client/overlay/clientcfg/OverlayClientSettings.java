@@ -46,7 +46,7 @@ public class OverlayClientSettings implements IOverlayElement<SettingsOverlaySet
 	private Minecraft mc;
 	private SettingsOverlaySettings settings;
 
-	private ICfgHierarchyHandler handler;
+	private static ICfgHierarchyHandler handler;
 	private RollHierarchyController controller;
 
 	private ConfigManager notified;

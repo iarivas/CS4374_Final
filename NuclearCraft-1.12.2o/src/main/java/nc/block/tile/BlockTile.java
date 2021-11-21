@@ -39,45 +39,53 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 	
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {
-		if (player == null || hand != EnumHand.MAIN_HAND) {
-			return false;
-		}
-		
 		TileEntity tile = world.getTileEntity(pos);
-		if (tile instanceof IUpgradable) {
-			if (installUpgrade(tile, ((IUpgradable) tile).getSpeedUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 0))) {
+
+		//standard false checks
+		if (player == null || player.isSneaking() || hand != EnumHand.MAIN_HAND){
+			return false;
+		}
+
+		//case tile instance of IUpgradable
+		if (tile instanceof IUpgradable ||
+			installUpgrade(tile, ((IUpgradable) tile).getSpeedUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 0)) ||
+			installUpgrade(tile, ((IUpgradable) tile).getEnergyUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 1)){
 				return true;
 			}
-			if (installUpgrade(tile, ((IUpgradable) tile).getEnergyUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 1))) {
-				return true;
-			}
-		}
+
 		
-		if (player.isSneaking()) {
-			return false;
-		}
-		
-		if (!(tile instanceof ITileFluid) && !(tile instanceof ITileGui)) {
-			return false;
-		}
-		if (tile instanceof ITileFluid && !(tile instanceof ITileGui) && FluidUtil.getFluidHandler(player.getHeldItem(hand)) == null) {
-			return false;
-		}
-		
+		//case tile instance of ITileFluid false checks
+		if (!(tile instanceof ITileFluid) && !(tile instanceof ITileGui ||
+			 tile instanceof ITileFluid && !(tile instanceof ITileGui) && FluidUtil.getFluidHandler(player.getHeldItem(hand)) == null){
+				 return false;
+			 }
+
+		//case tile instance of ITileFluid true checks
+		ITileFluidHelper(tile);		
+
+		//case tile instance of ITileGui
+		ITileGuiHelper(tile);
+
+		return true;
+	}
+
+	private boolean ITileFuidHelper(tile){
 		if (tile instanceof ITileFluid) {
-			if (world.isRemote) {
+			if (world.isRemote){
 				return true;
 			}
+			
 			ITileFluid tileFluid = (ITileFluid) tile;
 			boolean accessedTanks = BlockHelper.accessTanks(player, hand, facing, tileFluid);
-			if (accessedTanks) {
-				if (tile instanceof IProcessor) {
-					((IProcessor) tile).refreshRecipe();
-					((IProcessor) tile).refreshActivity();
-				}
+			if (accessedTanks && tile instanceof IProcessor)) {
+				((IProcessor) tile).refreshRecipe();
+				((IProcessor) tile).refreshActivity();
 				return true;
 			}
 		}
+	}
+	
+	private boolean ITileGuiHelper(tile){
 		if (tile instanceof ITileGui) {
 			if (world.isRemote) {
 				onGuiOpened(world, pos);
@@ -91,14 +99,11 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 				}
 				FMLNetworkHandler.openGui(player, NuclearCraft.instance, ((ITileGui) tile).getGuiID(), world, pos.getX(), pos.getY(), pos.getZ());
 			}
-		}
-		else {
+		}else {
 			return false;
 		}
-		
-		return true;
 	}
-	
+
 	protected boolean installUpgrade(TileEntity tile, int slot, EntityPlayer player, EnumHand hand, EnumFacing facing, ItemStack stack) {
 		if (player.getHeldItem(hand).isItemEqual(stack)) {
 			IItemHandler inv = tile.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, facing);

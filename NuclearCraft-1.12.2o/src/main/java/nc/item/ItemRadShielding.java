@@ -44,8 +44,9 @@ public class ItemRadShielding extends NCItemMeta<MetaEnums.RadShieldingType> {
 		
 		if (radiation_hardcore_containers <= 0D) {
 			if (!world.isRemote) {
-				if (playerRads != null)
+				if (playerRads != null){
 					playerRads.setMessageCooldownTime(20);
+				}
 				player.sendMessage(new TextComponentString(NOT_HARDCORE));
 			}
 			return actionResult(false, stack);
@@ -72,8 +73,9 @@ public class ItemRadShielding extends NCItemMeta<MetaEnums.RadShieldingType> {
 		double newResistance = radiation_shielding_level[StackHelper.getMetadata(stack)];
 		if (newResistance <= resistance.getShieldingRadResistance()) {
 			if (!world.isRemote) {
-				if (playerRads != null)
+				if (playerRads != null){
 					playerRads.setMessageCooldownTime(20);
+				}
 				player.sendMessage(new TextComponentString(INSTALL_FAIL + " " + RadiationHelper.resistanceSigFigs(resistance.getShieldingRadResistance())));
 			}
 			return actionResult(false, stack);

@@ -102,7 +102,8 @@ public class ClientProxy extends CommonProxy implements IProxy {
 	
 	@Override
 	public World getDefWorld() {
-		return Minecraft.getMinecraft().world;
+		Minecraft mCraft = Minecraft.getMinecraft();
+		return mCraft.world;
 	}
 	
 	public Entity getDefViewerEntity() {
@@ -144,7 +145,7 @@ public class ClientProxy extends CommonProxy implements IProxy {
 			this.onSettingsChanged(this.clientSettings);
 
 		Minecraft mc = Minecraft.getMinecraft();
-		World world = mc.world;
+
 		Entity viewer = mc.getRenderViewEntity();
 
 		// Placeholder fix for vanilla lighting glitch.
@@ -163,6 +164,8 @@ public class ClientProxy extends CommonProxy implements IProxy {
 		} catch(IllegalAccessException exception) {
 			throw new IllegalStateException("Illegal access to field " + fieldLightUpdateSet.getName() + ", Unexpected.");
 		}
+
+		World world = mc.world; //moved down here after the try/catch statements
 
 		ICelestialWorld cWorld = world.getCapability(SAPICapabilities.CELESTIAL_CAPABILITY, null);
 		ICCoordinates coordinate = cWorld.getCoordinate();

@@ -100,26 +100,20 @@ public class TooltipHandler {
 	
 	@SideOnly(Side.CLIENT)
 	private static void addArmorRadiationTooltip(List<String> tooltip, ItemStack stack) {
-		if (stack.isEmpty() || !ArmorHelper.isArmor(stack.getItem(), radiation_horse_armor_public)) {
-			return;
-		}
 		IRadiationResistance armorResistance = RadiationHelper.getRadiationResistance(stack);
 		boolean nbt = stack.hasTagCompound() && stack.getTagCompound().hasKey("ncRadiationResistance");
-		if (armorResistance == null && !nbt) {
-			return;
-		}
-		
-		double resistance = 0D;
-		if (armorResistance != null) {
-			resistance += armorResistance.getTotalRadResistance();
-		}
-		if (nbt) {
-			resistance += stack.getTagCompound().getDouble("ncRadiationResistance");
-		}
-		
-		if (resistance > 0D) {
-			tooltip.add(TextFormatting.AQUA + RADIATION_RESISTANCE + " " + RadiationHelper.resistanceSigFigs(resistance));
-		}
+
+		if (!(stack.isEmpty() || !ArmorHelper.isArmor(stack.getItem(), radiation_horse_armor_public) || armorResistance == null && !nbt)) {
+			double resistance = 0D;
+			if (armorResistance != null) {
+				resistance += armorResistance.getTotalRadResistance();
+			}
+			if (nbt) {
+				resistance += stack.getTagCompound().getDouble("ncRadiationResistance");
+			}
+			if (resistance > 0D) {
+				tooltip.add(TextFormatting.AQUA + RADIATION_RESISTANCE + " " + RadiationHelper.resistanceSigFigs(resistance));
+			}
 	}
 	
 	@SideOnly(Side.CLIENT)
