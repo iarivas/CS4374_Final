@@ -60,6 +60,12 @@ public class PlayerWaystoneManager {
     private static final IPlayerWaystoneData persistentPlayerWaystoneData = new PersistentPlayerWaystoneData();
     private static final IPlayerWaystoneData inMemoryPlayerWaystoneData = new InMemoryPlayerWaystoneData();
 
+    private ServerLevel targetWorld;
+    private Direction direction;
+    private List<Mob> leashedEntities;
+
+    private IWaystone fromWaystone;
+
     public static boolean mayBreakWaystone(Player player, BlockGetter world, BlockPos pos) {
         if (WaystonesConfig.getActive().restrictToCreative() && !player.getAbilities().instabuild) {
             return false;
@@ -126,7 +132,7 @@ public class PlayerWaystoneManager {
     }
 
     public static int getExperienceLevelCost(Entity player, IWaystone waystone, WarpMode warpMode, @Nullable IWaystone fromWaystone) {
-        WaystoneTeleportContext context = new WaystoneTeleportContext();
+        WaystoneTeleportCon context = new WaystoneTeleportContext();
         context.setLeashedEntities(findLeashedAnimals(player));
         context.setFromWaystone(fromWaystone);
         return getExperienceLevelCost(player, waystone, warpMode, context);
@@ -579,4 +585,37 @@ public class PlayerWaystoneManager {
         }
     }
 
+    public ServerLevel getTargetWorld() {
+        return targetWorld;
+    }
+
+    public void setTargetWorld(ServerLevel targetWorld) {
+        this.targetWorld = targetWorld;
+    }
+
+    public Direction getDirection() {
+        return direction;
+    }
+
+    public void setDirection(Direction direction) {
+        this.direction = direction;
+    }
+
+    public List<Mob> getLeashedEntities() {
+        return leashedEntities;
+    }
+
+    public void setLeashedEntities(List<Mob> leashedEntities) {
+        this.leashedEntities = leashedEntities;
+    }
+
+    @Nullable
+    public IWaystone getFromWaystone() {
+        return fromWaystone;
+    }
+
+    public void setFromWaystone(@Nullable IWaystone fromWaystone) {
+        this.fromWaystone = fromWaystone;
+    }
 }
+

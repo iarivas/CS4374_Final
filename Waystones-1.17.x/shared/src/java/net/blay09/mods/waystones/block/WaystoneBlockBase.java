@@ -58,10 +58,9 @@ public abstract class WaystoneBlockBase extends BaseEntityBlock {
 
         if (isDoubleBlock(state)) {
             DoubleBlockHalf half = state.getValue(HALF);
-            if ((direction.getAxis() != Direction.Axis.Y) || ((half == DoubleBlockHalf.LOWER) != (direction == Direction.UP)) || ((directionState.getBlock() == this) && (directionState.getValue(HALF) != half))) {
-                if ((half != DoubleBlockHalf.LOWER) || (direction != Direction.DOWN) || state.canSurvive(world, pos)) {
+            if (direction.getAxis() != Direction.Axis.Y || half == DoubleBlockHalf.LOWER != (direction == Direction.UP) || (directionState.getBlock() == this && directionState.getValue(HALF) != half) ||
+                half != DoubleBlockHalf.LOWER || (direction != Direction.DOWN) || state.canSurvive(world, pos)) {
                     return state;
-                }
             }
 
             return Blocks.AIR.defaultBlockState();
@@ -158,11 +157,11 @@ public abstract class WaystoneBlockBase extends BaseEntityBlock {
         Level world = context.getLevel();
         BlockPos pos = context.getClickedPos();
         FluidState fluidState = world.getFluidState(pos);
-        if (pos.getY() < world.getHeight() - 1) {
-            if (world.getBlockState(pos.above()).canBeReplaced(context)) {
+        if (pos.getY() < world.getHeight() - 1 &&
+            world.getBlockState(pos.above()).canBeReplaced(context)){
                 return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
                         .setValue(WATERLOGGED, fluidState.getType() == Fluids.WATER);
-            }
+
         }
 
         return null;
@@ -184,10 +183,9 @@ public abstract class WaystoneBlockBase extends BaseEntityBlock {
                 BlockPos offset = pos.relative(direction);
                 BlockState neighbourState = world.getBlockState(offset);
                 Block neighbourBlock = neighbourState.getBlock();
-                if (neighbourBlock instanceof ObserverBlock && neighbourState.getValue(ObserverBlock.FACING) == direction.getOpposite()) {
-                    if (!world.getBlockTicks().hasScheduledTick(offset, neighbourBlock)) {
+                if (neighbourBlock instanceof ObserverBlock && neighbourState.getValue(ObserverBlock.FACING) == direction.getOpposite() &&
+                    !world.getBlockTicks().hasScheduledTick(offset, neighbourBlock)) {
                         world.getBlockTicks().scheduleTick(offset, neighbourBlock, 2);
-                    }
                 }
             }
         }
@@ -244,7 +242,7 @@ public abstract class WaystoneBlockBase extends BaseEntityBlock {
 
     @Nullable
     protected InteractionResult handleActivation(Level world, BlockPos pos, Player player, WaystoneBlockEntityBase tileEntity, IWaystone waystone) {
-        return null;
+        return InteractionResult.empty();
     }
 
     @Override

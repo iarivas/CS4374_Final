@@ -77,7 +77,6 @@ public class WarpPlateBlock extends WaystoneBlockBase {
                             continue;
                         }
                     }
-
                     popResource(world, pos, itemStack);
                 }
             }
