@@ -69,7 +69,7 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 		return true;
 	}
 
-	private boolean ITileFuidHelper(tile){
+	private boolean ITileFuidHelper(TileEntity tile){
 		if (tile instanceof ITileFluid) {
 			if (world.isRemote){
 				return true;
@@ -85,7 +85,7 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 		}
 	}
 	
-	private boolean ITileGuiHelper(tile){
+	private boolean ITileGuiHelper(TileEntity tile){
 		if (tile instanceof ITileGui) {
 			if (world.isRemote) {
 				onGuiOpened(world, pos);
