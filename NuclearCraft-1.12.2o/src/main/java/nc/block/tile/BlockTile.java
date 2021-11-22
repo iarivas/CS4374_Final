@@ -47,16 +47,16 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 		}
 
 		//case tile instance of IUpgradable
-		if (tile instanceof IUpgradable) ||
-			(installUpgrade(tile, ((IUpgradable) tile).getSpeedUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 0))) ||
-			(installUpgrade(tile, ((IUpgradable) tile).getEnergyUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 1))){
+		if ((tile instanceof IUpgradable) || 
+			(installUpgrade(tile, ((IUpgradable) tile).getSpeedUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 0))) || 
+			(installUpgrade(tile, ((IUpgradable) tile).getEnergyUpgradeSlot(), player, hand, facing, new ItemStack(NCItems.upgrade, 1, 1)))){
 				return true;
 			}
 
 		
 		//case tile instance of ITileFluid false checks
-		if (!(tile instanceof ITileFluid) && !(tile instanceof ITileGui)) ||
-			 (tile instanceof ITileFluid && !(tile instanceof ITileGui) && FluidUtil.getFluidHandler(player.getHeldItem(hand)) == null){
+		if ( (!(tile instanceof ITileFluid) && !(tile instanceof ITileGui)) ||
+			 (tile instanceof ITileFluid && !(tile instanceof ITileGui) && FluidUtil.getFluidHandler(player.getHeldItem(hand)) == null)){
 				 return false;
 			 }
 
@@ -77,7 +77,7 @@ public abstract class BlockTile extends NCBlock implements ITileEntityProvider {
 			
 			ITileFluid tileFluid = (ITileFluid) tile;
 			boolean accessedTanks = BlockHelper.accessTanks(player, hand, facing, tileFluid);
-			if (accessedTanks && tile instanceof IProcessor)) {
+			if (accessedTanks && tile instanceof IProcessor) {
 				((IProcessor) tile).refreshRecipe();
 				((IProcessor) tile).refreshActivity();
 				return true;

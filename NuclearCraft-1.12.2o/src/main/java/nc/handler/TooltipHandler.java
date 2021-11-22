@@ -114,6 +114,7 @@ public class TooltipHandler {
 			if (resistance > 0D) {
 				tooltip.add(TextFormatting.AQUA + RADIATION_RESISTANCE + " " + RadiationHelper.resistanceSigFigs(resistance));
 			}
+		}
 	}
 	
 	@SideOnly(Side.CLIENT)
