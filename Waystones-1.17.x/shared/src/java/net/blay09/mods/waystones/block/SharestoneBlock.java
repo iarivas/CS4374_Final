@@ -67,7 +67,6 @@ public class SharestoneBlock extends WaystoneBlockBase {
     protected InteractionResult handleActivation(Level world, BlockPos pos, Player player, WaystoneBlockEntityBase tileEntity, IWaystone waystone) {
         if (!world.isClientSide) {
             Balm.getNetworking().openGui(player, tileEntity.getMenuProvider());
-            return InteractionResult.SUCCESS;
         }
 
         return InteractionResult.SUCCESS;

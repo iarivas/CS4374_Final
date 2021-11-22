@@ -12,9 +12,13 @@ import net.blay09.mods.waystones.stats.ModStats;
 import net.blay09.mods.waystones.worldgen.ModWorldGen;
 
 public class Waystones {
+    public Waystones(){
+        initialize();
+    }
+
     public static final String MOD_ID = "waystones";
 
-    public static void initialize() {
+    private static void initialize() {
         WaystonesConfig.initialize();
         ModStats.initialize();
         ModEventHandlers.initialize();

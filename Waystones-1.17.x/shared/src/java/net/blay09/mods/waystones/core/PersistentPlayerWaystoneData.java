@@ -3,7 +3,6 @@ package net.blay09.mods.waystones.core;
 
 import net.blay09.mods.balm.api.Balm;
 import net.blay09.mods.waystones.api.IWaystone;
-import net.minecraft.nbt.*;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.player.Player;
 
